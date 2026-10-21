@@ -1,0 +1,33 @@
+There was a problem when trying to write in your cache folder (<local-cache>). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+{
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.5.1+cpu",
+    "transformers": "4.46.3"
+  },
+  "threads": 4,
+  "dtype": "float32",
+  "architecture": {
+    "blocks": 30,
+    "hidden_size": 576,
+    "one_based_sites": [
+      10,
+      20,
+      30
+    ],
+    "python_indices": [
+      9,
+      19,
+      29
+    ],
+    "site_semantics": "block output before final RMSNorm"
+  },
+  "tokenizer_valid": true,
+  "constrained_correct": 14,
+  "free_exact": 0,
+  "both_pair_correct": 2,
+  "gate_pass": false,
+  "elapsed_seconds": 24.800955515998794,
+  "peak_rss_bytes": 1132662784,
+  "causal_endpoints": "NOT RUN: contingent on capability gate and separately frozen causal implementation"
+}

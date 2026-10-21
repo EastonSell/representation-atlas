@@ -1,0 +1,23 @@
+# Pre-answer causal geometry: staged protocol
+
+Frozen before capability inference, 2026-10-21. This stage is a feasibility gate, not a confirmatory steering study. No final-test outcomes may be generated until a separately hashed intervention implementation, split ledger and analysis plan exist.
+
+## Stage 0: architecture and capability
+Reuse the immutable Apache-2.0 HuggingFaceTB/SmolLM2-135M-Instruct revision 12fd25f77366fa6b3b4b768ec3050bf629380bac, local files only, float32 CPU. Original proposal's layers 10,20,30 mean outputs of decoder blocks with one-based labels 10,20,30 and Python indices 9,19,29. The architecture has 30 blocks. Layer index 30 is forbidden. These are residual outputs before final RMSNorm, including block 30, not normalized hidden_states[-1]. Final prompt token is the chat template's generation prefix final token. No answer is appended.
+
+The 12 development pairs cover six property families, each with two complementary queried values and a fixed distractor. Pair members change only the target value. Two development wording templates and unique entity pairs, reversed fact order, queried entity position and candidate order. Every value appears equally as correct and incorrect within each pair. Family pairs: red/blue, hot/cold, open/closed, large/small, wet/dry, light/dark. Validate each bare answer continuation as exactly one token under the tokenizer and validate prefix preservation in prompt+answer. No substitutions after seeing results.
+
+Use official tokenizer chat template with one user turn and add_generation_prompt=True. Constrained choice uses raw next-token logits of the two bare candidates. Greedy unrestricted generation has max_new_tokens=12, no sampling. Exactness strips whitespace and terminal periods and ignores case; explanations, multiple answers, other punctuation, and cap-truncated outputs are failures. EOS must occur within the cap for success. Preserve all outputs.
+
+Capability advancement requires >=80% constrained accuracy (at least20/24), >=60% unrestricted exactness (at least15/24), and both counterfactual members constrained-correct for >=50% pairs (at least6/12). These are original feasibility thresholds, not a powered hypothesis test or evidence of general inability. No prompt optimization after failure. A failure stops the causal study: publish only architecture/tokenizer/resource/capability evidence, with causal endpoints explicitly unmeasured. No final heldout data are generated, and no causal hypothesis accepted/rejected.
+
+Profiling covers these 12 development pairs only. Maximum four torch/BLAS threads, 3GiB process peak RSS, 1GiB artifacts, 60 minutes; stop on exceedance. Record versions, exact input hashes, prompt token IDs, raw logits, generation token IDs, residual norms, elapsed time and RSS. No downloads, installation, external endpoint or security changes.
+
+## Contingent confirmatory stage (not executable until separately frozen)
+If gate passes, use original proposed120/60/180 train/validation/test pairs, explicitly resolve360pairs versus360prompts as360pairs. Disjoint entity and wording families; two property families heldout for transfer. Signed train mean-difference orientation is candidate value index (content value), never answer-correctness identity. Fit block9/19/29 axes on train only; train-derived scales0.25/0.5/1.0; select with validation target-minus-distractor performance. Swap direction components from matched opposite-property donor; controls: no patch, full residual swap,20 norm-matched random axes, shuffled-label axis, top-PC rank1 removal. Record exact patch timing, norms and all raw results. Primary target donor log-odds delta minus mean random delta with prompt-family cluster bootstrap; separately report transfer, free generation, distractor preservation, unrelated NLL, and originally-correct stratum denominator. Advance only with primary lower95% bound>0, free-switch advantage>=10points, and non-target loss upper95% bound<5points. Implement and freeze all details before any test inference; this outline is not a claim that the causal stage ran.
+
+## Sources and scope
+Model card/config: https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/blob/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md
+Zhang and Nanda, activation patching metrics/methods: https://arxiv.org/abs/2309.16042v2
+Belrose et al., linear erasure scope: https://arxiv.org/abs/2306.03819v4
+Prior source abstracts were inspected in the parent citation matrix; no paper is reproduced here. This stage uses only official model template/config and does not implement LEACE or reproduce a paper. No biological, universal truthfulness or mechanistic discovery claims.

@@ -1,0 +1,17 @@
+There was a problem when trying to write in your cache folder (<local-cache>). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+{
+  "constrained_correct": 14,
+  "constrained_denominator": 24,
+  "free_exact": 0,
+  "free_denominator": 24,
+  "both_pair_correct": 2,
+  "pair_denominator": 12,
+  "gate_pass": false,
+  "truncated_generations": 0,
+  "generation_length_counts": {
+    "10": 10,
+    "11": 14
+  },
+  "correct_target_statements_descriptive_only": 12,
+  "first_prompt_option_chosen": 22
+}

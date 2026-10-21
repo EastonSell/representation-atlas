@@ -1,0 +1,26 @@
+{
+  "packaging_status": "Post-result portable repaired runner, not original frozen implementation",
+  "isolated_directory": true,
+  "command": "python gate.py --model-path MODEL_DIRECTORY --output-dir rerun",
+  "all_24_scientific_rows_exactly_equal": true,
+  "same_summary_checks": {
+    "rows": true,
+    "architecture": true,
+    "tokenizer_valid": true,
+    "constrained_correct": true,
+    "free_exact": true,
+    "both_pair_correct": true,
+    "gate_pass": true
+  },
+  "original_results_sha256": "33768a92d29b8a44a004a9ac336a2794385f97a3df31b69c549ceba10c4e4ecc",
+  "runner_sha256": "8951b5d093d436a77e530855f0aadabf453d571a35c821e3617ef1c8d9ecab99",
+  "rerun_elapsed_seconds": 24.800955515998794,
+  "rerun_peak_rss_bytes": 1132662784,
+  "test_count": 18,
+  "test_failures": 0,
+  "expected_failures": 0,
+  "new_downloads": false,
+  "notes": "Same development inputs; deterministic reproducibility, not independent confirmation. Logs sanitized to remove machine-specific file locations.",
+  "platform_scope": "Linux CPU; not macOS or Windows",
+  "manifest_pinning": "Runner verifies against release-adjacent model manifest, not a cache-provided manifest"
+}

@@ -1,0 +1,124 @@
+{
+  "status": "Reviewed portable Linux CPU release; post-result packaging, no new hypothesis test",
+  "files": [
+    {
+      "path": "HISTORICAL_FREEZE.sha256",
+      "bytes": 231,
+      "sha256": "dd096a3b67bf9f45d8c696cc51bebd64d98196bc16946f63a1affe9d3994b68c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "678e9c615789dd91c998713a40189f34c0511bd8e2088440048f9e91c5ff76d8"
+    },
+    {
+      "path": "MODEL_MANIFEST.json",
+      "bytes": 2655,
+      "sha256": "34f007987ac97042a0f1f8278050af521edb868cec1ac083fe4c77ea93bf3ce2"
+    },
+    {
+      "path": "PORTABILITY_REVIEW.md",
+      "bytes": 3092,
+      "sha256": "2257adad4dd6f33fe2c37fb3be6f09ac25e74ea4b7007d03b3624f2a7a0d31b1"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 4686,
+      "sha256": "62ddccd221ea7a31155732ec84d0e641c17b596f368dc9d5e0b4fd33f48c0e35"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6897,
+      "sha256": "156722e4852f2720b230045891c7698e0f0c56361d46f4402d8d3944b607dede"
+    },
+    {
+      "path": "gate.py",
+      "bytes": 6399,
+      "sha256": "8951b5d093d436a77e530855f0aadabf453d571a35c821e3617ef1c8d9ecab99"
+    },
+    {
+      "path": "posthoc-confusion.csv",
+      "bytes": 5782,
+      "sha256": "084420edea14c5ed79ad2909978d668b3bf41ea3dd95d20047e0c3e9c899fe48"
+    },
+    {
+      "path": "posthoc-generation-audit.json",
+      "bytes": 4196,
+      "sha256": "4227cc54a41b799832739d7ade571dc56e8ed01906de236655a057d5be60725c"
+    },
+    {
+      "path": "prepare_model.py",
+      "bytes": 1132,
+      "sha256": "5c3a05ec4e0f3f1cf965cd3eacd65492bdd6cbfea841e18ee0ae235b56a831ad"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 47,
+      "sha256": "8116517846b3da95469f6797cd8465385d18d8b5647b6d936f8fd0558fa87390"
+    },
+    {
+      "path": "results.json",
+      "bytes": 58958,
+      "sha256": "33768a92d29b8a44a004a9ac336a2794385f97a3df31b69c549ceba10c4e4ecc"
+    },
+    {
+      "path": "test_gate.py",
+      "bytes": 983,
+      "sha256": "d4d2da92aa08a236d927700d2ca1ec21cd985d27daeda49254c6abca09edee98"
+    },
+    {
+      "path": "test_independent_verification.py",
+      "bytes": 2546,
+      "sha256": "5beba2f6ff1b67fed3f9fee5687b2d8f8cc305bf2d52511ebaeb400b3fd08093"
+    },
+    {
+      "path": "test_repairs.py",
+      "bytes": 1310,
+      "sha256": "da1c107d265dcfa560354cf08e381ca0247f5fa713691d9cb381ca51bcfaaeda"
+    },
+    {
+      "path": "validation-environment.txt",
+      "bytes": 609,
+      "sha256": "0cd1765b799c82915e60c5eff5327da5f229ea334cd2990dde21574bee60dad0"
+    },
+    {
+      "path": "validation-rerun-results.json",
+      "bytes": 58959,
+      "sha256": "9618379d064f430d73027aedc4973ccf333359f1c6ddcf70d9d18430123fae65"
+    },
+    {
+      "path": "validation-rerun.log",
+      "bytes": 854,
+      "sha256": "20f18b4d2222950a506128adcd655ac1e0d08a9a860686b4d21de86b7b07ab4a"
+    },
+    {
+      "path": "validation-tests.log",
+      "bytes": 2570,
+      "sha256": "5e7117d0b3e1a6c17799e2f9854cf5ae6b41c5f7b92cc64f0dd3d1bb50a4dbfd"
+    },
+    {
+      "path": "validation-verifier.log",
+      "bytes": 529,
+      "sha256": "4caefedc52dac9397c57a412ff4763dc0a6fe362fab4bd22eec40cb302026e21"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1161,
+      "sha256": "06bd7fd64a88d3e1eeca311670c8bbbb520c222f1b98b3849e9eabb4dcf76b3d"
+    },
+    {
+      "path": "verify_gate_independent.py",
+      "bytes": 9435,
+      "sha256": "5303b38602ebdbb31983e87aa247319562e5cd177bf3eeace38b46c747a63f3a"
+    },
+    {
+      "path": "PUBLICATION_ALLOWLIST.txt",
+      "bytes": 484,
+      "sha256": "bdc58fd2eb22bf9cef75a0b020b4ba696c2de94f25ce8fe5bace2f259ea13371"
+    }
+  ],
+  "manifest_self_hash": "Not recursively included; delivered separately",
+  "allowlist_file": "PUBLICATION_ALLOWLIST.txt",
+  "weights_bundled": false,
+  "total_payload_bytes": 174582
+}

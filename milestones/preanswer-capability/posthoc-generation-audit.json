@@ -1,0 +1,176 @@
+{
+  "status": "Post-hoc descriptive grammar audit; does not replace frozen parser or gate",
+  "target_proposition_correct": 12,
+  "value_only_correct": 15,
+  "wrong_entity": 5,
+  "rows": [
+    {
+      "pair": "dev-0-0",
+      "answer": "red",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-0-0",
+      "answer": "blue",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-0-1",
+      "answer": "red",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": true
+    },
+    {
+      "pair": "dev-0-1",
+      "answer": "blue",
+      "target_proposition_correct": false,
+      "value_only_correct": true,
+      "wrong_entity": true
+    },
+    {
+      "pair": "dev-1-0",
+      "answer": "hot",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-1-0",
+      "answer": "cold",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-1-1",
+      "answer": "hot",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-1-1",
+      "answer": "cold",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-2-0",
+      "answer": "open",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-2-0",
+      "answer": "closed",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-2-1",
+      "answer": "open",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-2-1",
+      "answer": "closed",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-3-0",
+      "answer": "large",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-3-0",
+      "answer": "small",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-3-1",
+      "answer": "large",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-3-1",
+      "answer": "small",
+      "target_proposition_correct": false,
+      "value_only_correct": true,
+      "wrong_entity": true
+    },
+    {
+      "pair": "dev-4-0",
+      "answer": "wet",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-4-0",
+      "answer": "dry",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-4-1",
+      "answer": "wet",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-4-1",
+      "answer": "dry",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-5-0",
+      "answer": "light",
+      "target_proposition_correct": true,
+      "value_only_correct": true,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-5-0",
+      "answer": "dark",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": false
+    },
+    {
+      "pair": "dev-5-1",
+      "answer": "light",
+      "target_proposition_correct": false,
+      "value_only_correct": false,
+      "wrong_entity": true
+    },
+    {
+      "pair": "dev-5-1",
+      "answer": "dark",
+      "target_proposition_correct": false,
+      "value_only_correct": true,
+      "wrong_entity": true
+    }
+  ]
+}
