@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "MODEL_MANIFEST.json",
+      "sha256": "34f007987ac97042a0f1f8278050af521edb868cec1ac083fe4c77ea93bf3ce2",
+      "bytes": 2655
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "92a9ce98d73bef4ad9b1cea54bb95f95b515a0a9620530bfb79460cc2fdfb5e9",
+      "bytes": 2888
+    },
+    {
+      "path": "README.md",
+      "sha256": "7542af2645c30627f033970efeabc9bed386849aa0511acf453bf4251562ed0b",
+      "bytes": 3632
+    },
+    {
+      "path": "prepare_model.py",
+      "sha256": "5c3a05ec4e0f3f1cf965cd3eacd65492bdd6cbfea841e18ee0ae235b56a831ad",
+      "bytes": 1132
+    },
+    {
+      "path": "results/experiment.json",
+      "sha256": "ffa1c22cbd0745f4a61def3c2c819a78d0ec003f261550b06f2e5fe2c7466aa0",
+      "bytes": 40512
+    },
+    {
+      "path": "results/initial-random-split.json",
+      "sha256": "78637d0c2a6dfe2ed4f3c6885beeba115de25e90814b63de3947f469c9336dcb",
+      "bytes": 21556
+    },
+    {
+      "path": "results/pairs.json",
+      "sha256": "67b1517dd6532a6b0a12b7bdc066ff58af5df1fb78da41d0a4d1a7ce43784529",
+      "bytes": 13603
+    },
+    {
+      "path": "run.py",
+      "sha256": "6c712facc0374a86ef23ecec2c3fb1b549f03a6e554099da664d3991103786e3",
+      "bytes": 5011
+    },
+    {
+      "path": "task.py",
+      "sha256": "202b38e78d9da0d26822a33d58371c6c2ac77de9b2db8f6c80b413cb552867ab",
+      "bytes": 348
+    },
+    {
+      "path": "test_results.py",
+      "sha256": "8db783326e1400fc529c5b1a8b825de19762349334eaab530761b260716edb55",
+      "bytes": 1395
+    },
+    {
+      "path": "test_task.py",
+      "sha256": "a600213b6fbd45a6f48433c11519ecd55776471178b530510bd8a12b5d17cb6f",
+      "bytes": 534
+    }
+  ],
+  "status": "real pretrained activation pilot plus exploratory balanced-split diagnosis; no causal steering claim"
+}
