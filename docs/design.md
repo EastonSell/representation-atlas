@@ -1,0 +1,8 @@
+# Representation recentering design
+Question: which apparent geometry improvements survive held-out evaluation and invariant controls?
+Use generated paired representations x+ = topic + signal + noise + offset and x- = topic - signal + noise + offset. The labels are synthetic task outcomes, not human worth or biological categories. Fit every transformation on training pairs only. Recenter by training mean; compare removal of top principal components. Compare low-variance and high-variance task-signal regimes to expose the danger of unconditional component removal. Evaluate held-out pair ranking, Euclidean invariance, cosine change, and orthogonal-rotation CKA.
+A mean difference direction is mathematically unchanged by permuting the pairing. Pairing matters for per-pair uncertainty, leakage prevention, and normalized differences, not that mean estimator. Include this negative control explicitly.
+No brain measurements or model activations are used. This is a synthetic geometry diagnostic, not evidence of biological correspondence or language-model steering effectiveness. Novelty is unproven.
+
+## Real-data follow-on
+Use the locally installed scikit-learn copy of UCI optical digits (1,797 examples) to train a 32-unit ReLU MLP, split before training. Evaluate hidden-activation nearest-centroid classification after training-only centering and top-PC removal. Fit centroids on training labels only. Use three independent stratified splits/seeds; report MLP accuracy separately from the centroid probe. Dataset writer IDs are unavailable in this subset, so random splitting does not establish unseen-writer generalization. Do not present digit results as language or brain validation.

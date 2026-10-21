@@ -1,0 +1,88 @@
+{
+  "project": "representation-recentering",
+  "status": "synthetic and real-digit CPU geometry experiments; language/brain study pending",
+  "created_date": "2026-10-21",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f",
+      "bytes": 26
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "678e9c615789dd91c998713a40189f34c0511bd8e2088440048f9e91c5ff76d8",
+      "bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "sha256": "b4ae360ba33ccc95a76ce6b2a533728f74f5d475c91e7f4c9f2c58e08122e654",
+      "bytes": 5434
+    },
+    {
+      "path": "config.json",
+      "sha256": "eb478b5862fe30fcca5ebf79129c54e0a2376657b067d232315576ea3dbca095",
+      "bytes": 162
+    },
+    {
+      "path": "digits_config.json",
+      "sha256": "c20cb0eae465fee60dbbc8101f56ab2651af6775123d9ff44f249645575aa1bb",
+      "bytes": 159
+    },
+    {
+      "path": "docs/design.md",
+      "sha256": "fdd7778324a3c48aa703824f8ea89195ac794fdb6a64ee9be09b3747bac6c8b4",
+      "bytes": 1698
+    },
+    {
+      "path": "docs/plan.md",
+      "sha256": "1fd77bd55c5e44bf9f94b4de6b98dc601abb235d9c27efa350cba85ba2919953",
+      "bytes": 871
+    },
+    {
+      "path": "docs/real-data-results.md",
+      "sha256": "0bea85b5acd933b6e40361fb7e59f94c1e15e3b6d69c44b12646633aafb3b6e7",
+      "bytes": 2508
+    },
+    {
+      "path": "geometry.py",
+      "sha256": "170c40648d7abc5df559209d234d6167c5e88cea7c55e7e98409d1f4a820eb00",
+      "bytes": 2013
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5222d89a2dde7c3ef5876686612fe43b5ded94fd4e8b61108ad034813c8db8fb",
+      "bytes": 36
+    },
+    {
+      "path": "results/digits.json",
+      "sha256": "16dc983fcb2b16d5d3374d367e9f9195accbbc1c6ddac98a4067aec447179793",
+      "bytes": 77781
+    },
+    {
+      "path": "results/experiment.json",
+      "sha256": "84758c1269b514a2363d58ece00c8d7bfbf481f05dda546eccab94336b7d2a54",
+      "bytes": 24336
+    },
+    {
+      "path": "run_digits.py",
+      "sha256": "d5128801a8b3de540caa812b46d1796ded5309a98eee3e743bd7a42b8fee98ac",
+      "bytes": 2737
+    },
+    {
+      "path": "run_experiment.py",
+      "sha256": "a4d4ec7542e82702d41bc1201158aaf05e28d1414535f544787c78b70552960a",
+      "bytes": 1721
+    },
+    {
+      "path": "tests/test_digits.py",
+      "sha256": "8fc8a4d5c2b29df4c4393fe740b6aeacdba372794d1791835e6639ce9e8b23f9",
+      "bytes": 589
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "sha256": "61ad58a25bbbde25ca95d36401baf9da3d618380bd18be0f20169b0e6336030d",
+      "bytes": 1284
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"seeds":[11,29,47],"test_fraction":0.3,"hidden_units":32,"max_iter":250,"alpha":0.0001,"learning_rate":0.001,"tolerance":0.0001,"remove_top_pcs":[0,1,2,4,8]}

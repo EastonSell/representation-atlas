@@ -1,0 +1,1 @@
+{"seeds":[11,29,47],"dimensions":[8,32,128],"regimes":["low_signal_variance","high_signal_variance"],"remove_top_pcs":[0,1,2],"train_pairs":192,"test_pairs":384}
