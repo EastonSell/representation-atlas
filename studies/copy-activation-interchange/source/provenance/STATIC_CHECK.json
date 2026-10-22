@@ -1,0 +1,10 @@
+{
+  "scope": "Static proposal consistency only; no pretrained model or tokenizer loaded",
+  "candidate_words": 219,
+  "historical_exclusions": 92,
+  "lexical_overlap": 0,
+  "count_arithmetic_passed": true,
+  "pretrained_inference_performed": false,
+  "tokenizer_preflight_performed": false,
+  "executable_runner_implemented": false
+}

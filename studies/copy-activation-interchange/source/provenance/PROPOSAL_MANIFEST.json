@@ -1,0 +1,41 @@
+{
+  "status": "proposal_integrity_manifest_not_prospective_execution_freeze",
+  "files": {
+    "ARCHITECTURE.md": {
+      "sha256": "55983036b6c768d21c4d9e185774b841bf3e1f3c3ab1d227ed8477e6987500b4",
+      "bytes": 5196
+    },
+    "DESIGN_CONSTANTS.json": {
+      "sha256": "9ebcc38662354fd4089a5977550687e452d7900bbbf6888e95f3d14ccccbb213",
+      "bytes": 870
+    },
+    "PROTOCOL.md": {
+      "sha256": "cfcbff78ecdab7e8e162cabc9cfa775d0df8d7de064ff635f8b7e811054b0059",
+      "bytes": 13641
+    },
+    "README.md": {
+      "sha256": "496aeff4a42e21a62acc95c5fb73f2b15d57cdc7ca5ffaeccc12b4569457b190",
+      "bytes": 1213
+    },
+    "RESOURCES.md": {
+      "sha256": "c6bc632a859bff35bee6289e2e08d60b99e0a7e8f49008edaf732e69088206e0",
+      "bytes": 3294
+    },
+    "SCHEMAS.md": {
+      "sha256": "41e0bb808cca65ac4ce2ad28f8f436761da31142919a3ffcf6c96beb300037f8",
+      "bytes": 4704
+    },
+    "STATIC_CHECK.json": {
+      "sha256": "1d02e292ee290bcea2e74de2d630720b0f8d31e850be232210eaf84181f6fe7e",
+      "bytes": 334
+    },
+    "candidate_words.json": {
+      "sha256": "262b41d31ff791edf338145ddeaf57cdccb5dbae27f46634856ca023324a26aa",
+      "bytes": 3115
+    },
+    "historical_exclusions.json": {
+      "sha256": "5a79d022f87e18acd4f4c17a69bef026cf8f89b3aa2046351a8ad6b74b86d6c3",
+      "bytes": 1266
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"files":{"vendor/supervision/evidence.py":{"bytes":2221,"sha256":"179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e"},"vendor/supervision/supervise.py":{"bytes":15241,"sha256":"35c91a94456bb23339f971a20c898e0a51140904f720c73dfc4c808be8818429"}},"schema_version":1,"supervisor_scope":"trusted single-process worker including threads; sampled and final rejection"}

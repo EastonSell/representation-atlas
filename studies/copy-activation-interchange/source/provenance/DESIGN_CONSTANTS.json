@@ -1,0 +1,45 @@
+{
+  "status": "proposal_not_execution_configuration",
+  "model_repo": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "n_words": 64,
+  "n_pairs": 32,
+  "blocks": [
+    0,
+    5,
+    10,
+    14,
+    19,
+    24,
+    29
+  ],
+  "conditions": [
+    "donor_word",
+    "donor_final",
+    "donor_prefix_negative",
+    "identity_word",
+    "identity_final",
+    "donor_all"
+  ],
+  "substantive_blocks": [
+    0,
+    5,
+    10,
+    14,
+    19,
+    24
+  ],
+  "baseline_forwards": 128,
+  "patch_forwards": 2688,
+  "total_forwards": 2816,
+  "gate": {
+    "greedy_correct_min": 58,
+    "positive_margin_min": 58,
+    "jointly_competent_pairs_min": 27
+  },
+  "identity_absolute_tolerance": 1e-06,
+  "normalization_min_denominator": 1.0,
+  "bootstrap_seed": 20261022,
+  "bootstrap_replicates": 10000,
+  "max_prefix_tokens": 32
+}

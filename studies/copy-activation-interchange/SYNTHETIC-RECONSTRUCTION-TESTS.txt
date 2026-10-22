@@ -1,0 +1,21 @@
+test_blob_symlink (__main__.ReconstructionTests.test_blob_symlink) ... ok
+test_case_collision (__main__.ReconstructionTests.test_case_collision) ... ok
+test_corruption_retains_reserved_output (__main__.ReconstructionTests.test_corruption_retains_reserved_output) ... ok
+test_declared_size_rejected_before_decompression (__main__.ReconstructionTests.test_declared_size_rejected_before_decompression) ... ok
+test_duplicate_blob_across_archives (__main__.ReconstructionTests.test_duplicate_blob_across_archives) ... ok
+test_duplicate_json_key (__main__.ReconstructionTests.test_duplicate_json_key) ... ok
+test_existing_output_not_overwritten (__main__.ReconstructionTests.test_existing_output_not_overwritten) ... ok
+test_extra (__main__.ReconstructionTests.test_extra) ... ok
+test_extra_reconstructed_file (__main__.ReconstructionTests.test_extra_reconstructed_file) ... ok
+test_file_directory_collision (__main__.ReconstructionTests.test_file_directory_collision) ... ok
+test_missing (__main__.ReconstructionTests.test_missing) ... ok
+test_mutated_reconstructed_file (__main__.ReconstructionTests.test_mutated_reconstructed_file) ... ok
+test_no_partial_overwrite_after_io_failure (__main__.ReconstructionTests.test_no_partial_overwrite_after_io_failure) ... ok
+test_path_traversal_and_ambiguous (__main__.ReconstructionTests.test_path_traversal_and_ambiguous) ... ok
+test_roundtrip_dedup (__main__.ReconstructionTests.test_roundtrip_dedup) ... ok
+test_wrong_trusted_hash (__main__.ReconstructionTests.test_wrong_trusted_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.039s
+
+OK

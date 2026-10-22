@@ -1,0 +1,18 @@
+{
+  "attempted_forward_cap": 2816,
+  "baseline_state_cache_bytes": 13418496,
+  "expected_archive_upper_bytes": 734003200,
+  "external_supervisor_adopted": true,
+  "full_logits_bytes": 553648128,
+  "integration_canary_executed": false,
+  "measured_prefix_tokens": 13,
+  "parameter_based_flops": 9884160000000,
+  "pretrained_forwards": 0,
+  "rss_forecast_gib": [
+    1,
+    2
+  ],
+  "schema_version": 1,
+  "speed_measured": false,
+  "wall_time_is_forecast": true
+}

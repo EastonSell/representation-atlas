@@ -1,0 +1,17 @@
+{
+  "baseline_forward_cap": 128,
+  "baseline_wall_seconds": 300,
+  "cpu_threads": 2,
+  "execution_wall_seconds": 2400,
+  "frozen_utc": "2026-10-22T19:12:31.072848+00:00",
+  "max_attempted_forwards": 2816,
+  "max_output_bytes": 1073741824,
+  "max_prefix_tokens": 32,
+  "max_rss_bytes": 3221225472,
+  "paid_compute_limit": 0,
+  "patch_forward_cap": 2688,
+  "patch_wall_seconds": 2100,
+  "protocol_sha256": "970d59da2530747607bd46b35f4567c449513a9ed1c131dab6208264a593c6d8",
+  "schema_version": 1,
+  "termination_grace_seconds": 15
+}

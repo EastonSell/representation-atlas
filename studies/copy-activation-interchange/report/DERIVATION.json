@@ -1,0 +1,10 @@
+{
+  "operation": "deterministic display extraction, no new inference or statistics",
+  "summary_sha256": "c3c32df0a728b6d2508602cfa742f6801e42cfc46cd7ad0646330e2f6c3f92e0",
+  "audit_sha256": "ab290a243daa6fc5e25d23d2912296199d63d60b8d99dce7c248659e7a38d126",
+  "resampling_units": "32 disjoint lexical pair groups, not randomly sampled independent English words",
+  "normalized_pairs": 31,
+  "normalized_exclusion_pair_ids": [
+    29
+  ]
+}
