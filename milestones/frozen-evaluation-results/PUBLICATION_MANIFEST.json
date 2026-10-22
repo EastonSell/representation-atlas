@@ -1,0 +1,66 @@
+{
+  "published_runner_commit": "42b78dee798ddb4faf50f7aa9ba877e88701302a",
+  "scope": "Actual failed training gate and byte-identical raw repeat. No heldout inference or geometry. Original generated prompts/log likelihoods/token IDs only, no model weights or private paths.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7250,
+      "sha256": "d199eb429070a96f7d5aa102ac7888966b46c83d6d7191f0ed19ede526e038f7"
+    },
+    {
+      "path": "tests/test_frozen_gate_results.py",
+      "bytes": 4341,
+      "sha256": "b0ebd51b827f32c03dabf2ab1d58bdaf88fa3fc6650259b6ac77190a8c1636c6"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/README.md",
+      "bytes": 4118,
+      "sha256": "7089d21b8bf194b3fd12d7bfbb389375b61e2bfc1ab5c1c7ce7788ba07ee88f4"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/validation.json",
+      "bytes": 954,
+      "sha256": "ef522caf547fef27f3be459e52e055d60f56479dfa28406cda344b2dba2be536"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/run/gate.json",
+      "bytes": 37019,
+      "sha256": "cbf83713638822743fe69db3382e6310d61812971d9630898bb3ee6c36c077de"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/run/results.json",
+      "bytes": 572,
+      "sha256": "b7ab6cf5a65afb824d8108dfea7bdc1d3e2d8c043b942805a2dca34f2b4723a9"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/run/runtime.json",
+      "bytes": 561,
+      "sha256": "50efd8c54156078844579303e28b1864afdebbb39d8641538292cf37d0161640"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/run/artifact_manifest.json",
+      "bytes": 457,
+      "sha256": "86da5732f8f0537ddd5754d6006cc662c22784b84bc64535ec6c9c09c595b088"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/repeat/gate.json",
+      "bytes": 37019,
+      "sha256": "cbf83713638822743fe69db3382e6310d61812971d9630898bb3ee6c36c077de"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/repeat/results.json",
+      "bytes": 572,
+      "sha256": "b7ab6cf5a65afb824d8108dfea7bdc1d3e2d8c043b942805a2dca34f2b4723a9"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/repeat/runtime.json",
+      "bytes": 562,
+      "sha256": "c820b75eb654a903afd4fd0ac959af71ae3e96a399eed32720ba38c4f49cffa6"
+    },
+    {
+      "path": "milestones/frozen-evaluation-results/repeat/artifact_manifest.json",
+      "bytes": 457,
+      "sha256": "bb7f827a8114c1316fd9cbf4fbbad725b1440772425b5599db56a4d2f07cd560"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "attention_implementation": "eager",
+  "backend_type": "LocalModelBackend",
+  "device": "cpu",
+  "elapsed_evaluation_seconds": 10.024570581000262,
+  "geometry_sha256": "170c40648d7abc5df559209d234d6167c5e88cea7c55e7e98409d1f4a820eb00",
+  "model_manifest_sha256": "34f007987ac97042a0f1f8278050af521edb868cec1ac083fe4c77ea93bf3ce2",
+  "runner_sha256": "18f3a72ff5eae254f085f72b3265a27cecbd904373e7b3a7cec4e8669afca437",
+  "threads": 2,
+  "versions": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "torch": "2.5.1+cpu",
+    "transformers": "4.46.3"
+  }
+}

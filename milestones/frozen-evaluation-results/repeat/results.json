@@ -1,0 +1,19 @@
+{
+  "causal_interventions": false,
+  "dataset_sha256": "396381dcd0472c6f27a45d97732a758da0a6433c7e9100c42b5fb89ec36fe4b6",
+  "gate": {
+    "all_correct_unordered_groups": 16,
+    "passed": false,
+    "required_groups": 24,
+    "required_rows": 45,
+    "scope": "Supplied-answer conditional likelihood discrimination, not free generation",
+    "strict_correct_rows": 30,
+    "ties_count_as_failures": true,
+    "total_groups": 33,
+    "total_rows": 60
+  },
+  "geometry_fitted": false,
+  "status": "gate_failed",
+  "test_evaluated": false,
+  "validation_evaluated": false
+}

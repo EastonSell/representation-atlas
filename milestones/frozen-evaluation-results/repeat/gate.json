@@ -1,0 +1,2113 @@
+{
+  "all_correct_unordered_groups": 16,
+  "passed": false,
+  "records": [
+    {
+      "correct_log_likelihood": -3.1739901304244995,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "10-12",
+      "incorrect_log_likelihood": -5.467239260673523,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 2.2932491302490234,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.520634114742279,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "10-13",
+      "incorrect_log_likelihood": -5.634334981441498,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.1137008666992188,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        35,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.849890291690826,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "10-16",
+      "incorrect_log_likelihood": -1.345959186553955,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -3.5039311051368713,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.005441427230835,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "10-17",
+      "incorrect_log_likelihood": -3.5019071102142334,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -1.5035343170166016,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.3916807770729065,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "10-18",
+      "incorrect_log_likelihood": -4.592116415500641,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -0.7995643615722656,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.2554633617401123,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "10-19",
+      "incorrect_log_likelihood": -5.284840106964111,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": 2.029376745223999,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        32,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.4719000458717346,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "11-11",
+      "incorrect_log_likelihood": -5.634076178073883,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 2.1621761322021484,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.302371621131897,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "11-12",
+      "incorrect_log_likelihood": -6.177038073539734,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.874666452407837,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.572249233722687,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "11-14",
+      "incorrect_log_likelihood": -7.101643145084381,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.5293939113616943,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.655865907669067,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "11-16",
+      "incorrect_log_likelihood": -3.338916063308716,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -1.3169498443603516,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.626850426197052,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "11-17",
+      "incorrect_log_likelihood": -4.517620623111725,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -1.1092298030853271,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.8560189604759216,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "11-18",
+      "incorrect_log_likelihood": -5.301274240016937,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": 1.4452552795410156,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -6.99892395734787,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "11-19",
+      "incorrect_log_likelihood": -5.026008307933807,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -1.9729156494140625,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        33,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -2.979184925556183,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "12-10",
+      "incorrect_log_likelihood": -5.98796421289444,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 3.008779287338257,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.412193417549133,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "12-11",
+      "incorrect_log_likelihood": -6.381864666938782,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.9696712493896484,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.2676244378089905,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "12-12",
+      "incorrect_log_likelihood": -5.478088915348053,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": 0.2104644775390625,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.706582248210907,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "12-13",
+      "incorrect_log_likelihood": -7.3660823702812195,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.6595001220703125,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        35,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.229444682598114,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "12-14",
+      "incorrect_log_likelihood": -1.2535725235939026,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -3.9758721590042114,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.254716515541077,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "12-15",
+      "incorrect_log_likelihood": -2.9343372583389282,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -2.3203792572021484,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        37,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -7.578093707561493,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "12-18",
+      "incorrect_log_likelihood": -4.9146663546562195,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -2.6634273529052734,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        34,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.290515720844269,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "13-10",
+      "incorrect_log_likelihood": -5.919666111469269,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.629150390625,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        35,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.9552037715911865,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "13-12",
+      "incorrect_log_likelihood": -7.335065603256226,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.379861831665039,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        35,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.2281363010406494,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "13-18",
+      "incorrect_log_likelihood": -5.042181372642517,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 3.8140450716018677,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        35,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.446447968482971,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "13-19",
+      "incorrect_log_likelihood": -5.151304841041565,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 1.7048568725585938,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        35,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.946269750595093,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "14-11",
+      "incorrect_log_likelihood": -7.2710816860198975,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.3248119354248047,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.866566240787506,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "14-12",
+      "incorrect_log_likelihood": -1.3385871946811676,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -4.5279790461063385,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -6.155320227146149,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "14-14",
+      "incorrect_log_likelihood": -4.2504947781562805,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -1.9048254489898682,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.906028091907501,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "14-15",
+      "incorrect_log_likelihood": -4.776957809925079,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": -0.12907028198242188,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        37,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -7.168433725833893,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "14-16",
+      "incorrect_log_likelihood": -4.414849817752838,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -2.7535839080810547,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.3101195096969604,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "14-17",
+      "incorrect_log_likelihood": -5.250341475009918,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 3.9402219653129578,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.325303435325623,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "14-19",
+      "incorrect_log_likelihood": -5.870700240135193,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.5453968048095703,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        36,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.8194438219070435,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "15-12",
+      "incorrect_log_likelihood": -2.844601631164551,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -2.9748421907424927,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        37,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.829919159412384,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "15-14",
+      "incorrect_log_likelihood": -4.842194855213165,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": 0.01227569580078125,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        37,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.3948215246200562,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "15-16",
+      "incorrect_log_likelihood": -4.869505345821381,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 3.4746838212013245,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        37,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.883225381374359,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "15-19",
+      "incorrect_log_likelihood": -4.71460622549057,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": -0.16861915588378906,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        37,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.735613286495209,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "16-10",
+      "incorrect_log_likelihood": -1.3091206550598145,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -3.4264926314353943,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.574522316455841,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "16-11",
+      "incorrect_log_likelihood": -2.739349663257599,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -2.835172653198242,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -7.068159997463226,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "16-14",
+      "incorrect_log_likelihood": -4.443226754665375,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -2.6249332427978516,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.4400100708007812,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "16-15",
+      "incorrect_log_likelihood": -4.302968919277191,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 2.86295884847641,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        37,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.004685938358307,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "16-16",
+      "incorrect_log_likelihood": -4.948287308216095,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 1.943601369857788,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.9692835211753845,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "16-18",
+      "incorrect_log_likelihood": -4.3788294196128845,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": -0.5904541015625,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        38,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.939870893955231,
+      "correct_suffix_token_ids": [
+        216,
+        39
+      ],
+      "id": "17-10",
+      "incorrect_log_likelihood": -3.136411726474762,
+      "incorrect_suffix_token_ids": [
+        216,
+        34
+      ],
+      "likelihood_margin": -1.8034591674804688,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -6.072145223617554,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "17-11",
+      "incorrect_log_likelihood": -4.294715642929077,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -1.7774295806884766,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.442251980304718,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "17-14",
+      "incorrect_log_likelihood": -4.939011454582214,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 3.4967594742774963,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.921956360340118,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "17-17",
+      "incorrect_log_likelihood": -4.773288071155548,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": -0.1486682891845703,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.76607608795166,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "17-18",
+      "incorrect_log_likelihood": -6.87126612663269,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.1051900386810303,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        40,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.083580136299133,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "17-19",
+      "incorrect_log_likelihood": -1.3956606090068817,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -3.6879195272922516,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        39,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.464487314224243,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "18-10",
+      "incorrect_log_likelihood": -4.407812595367432,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -1.0566747188568115,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.681222677230835,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "18-11",
+      "incorrect_log_likelihood": -5.216148138046265,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": 0.5349254608154297,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -7.4556832909584045,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "18-12",
+      "incorrect_log_likelihood": -5.266508638858795,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -2.1891746520996094,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        34,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -1.3866317868232727,
+      "correct_suffix_token_ids": [
+        216,
+        33
+      ],
+      "id": "18-13",
+      "incorrect_log_likelihood": -5.160584330558777,
+      "incorrect_suffix_token_ids": [
+        216,
+        38
+      ],
+      "likelihood_margin": 3.773952543735504,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        35,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.876186370849609,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "18-16",
+      "incorrect_log_likelihood": -4.434299468994141,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": -0.44188690185546875,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        38,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.734485387802124,
+      "correct_suffix_token_ids": [
+        216,
+        37
+      ],
+      "id": "18-17",
+      "incorrect_log_likelihood": -7.075345993041992,
+      "incorrect_suffix_token_ids": [
+        216,
+        32
+      ],
+      "likelihood_margin": 2.340860605239868,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        40,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -3.5986520648002625,
+      "correct_suffix_token_ids": [
+        216,
+        41
+      ],
+      "id": "19-10",
+      "incorrect_log_likelihood": -5.384182155132294,
+      "incorrect_suffix_token_ids": [
+        216,
+        36
+      ],
+      "likelihood_margin": 1.7855300903320312,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        32,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -7.250509262084961,
+      "correct_suffix_token_ids": [
+        216,
+        32
+      ],
+      "id": "19-11",
+      "incorrect_log_likelihood": -5.316804885864258,
+      "incorrect_suffix_token_ids": [
+        216,
+        37
+      ],
+      "likelihood_margin": -1.9337043762207031,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        33,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -2.802577495574951,
+      "correct_suffix_token_ids": [
+        216,
+        34
+      ],
+      "id": "19-13",
+      "incorrect_log_likelihood": -5.456546306610107,
+      "incorrect_suffix_token_ids": [
+        216,
+        39
+      ],
+      "likelihood_margin": 2.6539688110351562,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        35,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.015638530254364,
+      "correct_suffix_token_ids": [
+        216,
+        35
+      ],
+      "id": "19-14",
+      "incorrect_log_likelihood": -5.8804208636283875,
+      "incorrect_suffix_token_ids": [
+        216,
+        40
+      ],
+      "likelihood_margin": 1.8647823333740234,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        36,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -4.849362134933472,
+      "correct_suffix_token_ids": [
+        216,
+        36
+      ],
+      "id": "19-15",
+      "incorrect_log_likelihood": -4.426996946334839,
+      "incorrect_suffix_token_ids": [
+        216,
+        41
+      ],
+      "likelihood_margin": -0.4223651885986328,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        37,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -5.163594424724579,
+      "correct_suffix_token_ids": [
+        216,
+        38
+      ],
+      "id": "19-17",
+      "incorrect_log_likelihood": -1.33651864528656,
+      "incorrect_suffix_token_ids": [
+        216,
+        33
+      ],
+      "likelihood_margin": -3.827075779438019,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        39,
+        47,
+        198,
+        21350,
+        42
+      ]
+    },
+    {
+      "correct_log_likelihood": -6.143011927604675,
+      "correct_suffix_token_ids": [
+        216,
+        40
+      ],
+      "id": "19-19",
+      "incorrect_log_likelihood": -3.886881947517395,
+      "incorrect_suffix_token_ids": [
+        216,
+        35
+      ],
+      "likelihood_margin": -2.2561299800872803,
+      "prefix_token_ids": [
+        17872,
+        42,
+        1812,
+        314,
+        260,
+        1596,
+        11403,
+        282,
+        216,
+        33,
+        41,
+        1232,
+        216,
+        33,
+        41,
+        47,
+        198,
+        21350,
+        42
+      ]
+    }
+  ],
+  "required_groups": 24,
+  "required_rows": 45,
+  "scope": "Supplied-answer conditional likelihood discrimination, not free generation",
+  "strict_correct_rows": 30,
+  "ties_count_as_failures": true,
+  "total_groups": 33,
+  "total_rows": 60
+}

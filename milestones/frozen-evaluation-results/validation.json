@@ -1,0 +1,27 @@
+{
+  "published_runner_commit": "42b78dee798ddb4faf50f7aa9ba877e88701302a",
+  "measurement": "Two actual pretrained training-only supplied-answer likelihood gate runs",
+  "result": "gate_failed",
+  "strict_correct_rows": 30,
+  "total_rows": 60,
+  "all_correct_unordered_groups": 16,
+  "total_groups": 33,
+  "required_rows": 45,
+  "required_groups": 24,
+  "ties": 0,
+  "raw_gate_and_results_byte_identical_on_repeat": true,
+  "validation_model_inference": false,
+  "test_model_inference": false,
+  "activation_extraction": false,
+  "geometry_fit": false,
+  "causal_intervention": false,
+  "tests": {
+    "root_passed": 39,
+    "pretrained_milestone_passed": 5,
+    "preanswer_tokenizer_evidence_passed": 18,
+    "independent_result_tests": 5
+  },
+  "source_freeze_verified_unchanged": true,
+  "historical_artifacts_modified": false,
+  "timing_caveat": "Shared host with concurrent experiments; elapsed evaluation excludes model load and initialization."
+}

@@ -52,3 +52,7 @@ The [new benchmark](milestones/unordered-arithmetic-benchmark/README.md) constru
 ## Frozen model evaluation runner
 
 The [source-only runner checkpoint](milestones/frozen-evaluation-runner/README.md) gates training-only supplied-answer discrimination, then conditionally fits on training, selects projections on validation and evaluates the selected test configuration once. It archives per-pair evidence and raw activations. No new model result is included in this checkpoint.
+
+## Frozen runner outcome
+
+The [real-model training gate](milestones/frozen-evaluation-results/README.md) failed: 30/60 supplied-answer preferences and 16/33 entirely correct problem groups, below the frozen 45/60 and 24/33 thresholds. An independent repeat reproduced the raw evidence byte-for-byte. Both stopped without validation/test inference or projections; this is a measured failure, not a successful capability claim.
