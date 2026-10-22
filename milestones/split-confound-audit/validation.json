@@ -1,0 +1,30 @@
+{
+  "source_commit": "e06f2754bc710ecee912d6cacb75424f9d3d1db0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0",
+  "root_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 16,
+    "failed": 0
+  },
+  "pretrained_tests": {
+    "command": "cd milestones/smollm-activations && python -m unittest discover -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "preanswer_tests": {
+    "command": "cd milestones/preanswer-capability && python -m unittest discover -v",
+    "passed": 7,
+    "setup_errors": 1,
+    "unexecuted_test_methods": 11,
+    "blocker": "EvidenceTests.setUpClass requires SMOLLM_MODEL_PATH and tokenizer cache"
+  },
+  "checks": {
+    "fresh_output_byte_identical": true,
+    "existing_output_refused": true,
+    "historical_tracked_files_unchanged_except_root_readme": true
+  },
+  "model_inference_run": false,
+  "downloads": false
+}

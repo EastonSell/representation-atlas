@@ -1,0 +1,8 @@
+README.md
+split_audit.py
+tests/test_split_audit.py
+milestones/split-confound-audit/README.md
+milestones/split-confound-audit/results.json
+milestones/split-confound-audit/validation.json
+milestones/split-confound-audit/PUBLICATION_MANIFEST.json
+milestones/split-confound-audit/PUBLICATION_ALLOWLIST.txt

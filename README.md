@@ -40,3 +40,7 @@ Sources checked October 21, 2026. This is a focused foundation, not an exhaustiv
 
 ## Licensing
 Original code, configurations and synthetic generated outputs: MIT (LICENSE). NumPy is an external BSD-3-Clause dependency, not vendored. Linked papers retain their respective copyrights; no paper text or model weights are bundled. The digits experiment reads the locally installed UCI data under CC BY 4.0, with attribution in docs/real-data-results.md. A future model or neuroimaging dataset must be checked separately before redistribution.
+
+## Metadata-only split-confound audit
+
+The [split audit milestone](milestones/split-confound-audit/README.md) adds an offline, train-fitted answer-identity control over the published pretrained arithmetic splits. It finds below-chance answer-only rankings on random splits and 24 shared unordered arithmetic problems in every first-operand-group split. It does not rerun the model, change the historical results, or repair the failed pre-answer gate. Reproduce with `python split_audit.py --output /tmp/representation-audit-fresh.json`.

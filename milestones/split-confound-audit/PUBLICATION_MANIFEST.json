@@ -1,0 +1,36 @@
+{
+  "source_commit": "e06f2754bc710ecee912d6cacb75424f9d3d1db0",
+  "publication_scope": "Additive metadata-only split-confound audit using existing public synthetic arithmetic artifacts. No model weights, private paths, or new inference.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c26e30fa4775708746e7ceb044ed1da3285ac7796b1809a403b426dc1b542197",
+      "bytes": 5972
+    },
+    {
+      "path": "split_audit.py",
+      "sha256": "1cd4b93426470d928061b6509e3093a8ee19f782a0baaa37b11b3c403726f6dc",
+      "bytes": 6274
+    },
+    {
+      "path": "tests/test_split_audit.py",
+      "sha256": "0a1005fa778efa931630ee0046a2e55730dc0babfc92b1bf0d4254aac1515b04",
+      "bytes": 4484
+    },
+    {
+      "path": "milestones/split-confound-audit/README.md",
+      "sha256": "2b290223a1523a1e7aa1a135829f066aeb1c5cb2b016371937a75205195c01ff",
+      "bytes": 4720
+    },
+    {
+      "path": "milestones/split-confound-audit/results.json",
+      "sha256": "70975991f54b9f8450935104844b1f63f022959d35a468504c66380dc57d5b95",
+      "bytes": 16416
+    },
+    {
+      "path": "milestones/split-confound-audit/validation.json",
+      "sha256": "a6b99d8f7b71d878c68de665e31e802d8c860b252d3a75cc664f482351a4545c",
+      "bytes": 894
+    }
+  ]
+}
