@@ -1,0 +1,12 @@
+test_capacity_units_and_lower_bounds (test_concepts.ConceptTests.test_capacity_units_and_lower_bounds) ... ok
+test_geometry_distance_cosine_readout_and_projection (test_concepts.ConceptTests.test_geometry_distance_cosine_readout_and_projection) ... ok
+test_lost_reply_contract_cases (test_concepts.ConceptTests.test_lost_reply_contract_cases) ... ok
+test_matched_toy_budgets_and_forgetting (test_concepts.ConceptTests.test_matched_toy_budgets_and_forgetting) ... ok
+test_replay_tasks_are_compatible (test_concepts.ConceptTests.test_replay_tasks_are_compatible) ... ok
+test_selector_rankings_use_signed_loss_change (test_concepts.ConceptTests.test_selector_rankings_use_signed_loss_change) ... ok
+test_templates_preserve_exact_literals_not_truth (test_concepts.ConceptTests.test_templates_preserve_exact_literals_not_truth) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

@@ -1,17 +1,13 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:06.000
-The shared offset cancels in distances, but not in directions from the origin.
+00:00:00.000 --> 00:00:08.000
+Translate both vectors: distance stays fixed, cosine changes.
 
 2
-00:00:06.000 --> 00:00:12.000
-Moving an activation inside a fixed model is not just renaming coordinates.
+00:00:08.000 --> 00:00:16.000
+A fixed readout can flip B. Compensating its bias is a second edit.
 
 3
-00:00:12.000 --> 00:00:18.000
-Projection can erase the feature that carries the label.
-
-4
-00:00:18.000 --> 00:00:24.000
-Geometric invariance does not guarantee an unchanged downstream answer.
+00:00:16.000 --> 00:00:24.000
+Projection can merge differently labeled points: the answer is gone.

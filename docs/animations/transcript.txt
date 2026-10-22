@@ -1,21 +1,17 @@
 Same distance. Different decisions.
+Rendered with actual Manim Community 0.22.0 (Cairo).
 EXACT GEOMETRY ILLUSTRATION · NOT A MODEL EXPERIMENT
 
-No audio. All meaning is available in this transcript and on-screen text.
-The MP4 has no autoplay; the HTML viewer defaults to a static poster and respects reduced motion.
+24 seconds, silent. All meaning is available without motion in this complete transcript.
 
-00–06 seconds: Translate both points
-The shared offset cancels in distances, but not in directions from the origin.
+00–08 seconds
+Translate both vectors: distance stays fixed, cosine changes.
 A=(1,0) and B=(0,1) both move by (2,2), ending at (3,2) and (2,3). Their Euclidean distance remains sqrt(2). Their cosine changes from 0 to 12/13, approximately 0.923. During the motion, distance and cosine are calculated from the current points.
 
-06–12 seconds: Hold the readout fixed
-Moving an activation inside a fixed model is not just renaming coordinates.
+08–16 seconds
+A fixed readout can flip B. Compensating its bias is a second edit.
 The fixed score x1-0.5 gives A=+0.5, B=-0.5 before translation and A=+2.5, B=+1.5 afterward. B crosses a zero threshold. Changing the bias to -2.5 restores +0.5 and -0.5, but this compensation is an additional operation.
 
-12–18 seconds: Discard a direction
-Projection can erase the feature that carries the label.
-The points (1,1), labeled positive y, and (1,-1), labeled negative y, are projected onto x. Both become (1,0). A classifier seeing only that projected point cannot perfectly distinguish these labels. The projection is hand chosen, not fitted PCA.
-
-18–24 seconds: Ask what was preserved
-Geometric invariance does not guarantee an unchanged downstream answer.
-Check pairwise geometry, downstream scores and task labels separately. These exact constructed examples are not results from a pretrained model and do not imply universal success or failure of component removal.
+16–24 seconds
+Projection can merge differently labeled points: the answer is gone.
+The points (1,1), labeled positive y, and (1,-1), labeled negative y, are projected onto x. Both become (1,0). A classifier seeing only that projected point cannot perfectly distinguish these labels. The projection is hand chosen, not fitted PCA. Check pairwise geometry, downstream scores and task labels separately. These exact constructed examples are not results from a pretrained model and do not imply universal success or failure of component removal.

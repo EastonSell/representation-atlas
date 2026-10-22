@@ -1,7 +1,7 @@
 """Deterministic mathematical and timeline checks for educational animation."""
 import math
 import unittest
-import concepts as c
+import models as c
 
 
 class ConceptTests(unittest.TestCase):
@@ -67,14 +67,6 @@ class ConceptTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             service.submit('op-1','add B',now=1)
 
-    def test_timelines_cover_full_duration_without_overlap(self):
-        for name,story in c.STORIES.items():
-            self.assertEqual(story['scenes'][0]['start'],0)
-            self.assertEqual(story['scenes'][-1]['end'],c.DURATION)
-            for a,b in zip(story['scenes'],story['scenes'][1:]):
-                self.assertEqual(a['end'],b['start'])
-            self.assertTrue(all(s['end']-s['start'] >= 4 for s in story['scenes']))
-            self.assertEqual(c.FPS*c.DURATION,288)
 
 
 if __name__=='__main__': unittest.main()

@@ -13,11 +13,11 @@ The work moves from controlled vector examples to learned digit features and a p
 
 ## Watch the concept in 24 seconds
 
-[![Translation preserves the distance between A and B but changes origin-based cosine. A fixed readout can change its decision; compensating its bias is a second operation. Projection merges differently labeled points.](docs/animations/poster.png)](docs/animations/concept.mp4)
+[![Two points with opposite y labels move onto the x axis and coincide at (1,0), showing information loss under a hand-chosen projection.](docs/animations/poster.png)](docs/animations/concept.mp4)
 
-[MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
+[24-second Manim MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
 
-Exact geometry illustration · not a model experiment. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
+Rendered with Manim Community 0.22.0. Exact geometry illustration · not a model experiment. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
 
 ## What the experiments found
 

@@ -1,0 +1,26 @@
+{
+  "scene": "coordinate-readout",
+  "repo": "representation-atlas",
+  "actual_renderer": "Manim Community0.22.0/Cairo",
+  "duration_seconds": 24,
+  "video_frames": 360,
+  "video_fps": 15,
+  "resolution": [
+    1280,
+    720
+  ],
+  "codec": "h264/yuv420p",
+  "no_audio": true,
+  "gif_frames": 144,
+  "gif_duration_seconds": 24.0,
+  "fully_decoded": true,
+  "decoded_frames_identical_to_raw_manim": true,
+  "tests": {
+    "mathematical": 7,
+    "actual_manim_geometry_timing": 5,
+    "status": "PASS"
+  },
+  "static_default_and_reduced_motion_structural_check": "PASS",
+  "browser_playback_check": "not exercised",
+  "mp4_sha256": "e1c2d8e7b7d57e3b1b30e65ebebc9d3ce21ad830ae61f472e12ac688eb6252fb"
+}

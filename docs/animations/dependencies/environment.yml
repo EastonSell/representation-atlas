@@ -1,0 +1,6 @@
+name: research-manim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.15
+  - manim=0.22.0

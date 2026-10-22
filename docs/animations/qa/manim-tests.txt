@@ -1,0 +1,10 @@
+test_actual_package_and_scene_classes (test_manim.ManimContractTests.test_actual_package_and_scene_classes) ... ok
+test_animation_durations_fit_whole_frames (test_manim.ManimContractTests.test_animation_durations_fit_whole_frames) ... ok
+test_stage_annotation_and_point_share_integer_value (test_manim.ManimContractTests.test_stage_annotation_and_point_share_integer_value) ... ok
+test_three_phase_timing (test_manim.ManimContractTests.test_three_phase_timing) ... ok
+test_translation_plot_has_equal_unit_scales (test_manim.ManimContractTests.test_translation_plot_has_equal_unit_scales) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK

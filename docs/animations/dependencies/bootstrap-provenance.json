@@ -1,0 +1,9 @@
+{
+  "tool": "micromamba",
+  "version": "2.9.0",
+  "download": "https://micro.mamba.pm/api/micromamba/linux-64/latest",
+  "archive_sha256": "8761c382127e6363bd9e0a2451aa3ef90d071a79133f736e2f759a3bf13040dd",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "package_count": 267,
+  "latex_required": false
+}

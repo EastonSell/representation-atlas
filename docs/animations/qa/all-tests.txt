@@ -1,0 +1,17 @@
+test_capacity_units_and_lower_bounds (test_concepts.ConceptTests.test_capacity_units_and_lower_bounds) ... ok
+test_geometry_distance_cosine_readout_and_projection (test_concepts.ConceptTests.test_geometry_distance_cosine_readout_and_projection) ... ok
+test_lost_reply_contract_cases (test_concepts.ConceptTests.test_lost_reply_contract_cases) ... ok
+test_matched_toy_budgets_and_forgetting (test_concepts.ConceptTests.test_matched_toy_budgets_and_forgetting) ... ok
+test_replay_tasks_are_compatible (test_concepts.ConceptTests.test_replay_tasks_are_compatible) ... ok
+test_selector_rankings_use_signed_loss_change (test_concepts.ConceptTests.test_selector_rankings_use_signed_loss_change) ... ok
+test_templates_preserve_exact_literals_not_truth (test_concepts.ConceptTests.test_templates_preserve_exact_literals_not_truth) ... ok
+test_actual_package_and_scene_classes (test_manim.ManimContractTests.test_actual_package_and_scene_classes) ... ok
+test_animation_durations_fit_whole_frames (test_manim.ManimContractTests.test_animation_durations_fit_whole_frames) ... ok
+test_stage_annotation_and_point_share_integer_value (test_manim.ManimContractTests.test_stage_annotation_and_point_share_integer_value) ... ok
+test_three_phase_timing (test_manim.ManimContractTests.test_three_phase_timing) ... ok
+test_translation_plot_has_equal_unit_scales (test_manim.ManimContractTests.test_translation_plot_has_equal_unit_scales) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.035s
+
+OK

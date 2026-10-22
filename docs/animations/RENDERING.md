@@ -1,71 +1,43 @@
-# Reproduce this concept animation
+# Reproduce this actual Manim animation
 
-This is an original, deterministic educational illustration, not empirical research evidence.
-It uses the repository's learning-demo values and rules recorded in SOURCE.json.
-No model execution, network access, training, device discovery or external assets are used.
+Renderer: **Manim Community 0.22.0**, Cairo. Python **3.12.15**. Pycairo 1.29.2, Cairo 1.18.6, ManimPango 0.7.0, Pango 1.58.2, PyAV 19.0.2. Packaging uses the locked environment's FFmpeg/ffprobe **9.0.2**. DejaVu Sans text avoids a LaTeX dependency.
 
-## Existing rendering environment
+The video is **24 seconds**, 1280×720, 15 fps, H.264/yuv420p, with no audio. Every scientific frame comes from real Manim. FFmpeg only remuxes the resulting video without video re-encoding, extracts PNGs, and makes an optional 768×432 GIF. These are illustrative calculations, not model or hardware measurements.
 
-- CPython 3.12.14
-- Pillow 12.3.0
-- ffmpeg / ffprobe 7.1.5, existing libx264 and GIF support
-- DejaVu Sans regular/bold and DejaVu Sans Mono from /usr/share/fonts/truetype/dejavu/
-- Linux x86_64
+## Environment
 
-Manim was checked but was not available. No packages were installed.
-The renderer requires the existing tools above and fails rather than installing anything.
-Exact encoder arguments are retained in source/render.py. A fresh render writes its
-commands, environment, font hashes and encoded media metadata to its generated qa/ directory.
-The original QA receipts and example README snippet are not shipped in this public package.
-MP4 encoding is bounded to two threads; rendering is sequential and 1280 × 720 at 12 fps.
+The official [Manim conda installation guide](https://docs.manim.community/en/stable/installation/conda.html) supports conda-forge for native dependencies. Use conda/mamba/micromamba from its official distribution; [official micromamba instructions](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). The original workspace-only bootstrap and package archive hashes are in `dependencies/`.
 
-From this directory (for example, docs/animations):
+From the repository root, with micromamba available, create the exact Linux x86-64 environment without shell initialization or system changes:
 
 ```sh
-python -B -m unittest discover -s source -v
-python -B source/render.py --scene coordinate-readout --out .
+RUNTIME="$PWD/.manim-runtime"
+mkdir -p "$RUNTIME/home" "$RUNTIME/cache" "$RUNTIME/pkgs"
+HOME="$RUNTIME/home" XDG_CACHE_HOME="$RUNTIME/cache" \
+  CONDA_PKGS_DIRS="$RUNTIME/pkgs" MAMBA_ROOT_PREFIX="$RUNTIME/mamba" \
+  micromamba --no-rc create --yes --prefix "$RUNTIME/env" \
+    --file docs/animations/dependencies/linux-64.lock
 ```
 
-The rendering command overwrites its named media, poster, viewer, transcript and captions,
-and creates an example README-SNIPPET.md and qa/ diagnostics. Those generated QA outputs
-and snippet are not prerequisites for viewing or reproducing the shipped animation.
-After a rerender or source edit, regenerate SHA256SUMS for the intended public file set.
-The renderer does not refresh that integrity file automatically.
-Use a new --out directory to retain an old render. Source functions are pure teaching calculations;
-the toy service in source/concepts.py is intentionally not a production API implementation.
-The unit suite checks all five educational concepts, even when rendering only this one.
+`dependencies/linux-64.lock` contains exact package URLs and MD5 checksums, with SHA-256 checksums and build metadata in `package-provenance.json`. The YAML is a less-strict cross-platform starting point, not a byte-for-byte environment lock. Do not commit `.manim-runtime/` or `.render-work/` build files.
 
-## Files
+## Render and verify
 
-- concept.mp4: 24-second silent H.264, 1280 × 720, 12 fps, broadly playable yuv420p, fast-start MP4
-- concept.gif: optional animated preview, 768 × 432 at 6 fps; it loops, so do not embed it as the default reduced-motion path
-- poster.png: no-motion summary, 1280 × 720
-- captions.vtt: scene-aligned captions, supplementing the on-screen captions
-- transcript.txt: full explanation and visual descriptions, including caveats
-- index.html: local/static-host viewer, no autoplay, static by default, explicit play and return-to-poster controls
-- SOURCE.json: historical teaching-demo provenance, retained unchanged
-- source/: self-contained teaching calculations, renderer and unit tests
-- SHA256SUMS: integrity hashes for the files shipped in this animation directory
+```sh
+HOME="$RUNTIME/home" XDG_CACHE_HOME="$RUNTIME/cache" \
+  OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 \
+  "$RUNTIME/env/bin/python" docs/animations/source/render.py \
+    --scene coordinate-readout --out docs/animations
+"$RUNTIME/env/bin/python" -m unittest discover \
+  -s docs/animations/source -p 'test_*.py' -v
+```
 
-Open index.html locally or serve it with any existing static server. GitHub's source-file view
-does not run HTML as a page; the README links directly to the MP4 and text alternatives.
-No hosting, public upload, analytics or external requests are included.
+The compatibility entrypoint `source/render.py` now calls `python -m manim render --renderer cairo --fps 15 --resolution 1280,720 --disable_caching -o coordinate-readout source/scenes.py CoordinateReadout` before packaging. It cannot invoke the previous raster renderer. `source/concepts.py` only re-exports pure mathematical models; `test_concepts.py` tests those models. `test_manim.py` verifies actual Manim, scene inheritance, equal geometric unit scales, discrete stage accounting, and whole-frame timing.
 
-## Interpretation
+Use `--dry-run` to inspect the exact render command. To invoke Manim directly, run that command from this animation directory with `--media_dir .render-work`, then run `source/finalize.py --scene coordinate-readout --input RAW_MANIM_RENDER.mp4 --out .` using the same environment. Packaging does not modify scientific claims or execute a pretrained model.
 
-EXACT GEOMETRY ILLUSTRATION · NOT A MODEL EXPERIMENT.
-All mathematical values shown are deterministic constructed examples. Progress bars and markers
-show lesson progression or dependency order, not measured training speed or network packet timing.
-The poster and complete transcript carry the content without requiring playback.
+## Accessibility and verification
 
-## Retained provenance and fonts
+`index.html` starts with a static poster, never autoplay. An explicit button enables the video; a second button restores the still. Reduced-motion changes stop playback. A complete transcript, WebVTT captions, and PNG poster are supplied. The GIF is opt-in through a link, not embedded as autoplay content. The standalone viewer's HTML/JavaScript was structurally checked; browser playback was not exercised here.
 
-SOURCE.json uses the historical repository name `representation-atlas`. This repository is now
-`EastonSell/what-activations-do`. Its source-file path and SHA-256 refer to the unchanged teaching demo.
-The shipped media are retained byte-for-byte; this integration does not claim a rerender.
-
-Original render font SHA-256 values (font files are system dependencies, not bundled assets):
-
-- DejaVuSans-Bold.ttf: `a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890`
-- DejaVuSans.ttf: `57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e`
-- DejaVuSansMono.ttf: `54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8`
+`qa/` contains actual decoded start/middle/end and three phase frames, ffprobe metadata, raw/packaged frame checksums, math tests and Manim contract tests. Full video decoding and exact decoded-frame equality after remuxing were checked. Scientific numbers were independently compared with the repository learning demos. Relevant scene/helper AST equivalence is recorded when the shared source module changed only in another scene after a render. Bitwise video identity across different platforms, codecs or font stacks is not promised.

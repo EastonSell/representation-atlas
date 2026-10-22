@@ -1,0 +1,4 @@
+.render-work/
+__pycache__/
+source/__pycache__/
+*.pyc

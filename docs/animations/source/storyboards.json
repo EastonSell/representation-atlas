@@ -1,0 +1,147 @@
+{
+  "rehearsal-selection": {
+    "title": "Learn today without losing yesterday",
+    "subtitle": "Rehearsal and selection are different questions.",
+    "repo": "neurofunctional-lab",
+    "badge": "OFFLINE LINEAR TOY · NOT BENCHMARK EVIDENCE",
+    "poster_alt": "A toy loss plot shows that the hard-now example has the greatest current loss, while a different threatened-next example has the greatest signed loss increase after a virtual update.",
+    "class": "ReplaySelection",
+    "renderer": "Manim Community 0.22.0, Cairo",
+    "scenes": [
+      {
+        "start": 0,
+        "end": 8,
+        "caption": "Compatible tasks can still interfere through shared weights.",
+        "description": "The linear prediction is w1*x1+w2*x2. Task A has input (1,0), target 1; B has input (1,1), target 0. The shared solution (1,-1) fits both. Learning only A reaches approximately (1,0)."
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "caption": "B only forgets A; rehearsing stored A can retain both in this toy.",
+        "description": "From the learned-A state, 120 updates containing B twice approach (0.5,-0.5). A predicts 0.5 and B predicts 0. Replacing one B presentation with stored A approaches (0.999,-0.998), retaining both. Each later condition has 240 example presentations, but replay stores one old example and uses fewer B presentations. Values come from the offline demo, not image benchmarks."
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "caption": "Hard now is not threatened next. The virtual update is discarded.",
+        "description": "At weights (1,0), a hypothetical B step gives (0.75,-0.25). Current half-squared losses for old anchor, hard-now and threatened-next examples are 0, 0.5 and 0. Signed loss changes are +0.03125, -0.21875 and +0.125. High-loss selects hard-now; predicted-interference selects threatened-next. Uniform selection gives one-third to each. This is a scoring distinction, not a full MIR implementation or evidence that either selection improves a real model. One toy demonstrates forgetting and possible protection; another illustrates different replay scores. Neither establishes a benchmark advantage, biological fidelity, an optimal selector or guaranteed protection. Read the repository's controlled studies separately."
+      }
+    ]
+  },
+  "coordinate-readout": {
+    "title": "Same distance. Different decisions.",
+    "subtitle": "Translation, fixed readouts and projection are not interchangeable.",
+    "repo": "representation-atlas",
+    "badge": "EXACT GEOMETRY ILLUSTRATION · NOT A MODEL EXPERIMENT",
+    "poster_alt": "Two points with opposite y labels move onto the x axis and coincide at (1,0), showing information loss under a hand-chosen projection.",
+    "class": "CoordinateReadout",
+    "renderer": "Manim Community 0.22.0, Cairo",
+    "scenes": [
+      {
+        "start": 0,
+        "end": 8,
+        "caption": "Translate both vectors: distance stays fixed, cosine changes.",
+        "description": "A=(1,0) and B=(0,1) both move by (2,2), ending at (3,2) and (2,3). Their Euclidean distance remains sqrt(2). Their cosine changes from 0 to 12/13, approximately 0.923. During the motion, distance and cosine are calculated from the current points."
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "caption": "A fixed readout can flip B. Compensating its bias is a second edit.",
+        "description": "The fixed score x1-0.5 gives A=+0.5, B=-0.5 before translation and A=+2.5, B=+1.5 afterward. B crosses a zero threshold. Changing the bias to -2.5 restores +0.5 and -0.5, but this compensation is an additional operation."
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "caption": "Projection can merge differently labeled points: the answer is gone.",
+        "description": "The points (1,1), labeled positive y, and (1,-1), labeled negative y, are projected onto x. Both become (1,0). A classifier seeing only that projected point cannot perfectly distinguish these labels. The projection is hand chosen, not fitted PCA. Check pairwise geometry, downstream scores and task labels separately. These exact constructed examples are not results from a pretrained model and do not imply universal success or failure of component removal."
+      }
+    ]
+  },
+  "content-explanation": {
+    "title": "Change the wording. Keep the facts.",
+    "subtitle": "Presentation agreement is not correctness or comprehension.",
+    "repo": "adaptive-register",
+    "badge": "FIXED TEMPLATE ILLUSTRATION · NO MODEL OR READER EXPERIMENT",
+    "poster_alt": "The wrong supplied fact Bay 9 is copied into three requested formats. Agreement across formats does not verify the fact.",
+    "class": "ContentExplanation",
+    "renderer": "Manim Community 0.22.0, Cairo",
+    "scenes": [
+      {
+        "start": 0,
+        "end": 8,
+        "caption": "Requested presentation changes wording, not supplied facts.",
+        "description": "The example ledger has place Bay 3, time 18:45 and requirement printed ID. Register means an explicitly requested presentation format, not an inference about a reader's ability or background. Introductory: Go to Bay 3 at 18:45. Bring printed ID. Working: Check-in: Bay 3, 18:45. Required: printed ID. Technical: Location=Bay 3; time=18:45; requirement=printed ID. These are chosen templates with no learning or language model."
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "caption": "A shorter instruction can lose exact facts needed to act.",
+        "description": "Check in this evening. Bring your ID. This drops the exact place, time and printed-copy requirement. An exact-literal check catches those omissions here; it is not a semantic entailment test and can fail on paraphrases or negation."
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "caption": "Agreement is not truth. Wrong input can remain wrong in every format.",
+        "description": "If the ledger incorrectly says Bay 9, all three templates repeat Bay 9. Agreement does not verify the original fact. This illustration establishes neither improved comprehension nor an auxiliary-head training benefit."
+      }
+    ]
+  },
+  "capacity-latency": {
+    "title": "More memory is not automatically more speed",
+    "subtitle": "Separate an aggregate capacity floor from a sequential communication cost.",
+    "repo": "consent-compute-mesh",
+    "badge": "CALCULATED ASSUMPTIONS · NOT DEVICE OR MODEL MEASUREMENTS",
+    "poster_alt": "An analytical one-token serial graph shows increasing communication time as stage count grows. Under declared link assumptions, 16 stages give an optimistic communication-only ceiling of 2.511 tokens per second, not an achieved rate.",
+    "class": "CapacityLatency",
+    "renderer": "Manim Community 0.22.0, Cairo",
+    "scenes": [
+      {
+        "start": 0,
+        "end": 8,
+        "caption": "Ideal weights are one term in an illustrative runtime envelope.",
+        "description": "70 billion parameters times 4 bits divided by 8 is 35 billion bytes: 35.00 GB or 32.596 GiB. The illustrative envelope adds 20 percent weight overhead, 2.5 GiB FP16 KV cache and 2 GiB workspace, totaling 43.616 GiB. KV dimensions are 80 layers, 8 KV heads, head dimension 128, context 8192 and batch one."
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "caption": "Aggregate capacity is a lower bound, not a placement proof.",
+        "description": "The ceiling of required bytes divided by assumed allocatable bytes gives an aggregate lower bound, not a placement guarantee. The pools must be simultaneously allocatable after reservations; no real free-memory measurements are used. Pool count does not automatically equal stage count."
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "caption": "The declared one-token serial graph adds dependent crossings. This is not all orchestration.",
+        "description": "For one 16-KiB boundary over hypothetical 20-Mbps payload bandwidth with 20-ms one-way latency, the transfer time is 20 ms plus 16384 divided by 2500000 seconds, or 26.5536 ms. Four sequential stages require three such crossings, totaling 79.6608 ms of communication alone. The animated marker illustrates dependencies, not real-time measured packet motion. For the declared one-token serial decoding graph with H sequential stages, Tcomm=(H-1)*(latency+payload/byte_rate). At four stages it is 0.0796608 seconds; the communication-only ceiling is 12.553 tokens per second. At sixteen stages it is 0.398304 seconds; the ceiling is 2.511 tokens per second. These exclude compute, queueing, protocol, return traffic, relay, contention and failures. Overlap across independent requests can alter throughput; it does not remove the dependency in this declared one-token serial graph. Speculative or multi-token decoding and different orchestration graphs need a different analysis; this is not a universal lower bound on all distributed inference. Bounds apply only to the declared one-token serial decoding graph. Speculative or multi-token decoding and different orchestration graphs require separate analysis. Omitted return traffic makes the communication-only ceiling optimistic."
+      }
+    ]
+  },
+  "retry-idempotency": {
+    "title": "A lost reply is not a failed write",
+    "subtitle": "The service state and the caller's knowledge can diverge.",
+    "repo": "research-workflow-atlas",
+    "badge": "SYNTHETIC CONTRACTS · NOT REAL API GUARANTEES",
+    "poster_alt": "A same-ID retry produces two hidden effects without deduplication, one under a retained durable payload-bound key, and two after key expiry in an atomic sequential toy.",
+    "class": "RetryIdempotency",
+    "renderer": "Manim Community 0.22.0, Cairo",
+    "scenes": [
+      {
+        "start": 0,
+        "end": 8,
+        "caption": "A service can commit even when its reply is lost.",
+        "description": "A caller submits op-1, add A. The toy service commits one effect and loses the reply. The caller observes reply unavailable. Hidden effects are evaluator-only ground truth, not information contained in the timeout."
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "caption": "The same timeout can hide zero or one initial commit.",
+        "description": "Two hidden histories produce the same caller observation: no initial commit with zero effects, or an initial commit with one effect. The caller sees reply unavailable in both. A missing or stale lookup is not automatically proof of noncommit."
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "caption": "Same-ID retries depend on the contract. Otherwise preserve unknown.",
+        "description": "One sequential retry after an initial commit yields two effects with ID only and no deduplication; one with a retained durable payload-bound key; and two when a key expires exactly at retry time. If the initial call never committed, a no-dedup retry yields one effect. Effects survive key expiry; cache hits do not renew lifetime. The toy uses atomic calls, a single sequential caller and no late in-flight original. A live recovery decision also needs freshness, payload scope, expiry and whether the original may commit later. A reliable committed result may resolve uncertainty; otherwise preserve unknown. No real request or write occurs in this animation."
+      }
+    ]
+  }
+}

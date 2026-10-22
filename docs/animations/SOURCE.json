@@ -1,6 +1,16 @@
 {
-  "scene": "coordinate-readout",
-  "repository": "representation-atlas",
-  "path": "examples/learning/geometry_demo.py",
-  "sha256": "884a89e05a1a08f3f25fe90edb3843d0f20b8c95458b845dc47fb660429a6e37"
+  "renderer": "Actual Manim Community 0.22.0, Cairo",
+  "scene": "CoordinateReadout",
+  "neutral_asset_slug": "coordinate-readout",
+  "source_demo": "examples/learning/geometry_demo.py",
+  "asset_provenance": "Original programmatic geometry and typography; no generated scientific data or external media.",
+  "evidence_scope": "EXACT GEOMETRY ILLUSTRATION \u00b7 NOT A MODEL EXPERIMENT",
+  "duration_seconds": 24,
+  "frames_per_second": 15,
+  "no_audio": true,
+  "motion_free_path": [
+    "poster.png",
+    "transcript.txt",
+    "index.html (static by default)"
+  ]
 }
