@@ -48,3 +48,7 @@ The [split audit milestone](milestones/split-confound-audit/README.md) adds an o
 ## Frozen unordered-arithmetic benchmark
 
 The [new benchmark](milestones/unordered-arithmetic-benchmark/README.md) constructs 100 two-digit-operand prompts with a 60/20/20 train/validation/test split, zero unordered-problem overlap, balanced answers and symmetric negative comparisons. Fixed answer-only rankings are exactly at chance. This is a pre-inference dataset/control freeze, not new model capability evidence; historical results are unchanged.
+
+## Frozen model evaluation runner
+
+The [source-only runner checkpoint](milestones/frozen-evaluation-runner/README.md) gates training-only supplied-answer discrimination, then conditionally fits on training, selects projections on validation and evaluates the selected test configuration once. It archives per-pair evidence and raw activations. No new model result is included in this checkpoint.

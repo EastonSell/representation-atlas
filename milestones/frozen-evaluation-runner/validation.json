@@ -1,0 +1,25 @@
+{
+  "base_public_commit": "94b384dcd79194fdbe93b07db433432cd8313682",
+  "checkpoint_type": "source and fake-backend tests before benchmark model inference",
+  "python": "3.12.14",
+  "root_suite": {
+    "passed": 34,
+    "failed": 0,
+    "runner_tests": 10
+  },
+  "pretrained_milestone_suite": {
+    "passed": 5,
+    "failed": 0
+  },
+  "preanswer_suite": {
+    "passed": 18,
+    "failed": 0,
+    "initial_invocation_issue": "Running from repository root violated the old suite working-directory assumption: one failure and two skips. Correct documented milestone-directory invocation passed all 18.",
+    "warning": "Accelerate emits a NumPy private-namespace deprecation warning."
+  },
+  "model_input_files_verified": 8,
+  "model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "new_benchmark_inference_performed": false,
+  "new_downloads_by_this_runner": false,
+  "historical_artifacts_modified": false
+}

@@ -1,0 +1,41 @@
+{
+  "base_public_commit": "94b384dcd79194fdbe93b07db433432cd8313682",
+  "scope": "Source/protocol freeze only. Tiny fake-backend tests are not pretrained model measurements. No new benchmark inference before this checkpoint.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6823,
+      "sha256": "4afcc1eb0c462f6e5943ca267496e171e29cb733e106b9d4de2ef17b7f880cfd"
+    },
+    {
+      "path": "benchmark_runner.py",
+      "bytes": 13768,
+      "sha256": "18f3a72ff5eae254f085f72b3265a27cecbd904373e7b3a7cec4e8669afca437"
+    },
+    {
+      "path": "tests/test_benchmark_runner.py",
+      "bytes": 8070,
+      "sha256": "16721ea534fb9702323b028417246503ccdc2092e8fafeb1725eadcecb733691"
+    },
+    {
+      "path": "milestones/frozen-evaluation-runner/README.md",
+      "bytes": 3516,
+      "sha256": "ce423b000f388c686f75594e991ec2ecc5ba9586fa0c99e99a83ac2de83984e9"
+    },
+    {
+      "path": "milestones/frozen-evaluation-runner/PROTOCOL.md",
+      "bytes": 6418,
+      "sha256": "bf1c952abefc1de7f9cd5ad7ecfa52b60833f3c0db91f4dab2ea5202ab85e5bc"
+    },
+    {
+      "path": "milestones/frozen-evaluation-runner/validation.json",
+      "bytes": 915,
+      "sha256": "d669bf4a1531976b96dbc9ec1c2f1fbc561cd996fe62560a305dfe41d99a94fe"
+    },
+    {
+      "path": "milestones/frozen-evaluation-runner/SOURCE_FREEZE.sha256",
+      "bytes": 546,
+      "sha256": "a663f3733a460a1d3d1738332fad5f9932eff317643d84b64f55cb5cc00ccfcc"
+    }
+  ]
+}
