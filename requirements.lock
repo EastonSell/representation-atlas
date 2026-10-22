@@ -1,0 +1,7 @@
+# Exact core runtime observed in passing Linux CPU/Python 3.12.14 checks.
+# Version lock, not wheel hashes or a portable binary/BLAS environment lock.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0

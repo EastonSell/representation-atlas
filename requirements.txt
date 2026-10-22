@@ -1,2 +1,2 @@
-numpy>=1.24,<3
-scikit-learn>=1.3,<2
+# Tested core versions; see SETUP.md for scope and the optional model runtime.
+-r requirements.lock

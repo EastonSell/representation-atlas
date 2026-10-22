@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "optional_model_verification": "requested: all 11 tokenizer-dependent evidence methods, preceded by pinned model-file hashes",
+  "checks": [
+    {
+      "name": "root",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "pretrained_artifacts",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "model_hashes",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "preanswer_full",
+      "status": "failed",
+      "returncode": 1
+    }
+  ],
+  "model_generation_performed": false
+}

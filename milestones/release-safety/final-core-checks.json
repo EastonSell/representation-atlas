@@ -1,0 +1,22 @@
+{
+  "status": "core_passed_optional_not_run",
+  "optional_model_verification": "NOT RUN: 11 optional tokenizer-dependent evidence methods; supply --model-path to include them",
+  "checks": [
+    {
+      "name": "root",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "pretrained_artifacts",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "preanswer_core",
+      "status": "passed",
+      "returncode": 0
+    }
+  ],
+  "model_generation_performed": false
+}

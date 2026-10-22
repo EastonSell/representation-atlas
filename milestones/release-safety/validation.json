@@ -1,0 +1,19 @@
+{
+  "base_commit": "d7f716bb006075fff259d3e3d41ca71a3b1ae019",
+  "core_tests": 62,
+  "full_requested_tests": 73,
+  "root_tests": 50,
+  "optional_pinned_model_files_verified": 8,
+  "exact_version_locks_match_installed_profiles": true,
+  "original_bytes_sha256": {
+    "run_experiment.py": "a4d4ec7542e82702d41bc1201158aaf05e28d1414535f544787c78b70552960a",
+    "run_digits.py": "d5128801a8b3de540caa812b46d1796ded5309a98eee3e743bd7a42b8fee98ac",
+    "requirements.txt": "5222d89a2dde7c3ef5876686612fe43b5ded94fd4e8b61108ad034813c8db8fb"
+  },
+  "frozen_runner_source_freeze": "all entries verified",
+  "frozen_benchmark_freeze": "all entries verified",
+  "tracked_historical_results_changed": false,
+  "model_generation_performed": false,
+  "heldout_frozen_benchmark_evaluated": false,
+  "clean_install_tested": false
+}

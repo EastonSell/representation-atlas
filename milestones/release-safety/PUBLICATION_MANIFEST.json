@@ -1,0 +1,127 @@
+{
+  "base_commit": "d7f716bb006075fff259d3e3d41ca71a3b1ae019",
+  "scope": "release safety; no new capability result",
+  "files": [
+    {
+      "path": "MILESTONES.md",
+      "bytes": 3426,
+      "sha256": "441e1840da16de5efed2a88dae6b68c003160c721cb9546548d0f2c77fc568c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7748,
+      "sha256": "1f81b1e1331daac17c75881845e6015e97a5f58e0df1ee148a03cb7ce57aae70"
+    },
+    {
+      "path": "SETUP.md",
+      "bytes": 4968,
+      "sha256": "6f4d8a455c2bd1c1647d732bf966446ec09c55a8b5311a8948eb7f2ff60feb31"
+    },
+    {
+      "path": "artifact_io.py",
+      "bytes": 703,
+      "sha256": "80e7b2d438c111a2dfd42c6c114a410dbc47cf6dc42559db9ba7fd61e53b78e8"
+    },
+    {
+      "path": "milestones/release-safety/PUBLIC_ALLOWLIST.txt",
+      "bytes": 892,
+      "sha256": "9df2db9bf492cfb3f6531cfcb4aa6ac340ac2a48e7e7ad8239638dff59ccaa01"
+    },
+    {
+      "path": "milestones/release-safety/README.md",
+      "bytes": 3505,
+      "sha256": "56f77d2d34be4ef146b3f58a59ca6e7210204252682600268d6277a2d3a10165"
+    },
+    {
+      "path": "milestones/release-safety/core-test-output.txt",
+      "bytes": 8625,
+      "sha256": "c1e059306a599208f99af69afbfc386ac0f50e1f773a2c163b46cd4b23671ed0"
+    },
+    {
+      "path": "milestones/release-safety/diagnostics/initial-core-checks.json",
+      "bytes": 510,
+      "sha256": "f260699f573a300f31acb7e8754f95b4d682f57ef8fa0d5a7f4aa506646dc361"
+    },
+    {
+      "path": "milestones/release-safety/diagnostics/initial-full-checks-failure.json",
+      "bytes": 577,
+      "sha256": "8227c2e1131e1b77921fc09ebf6a10a424f3cfb425bcc68ea6ce2506e6b7458b"
+    },
+    {
+      "path": "milestones/release-safety/final-core-checks.json",
+      "bytes": 510,
+      "sha256": "f260699f573a300f31acb7e8754f95b4d682f57ef8fa0d5a7f4aa506646dc361"
+    },
+    {
+      "path": "milestones/release-safety/final-full-checks.json",
+      "bytes": 591,
+      "sha256": "e6d7258e08d8762b5475faeb0349ec02433627d187f0f093e3a5991481a4e6a1"
+    },
+    {
+      "path": "milestones/release-safety/full-test-output.txt",
+      "bytes": 10577,
+      "sha256": "d23dc1b7334a3d9a9729a8f4fb2715384838ca34c10da72d0fc4f4311bae288d"
+    },
+    {
+      "path": "milestones/release-safety/historical/README.md",
+      "bytes": 694,
+      "sha256": "8fdcf95681a42396e30dc30b7a3d89a9472897defaab3b296cdfbb7b5c47bd47"
+    },
+    {
+      "path": "milestones/release-safety/historical/requirements.txt",
+      "bytes": 36,
+      "sha256": "5222d89a2dde7c3ef5876686612fe43b5ded94fd4e8b61108ad034813c8db8fb"
+    },
+    {
+      "path": "milestones/release-safety/historical/run_digits.py",
+      "bytes": 2737,
+      "sha256": "d5128801a8b3de540caa812b46d1796ded5309a98eee3e743bd7a42b8fee98ac"
+    },
+    {
+      "path": "milestones/release-safety/historical/run_experiment.py",
+      "bytes": 1721,
+      "sha256": "a4d4ec7542e82702d41bc1201158aaf05e28d1414535f544787c78b70552960a"
+    },
+    {
+      "path": "milestones/release-safety/validation.json",
+      "bytes": 818,
+      "sha256": "c8f4b7d175a5e2e237bcb2d1a3770926eb6b5bb4e22147257dbc8318e8beb4e1"
+    },
+    {
+      "path": "requirements-model.lock",
+      "bytes": 630,
+      "sha256": "c547723375b3712c3bd3b28c917ef89111af3d60a923026cf9b170b73ec2216f"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 233,
+      "sha256": "6f8723588898317f96bae108abaad2a5a76965deb64f2464688faa0851359cf0"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 100,
+      "sha256": "adf1a04dda341c4c5a0dd50a29ac99b012715487e04560e7620c39f438c3e1f1"
+    },
+    {
+      "path": "run_checks.py",
+      "bytes": 4430,
+      "sha256": "86b676c7ee1dc16e6ddebc1b304d1b12614849e6fc56bb34116a0ebb3c71bb35"
+    },
+    {
+      "path": "run_digits.py",
+      "bytes": 3212,
+      "sha256": "9fadbe596d574da3b268a3ab2f4cc4e51f97b610a862b0e20f0d69160fcebb4a"
+    },
+    {
+      "path": "run_experiment.py",
+      "bytes": 2155,
+      "sha256": "f89ff22e6fe4eb80acb33e980a327f89e6e5d6ebac7219bfb1ffb2228326d313"
+    },
+    {
+      "path": "tests/test_release_safety.py",
+      "bytes": 5918,
+      "sha256": "a3276170438851dccc0a9d38949e3288fbf321929b84a39bdb182e22ab576f70"
+    }
+  ],
+  "self_hash_excluded": true
+}
