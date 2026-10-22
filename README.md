@@ -1,72 +1,49 @@
-# Representation Atlas: recentering without self-deception
+# What Activations Do
 
-Reproducible experiments test representation geometry, pretrained-model capability gates and activation interventions. The original NumPy studies isolate how centering and projection change geometry, including cases where principal-component removal destroys task information.
+A representation can look cleaner after an edit and still lose information the model needs. This project asks what centering, projection and activation replacement actually change in a model's answers.
 
-## Study guide
+The work moves from controlled vector examples to learned digit features and a pinned small language model. Capability gates come before interpretation: failed tasks and failed gates stay in the record.
 
-- [Copy-target activation interchange](studies/copy-activation-interchange/report/REPORT.md): a completed 64-prompt study in SmolLM2-135M-Instruct. At sampled block 24, final-position replacement produced 60/63 genuine donor switches among baseline-correct prompts, versus 0/63 for source-word replacement. This maps interchange sensitivity at sampled layers and positions; it does not identify an exclusive circuit or brain location. See the [figure](studies/copy-activation-interchange/report/transfer-map.png), [study overview](studies/copy-activation-interchange/README.md) and [complete evidence download/reconstruction](studies/copy-activation-interchange/GITHUB_DOWNLOAD.md). Evidence reconstruction is separate from new model inference.
-- [Held-out copy-subspace test](milestones/copy-subspace-test-results/README.md): validation-selected removal of four train PCs preserved 20/20 exact predictions, as did every random-control condition. Full intervention logits were not archived; the report explains the retained scalar evidence and no-inference audit.
-- [Arithmetic diagnostics and failed gates](MILESTONES.md): the historical arithmetic failures remain failures. The [frozen training gate](milestones/frozen-evaluation-results/README.md) stopped before validation/test inference or projection fitting.
-- [Synthetic geometry and learned digits](docs/real-data-results.md): the original results and commands below. Use [SETUP.md](SETUP.md) for the recorded runtime and aggregate checks; later studies have their own evidence and setup instructions.
+## Start here
+
+- [Explore a small geometry example](docs/START_HERE.md), including why moving the origin differs from deleting directions.
+- [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, methods, related work and next tests.
+- [Inspect the copy-target interchange study](studies/copy-activation-interchange/README.md) and its [full report](studies/copy-activation-interchange/report/REPORT.md).
+- [Use SETUP.md](SETUP.md) for the original experiments; later studies have separate setup and evidence instructions.
+
+## Watch the concept in 24 seconds
+
+[![Translation preserves the distance between A and B but changes origin-based cosine. A fixed readout can change its decision; compensating its bias is a second operation. Projection merges differently labeled points.](docs/animations/poster.png)](docs/animations/concept.mp4)
+
+[MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
+
+Exact geometry illustration · not a model experiment. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
+
+## What the experiments found
+
+**High variance can carry useful information.** In constructed high-signal-variance data, pair-ranking accuracy fell from 1.0000 to 0.5318 after removing one principal component. On learned digit features, a nearest-centroid probe fell from 95.49% to 91.05% after one-PC removal and 38.02% after eight. Centering alone left those digit predictions unchanged. [Original results and attribution](docs/real-data-results.md) explain the scope.
+
+**Small projection effects can be hard to distinguish.** A validation-selected four-PC removal preserved 20/20 held-out word-copying predictions, as did every random-control condition. This was removal of four directions from 576, with an accuracy ceiling in all conditions. [The report](milestones/copy-subspace-test-results/README.md) documents the rank/energy controls and missing full intervention logits.
+
+**Interchange sensitivity changed across sampled sites.** In a fixed 64-prompt SmolLM2-135M-Instruct panel, final-position replacement at block 24 produced 60/63 genuine donor switches among baseline-correct prompts, versus 0/63 for source-word replacement. Identity, causal-prefix and whole-state controls were exact. The [report and transfer map](studies/copy-activation-interchange/report/REPORT.md) cover all sampled cells. Seven sampled blocks cannot identify a unique circuit or an exact transition point.
+
+**Arithmetic capability gates failed.** The [milestone history](MILESTONES.md) retains those outcomes. The [frozen evaluation](milestones/frozen-evaluation-results/README.md) stopped before validation/test inference or projection fitting. Later copying results do not repair those failures.
 
 ## Run
-Python 3.10+, NumPy and scikit-learn are sufficient (NumPy alone runs the synthetic experiment). From this directory:
+
+Python 3.10+, NumPy and scikit-learn are sufficient; the synthetic experiment needs NumPy alone. From the repository root:
 
 ```sh
 python run_checks.py
 OPENBLAS_NUM_THREADS=1 python run_experiment.py --out /tmp/representation-synthetic-new.json
 OPENBLAS_NUM_THREADS=1 python run_digits.py --out /tmp/representation-digits-new.json
+python split_audit.py --output /tmp/representation-audit-fresh.json
 ```
 
-The checked-in config runs three seeds, dimensions 8/32/128, two variance regimes, and removal of 0/1/2 principal components. `results/experiment.json` contains all 54 measured configurations plus versions and elapsed time. Synthetic data are generated by the included code. A second experiment uses locally bundled UCI digits and CPU-trained MLP hidden activations, with no downloads. See [real-data results and attribution](docs/real-data-results.md).
+Use fresh output paths; the experiment CLIs refuse overwrite. The digit study uses locally bundled UCI data and performs no download. [Setup and release-safety notes](SETUP.md) describe dependency locks and aggregate checks. [Interchange evidence reconstruction](studies/copy-activation-interchange/GITHUB_DOWNLOAD.md) is separate from new model inference.
 
-## Learned real-data result
-Three small MLPs achieved mean 97.22% digit test accuracy. Their hidden-activation nearest-centroid probe fell from 95.49% accuracy to 91.05% after removing one leading PC, and 38.02% after eight. Centering alone left predictions unchanged. Training hit the 250-epoch cap; warnings and all split indices are recorded. This supports a geometry failure mode on digit features; this result does not establish language-model or brain correspondence.
+## Next questions
 
-## Synthetic definition and results
-For training vectors X, fit μ = mean(X). Recenter held-out vectors with x′ = x − μ. This changes cosine similarity, but not Euclidean pairwise distance or matched differences. Top-component removal additionally applies x″ = x′(I − UᵀU), where U contains training principal directions. This is a projection, not merely recentering, and destroys information.
+Does the observed site pattern survive a new lexical panel and prompt family? Can matched-energy perturbations isolate a specific causal feature rather than broadly alter the state? What survives across model checkpoints? The [research overview](docs/RESEARCH_OVERVIEW.md) outlines prospective tests. Biological correspondence would require actual brain data and a separate study.
 
-In this run, mean held-out pair-ranking accuracy was 0.7630 for low-signal-variance data, 0.7656 after one-PC removal, and 0.7659 after two. In the high-signal-variance control it was 1.0000 without removal, **0.5318 after one-PC removal**, and 0.5425 after two. Those regimes are constructed to test failure modes; these numbers do not estimate performance on real embeddings. Small positive differences are not evidence of a universal benefit.
-
-The direction estimator mean(x+ − x−) is invariant to permuting the negative examples. Matching alone cannot improve that estimator. Matching still matters for pair-level variance, correct train/test splits, and estimators that normalize each difference. Current data use distinct generated topics in train and test. No significance claims are made from three seeds; rows are not 54 independent experiments.
-
-## Primary sources and relationship
-- Mu & Viswanath, All-but-the-Top (ICLR 2018): https://openreview.net/pdf?id=HkuGJ3kCb. Motivates mean and top-component removal; our adversarial synthetic control is not a reproduction of their lexical benchmarks.
-- Kornblith et al., Similarity of Neural Network Representations Revisited (ICML 2019): https://proceedings.mlr.press/v97/kornblith19a.html. Motivates linear centered-kernel-alignment and invariance controls. Similarity is not causal equivalence.
-- Zou et al., Representation Engineering (2023): https://arxiv.org/abs/2310.01405. Context for directions from contrasting activations; the original geometry experiment did not test language-model steering. The separate interchange study above uses residual-stream replacements.
-- Shared functional specialization in transformer-based language models and the human brain (2024): https://pmc.ncbi.nlm.nih.gov/articles/PMC11217339/. This work uses actual brain measurements; our code does not. We do not assign artificial vectors to anatomical regions.
-- Gao et al., Increasing alignment of large language models with language processing in the human brain (2025): https://www.nature.com/articles/s43588-025-00863-0. Illustrates the need for measured behavioral/neural comparisons, not a license to infer biological fidelity.
-
-Sources checked October 21, 2026. This is a focused foundation, not an exhaustive systematic literature review.
-
-## Original follow-up plan
-
-This plan predates the later pretrained and copy-task studies linked above. Brain correspondence remains untested.
-
-1. Extract activations from a pinned, license-checked small open model and task-verified matched correct/incorrect outputs. Split by prompt/source, not individual answer. Include label permutation and length/style matching.
-2. Train centering/PCA only on the training split. Report answer correctness, factuality, intervention side effects, retained variance and full-dimensional distances, not attractive 2-D plots alone.
-3. Compare dimensions with fixed sample count and then fixed sample-to-dimension ratio. Add bootstrap intervals clustered by prompt, matched noise controls and validation-selected component counts.
-4. Brain correspondence requires a separately licensed dataset, stimulus alignment, held-out participant/story tests, noise ceilings, confound regressors and permutation controls. No brain dataset has been accessed.
-
-## Licensing
-Original code, configurations and synthetic generated outputs: MIT (LICENSE). NumPy is an external BSD-3-Clause dependency, not vendored. Linked papers retain their respective copyrights; no paper text or model weights are bundled. The digits experiment reads the locally installed UCI data under CC BY 4.0, with attribution in docs/real-data-results.md. Model and dataset licenses must be checked separately before redistribution; the later studies document their own pinned model provenance. No neuroimaging dataset has been accessed.
-
-## Metadata-only split-confound audit
-
-The [split audit milestone](milestones/split-confound-audit/README.md) adds an offline, train-fitted answer-identity control over the published pretrained arithmetic splits. It finds below-chance answer-only rankings on random splits and 24 shared unordered arithmetic problems in every first-operand-group split. It does not rerun the model, change the historical results, or repair the failed pre-answer gate. Reproduce with `python split_audit.py --output /tmp/representation-audit-fresh.json`.
-
-## Frozen unordered-arithmetic benchmark
-
-The [new benchmark](milestones/unordered-arithmetic-benchmark/README.md) constructs 100 two-digit-operand prompts with a 60/20/20 train/validation/test split, zero unordered-problem overlap, balanced answers and symmetric negative comparisons. Fixed answer-only rankings are exactly at chance. This is a pre-inference dataset/control freeze, not new model capability evidence; historical results are unchanged.
-
-## Frozen model evaluation runner
-
-The [source-only runner checkpoint](milestones/frozen-evaluation-runner/README.md) gates training-only supplied-answer discrimination, then conditionally fits on training, selects projections on validation and evaluates the selected test configuration once. It archives per-pair evidence and raw activations. No new model result is included in this checkpoint.
-
-## Frozen runner outcome
-
-The [real-model training gate](milestones/frozen-evaluation-results/README.md) failed: 30/60 supplied-answer preferences and 16/33 entirely correct problem groups, below the frozen 45/60 and 24/33 thresholds. An independent repeat reproduced the raw evidence byte-for-byte. Both stopped without validation/test inference or projections; this is a measured failure, not a successful capability claim.
-
-## Reproducible setup and safe outputs
-
-Use [SETUP.md](SETUP.md) for exact observed dependency locks and aggregate core/optional tokenizer checks. Both legacy experiment CLIs now require a fresh --out path and refuse overwrite. [Release-safety notes](milestones/release-safety/README.md) explain the preserved historical runner bytes and old-manifest scope. See [all milestones](MILESTONES.md) for the current evidence sequence.
+Original code, configurations and synthetic outputs are [MIT licensed](LICENSE). UCI digits use CC BY 4.0, with [creator attribution](docs/real-data-results.md). Dependencies, model weights and papers retain their own licenses; their content is not relicensed by this repository.

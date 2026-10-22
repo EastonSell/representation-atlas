@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same distance. Different decisions.</title><style>
+:root {color-scheme:dark} body {font:18px/1.6 system-ui,sans-serif;max-width:1040px;margin:auto;padding:24px;background:#0c1422;color:#f0f4fc}
+a {color:#54d8df} img,video {width:100%;height:auto;border-radius:12px} button {padding:12px 18px;font:inherit;border:2px solid #54d8df;background:#142238;color:inherit;border-radius:8px;cursor:pointer}
+[hidden] {display:none!important} h1{font-size:clamp(26px,4vw,40px);line-height:1.2} h2{font-size:22px} .note{color:#ffd285} :focus-visible{outline:3px solid #ffd285;outline-offset:4px}
+@media(prefers-reduced-motion:reduce) {*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style><main><h1>Same distance. Different decisions.</h1><p class="note">EXACT GEOMETRY ILLUSTRATION · NOT A MODEL EXPERIMENT</p>
+<p>24 seconds, no audio. Nothing plays automatically. The static poster and complete text are the reduced-motion path.</p>
+<img id="poster" src="poster.png" alt="Translation preserves the distance between A and B but changes origin-based cosine. A fixed readout can change its decision; compensating its bias is a second operation. Projection merges differently labeled points."><video id="clip" controls playsinline preload="none" poster="poster.png" hidden aria-label="Same distance. Different decisions."><source src="concept.mp4" type="video/mp4"><track kind="captions" src="captions.vtt" srclang="en" label="English" default>Your browser cannot play this MP4. Read the transcript below.</video>
+<p><button id="play" type="button">Choose to play animation</button> <button id="still" type="button" hidden>Return to static poster</button></p>
+<p id="motion-note"></p><p><a href="concept.mp4">Download MP4</a> · <a href="concept.gif">Optional animated GIF</a> · <a href="poster.png">Static PNG</a> · <a href="transcript.txt">Plain-text transcript</a> · <a href="captions.vtt">Captions</a></p>
+<h2>Complete transcript and visual description</h2><section><h2>00–06s: Translate both points</h2><p>A=(1,0) and B=(0,1) both move by (2,2), ending at (3,2) and (2,3). Their Euclidean distance remains sqrt(2). Their cosine changes from 0 to 12/13, approximately 0.923. During the motion, distance and cosine are calculated from the current points.</p></section>
+<section><h2>06–12s: Hold the readout fixed</h2><p>The fixed score x1-0.5 gives A=+0.5, B=-0.5 before translation and A=+2.5, B=+1.5 afterward. B crosses a zero threshold. Changing the bias to -2.5 restores +0.5 and -0.5, but this compensation is an additional operation.</p></section>
+<section><h2>12–18s: Discard a direction</h2><p>The points (1,1), labeled positive y, and (1,-1), labeled negative y, are projected onto x. Both become (1,0). A classifier seeing only that projected point cannot perfectly distinguish these labels. The projection is hand chosen, not fitted PCA.</p></section>
+<section><h2>18–24s: Ask what was preserved</h2><p>Check pairwise geometry, downstream scores and task labels separately. These exact constructed examples are not results from a pretrained model and do not imply universal success or failure of component removal.</p></section></main>
+<script>
+const poster=document.querySelector('#poster'),clip=document.querySelector('#clip'),play=document.querySelector('#play'),still=document.querySelector('#still');
+const preference=matchMedia('(prefers-reduced-motion: reduce)');
+function note(){document.querySelector('#motion-note').textContent=preference.matches?'Reduced motion is requested. Keep the static poster, or explicitly choose to play.':'Static by default. Playback is always your choice.'}
+note();preference.addEventListener?.('change',()=>{clip.pause();clip.hidden=true;poster.hidden=false;play.hidden=false;still.hidden=true;note()});
+play.addEventListener('click',()=>{poster.hidden=true;clip.hidden=false;play.hidden=true;still.hidden=false;clip.focus();clip.play().catch(()=>{document.querySelector('#motion-note').textContent='Use the video controls to play, or return to the static poster.'})});
+still.addEventListener('click',()=>{clip.pause();clip.currentTime=0;clip.hidden=true;poster.hidden=false;play.hidden=false;still.hidden=true;play.focus()});
+</script></html>
