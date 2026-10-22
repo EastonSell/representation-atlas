@@ -8,10 +8,10 @@ The 250-epoch training cap produced convergence warnings, saved per seed. We rep
 
 ## Reproduce
 ```
-OPENBLAS_NUM_THREADS=1 python run_digits.py
+OPENBLAS_NUM_THREADS=1 python run_digits.py --out /tmp/representation-digits-new.json
 python -m unittest discover -s tests -v
 ```
-The NumPy/scikit-learn versions, dataset hash, model configuration, indices and per-seed warnings are recorded. New runs overwrite results; time fields can vary. No serialized third-party models are bundled.
+The NumPy/scikit-learn versions, dataset hash, model configuration, indices and per-seed warnings are recorded. Use a fresh output path for each run; existing paths are refused rather than overwritten. Timing fields can vary. No serialized third-party models are bundled.
 
 ## Attribution and license
 Optical Recognition of Handwritten Digits, donated to UCI in 1998, attributed to E. Alpaydin and C. Kaynak. UCI currently licenses the dataset under **CC BY 4.0**: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits . License: https://creativecommons.org/licenses/by/4.0/ . This experiment divides pixels by 16 and makes new seeded splits; raw samples are not redistributed in this repository.
