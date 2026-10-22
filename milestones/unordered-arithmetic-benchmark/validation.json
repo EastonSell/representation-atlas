@@ -1,0 +1,31 @@
+{
+  "base_public_commit": "9422c08f6e65948405e0bd33e3630df86f0e49c3",
+  "python": "3.12.14",
+  "root_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 24,
+    "failed": 0
+  },
+  "pretrained_tests": {
+    "command": "cd milestones/smollm-activations && python -m unittest discover -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "preanswer_tests": {
+    "command": "cd milestones/preanswer-capability && python -m unittest discover -v",
+    "passed": 7,
+    "setup_errors": 1,
+    "unexecuted_test_methods": 11,
+    "blocker": "EvidenceTests.setUpClass needs SMOLLM_MODEL_PATH/tokenizer cache; no download attempted"
+  },
+  "feasible_allocation_seed_combinations_tested": 60,
+  "model_inference_performed": false,
+  "historical_artifacts_modified": false,
+  "checks": {
+    "cli_reproduction_byte_identical": true,
+    "existing_output_directory_refused": true,
+    "exact_ids_complete": true,
+    "unordered_overlap_empty": true,
+    "per_split_answer_pairs_symmetric": true
+  }
+}

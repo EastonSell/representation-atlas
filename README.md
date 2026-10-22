@@ -44,3 +44,7 @@ Original code, configurations and synthetic generated outputs: MIT (LICENSE). Nu
 ## Metadata-only split-confound audit
 
 The [split audit milestone](milestones/split-confound-audit/README.md) adds an offline, train-fitted answer-identity control over the published pretrained arithmetic splits. It finds below-chance answer-only rankings on random splits and 24 shared unordered arithmetic problems in every first-operand-group split. It does not rerun the model, change the historical results, or repair the failed pre-answer gate. Reproduce with `python split_audit.py --output /tmp/representation-audit-fresh.json`.
+
+## Frozen unordered-arithmetic benchmark
+
+The [new benchmark](milestones/unordered-arithmetic-benchmark/README.md) constructs 100 two-digit-operand prompts with a 60/20/20 train/validation/test split, zero unordered-problem overlap, balanced answers and symmetric negative comparisons. Fixed answer-only rankings are exactly at chance. This is a pre-inference dataset/control freeze, not new model capability evidence; historical results are unchanged.

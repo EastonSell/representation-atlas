@@ -1,0 +1,230 @@
+{
+  "cross_split_unordered_overlap": [],
+  "dataset_sha256": "396381dcd0472c6f27a45d97732a758da0a6433c7e9100c42b5fb89ec36fe4b6",
+  "first_operand_overlap_counts": {
+    "train:test": 8,
+    "train:validation": 9,
+    "validation:test": 7
+  },
+  "limitations": [
+    "New prompts and partitions, but motivated by prior exploratory model results.",
+    "This benchmark is not an untouched external confirmatory test set.",
+    "Operand values, prompt template, and answer identities remain shared across splits.",
+    "Reverse-order prompts within each split are not independent trials.",
+    "Symmetric negatives block fixed scalar answer-only ranking shortcuts, not all prompt-conditioned shortcuts.",
+    "Character lengths are checked; tokenizer identity and lengths are not checked.",
+    "Symbolic oracle validates generated arithmetic, not model capability."
+  ],
+  "measurement": "Pre-inference construction integrity and deterministic metadata controls",
+  "model_inference_performed": false,
+  "schema_version": 1,
+  "splits": {
+    "test": {
+      "answer_pair_counts": {
+        "0:5": 2,
+        "1:6": 2,
+        "2:7": 2,
+        "3:8": 2,
+        "4:9": 2,
+        "5:0": 2,
+        "6:1": 2,
+        "7:2": 2,
+        "8:3": 2,
+        "9:4": 2
+      },
+      "ascending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 10,
+        "ties": 0,
+        "wins": 10
+      },
+      "asymmetric_answer_pair_count": 0,
+      "correct_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "count_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 0,
+        "ties": 20,
+        "wins": 0
+      },
+      "descending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 10,
+        "ties": 0,
+        "wins": 10
+      },
+      "diagonal_pairs": 2,
+      "incorrect_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "label_answer_tv": 0.0,
+      "pairs": 20,
+      "prompt_character_lengths": [
+        52
+      ],
+      "symbolic_oracle_accuracy": 1.0,
+      "unordered_problems": 11
+    },
+    "train": {
+      "answer_pair_counts": {
+        "0:5": 6,
+        "1:6": 6,
+        "2:7": 6,
+        "3:8": 6,
+        "4:9": 6,
+        "5:0": 6,
+        "6:1": 6,
+        "7:2": 6,
+        "8:3": 6,
+        "9:4": 6
+      },
+      "ascending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 30,
+        "ties": 0,
+        "wins": 30
+      },
+      "asymmetric_answer_pair_count": 0,
+      "correct_counts": {
+        "0": 6,
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "count_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 0,
+        "ties": 60,
+        "wins": 0
+      },
+      "descending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 30,
+        "ties": 0,
+        "wins": 30
+      },
+      "diagonal_pairs": 6,
+      "incorrect_counts": {
+        "0": 6,
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "label_answer_tv": 0.0,
+      "pairs": 60,
+      "prompt_character_lengths": [
+        52
+      ],
+      "symbolic_oracle_accuracy": 1.0,
+      "unordered_problems": 33
+    },
+    "validation": {
+      "answer_pair_counts": {
+        "0:5": 2,
+        "1:6": 2,
+        "2:7": 2,
+        "3:8": 2,
+        "4:9": 2,
+        "5:0": 2,
+        "6:1": 2,
+        "7:2": 2,
+        "8:3": 2,
+        "9:4": 2
+      },
+      "ascending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 10,
+        "ties": 0,
+        "wins": 10
+      },
+      "asymmetric_answer_pair_count": 0,
+      "correct_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "count_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 0,
+        "ties": 20,
+        "wins": 0
+      },
+      "descending_answer_baseline": {
+        "accuracy_half_ties": 0.5,
+        "losses": 10,
+        "ties": 0,
+        "wins": 10
+      },
+      "diagonal_pairs": 2,
+      "incorrect_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "label_answer_tv": 0.0,
+      "pairs": 20,
+      "prompt_character_lengths": [
+        52
+      ],
+      "symbolic_oracle_accuracy": 1.0,
+      "unordered_problems": 11
+    }
+  },
+  "train_answer_scores": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0
+  }
+}

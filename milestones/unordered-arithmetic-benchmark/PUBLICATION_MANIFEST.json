@@ -1,0 +1,51 @@
+{
+  "base_public_commit": "9422c08f6e65948405e0bd33e3630df86f0e49c3",
+  "scope": "New synthetic unordered-problem-disjoint benchmark and metadata controls frozen before its model inference; no model run or changed historical artifacts.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6426,
+      "sha256": "3e303a9d25c5b4ef6c6d820721acfd667250b61d9ecad66e4d47b65efd2c2db1"
+    },
+    {
+      "path": "arithmetic_benchmark.py",
+      "bytes": 8164,
+      "sha256": "ad2b930422d1b6dcc88aed0ec60931716c7c48ac78980e5a2411f249c4874ad6"
+    },
+    {
+      "path": "tests/test_arithmetic_benchmark.py",
+      "bytes": 5401,
+      "sha256": "01925e5b170eaa48b047879c69cc20c70733aba3bebd720ada9a6146440af1e2"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/README.md",
+      "bytes": 4102,
+      "sha256": "1940051285971666fb1c3f6ffaf0d28ab1dc46a79d610eef0beb5832dc854e52"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/PROTOCOL.md",
+      "bytes": 5409,
+      "sha256": "9a5ee91702f7f80676e9ff42c35520eadf396b1721e87ff80a7ca5d2404e16c3"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/dataset.json",
+      "bytes": 20993,
+      "sha256": "396381dcd0472c6f27a45d97732a758da0a6433c7e9100c42b5fb89ec36fe4b6"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/audit.json",
+      "bytes": 5052,
+      "sha256": "caf8f4089cc4999a2a8aa323ce98687255f82612c8f974b409128e3f2a1d7d72"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/validation.json",
+      "bytes": 1010,
+      "sha256": "53d3a35f1a8c83bc9488b9d10e2c59ce1860b066412bf03b45e92bc0d6bbf47e"
+    },
+    {
+      "path": "milestones/unordered-arithmetic-benchmark/FREEZE.sha256",
+      "bytes": 632,
+      "sha256": "17b47762c5cb758f9824b873e8e52996e4dece8e3962477c692bd7e173e02ed6"
+    }
+  ]
+}

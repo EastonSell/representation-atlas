@@ -1,0 +1,917 @@
+{
+  "incorrect_offset_mod_10": 5,
+  "operand_range_inclusive": [
+    10,
+    19
+  ],
+  "per_answer_counts": {
+    "test": 2,
+    "train": 6,
+    "validation": 2
+  },
+  "rows": [
+    {
+      "a": 10,
+      "b": 10,
+      "correct": "0",
+      "id": "10-10",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 10 + 10?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "correct": "1",
+      "id": "10-11",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 10 + 11?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 10,
+      "b": 12,
+      "correct": "2",
+      "id": "10-12",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 10 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "correct": "3",
+      "id": "10-13",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 10 + 13?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 10,
+      "b": 14,
+      "correct": "4",
+      "id": "10-14",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 10 + 14?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 10,
+      "b": 15,
+      "correct": "5",
+      "id": "10-15",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 10 + 15?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "correct": "6",
+      "id": "10-16",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 10 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 10,
+      "b": 17,
+      "correct": "7",
+      "id": "10-17",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 10 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 10,
+      "b": 18,
+      "correct": "8",
+      "id": "10-18",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 10 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 10,
+      "b": 19,
+      "correct": "9",
+      "id": "10-19",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 10 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 10,
+      "correct": "1",
+      "id": "11-10",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 11 + 10?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 11,
+      "b": 11,
+      "correct": "2",
+      "id": "11-11",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 11 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "correct": "3",
+      "id": "11-12",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 11 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "correct": "4",
+      "id": "11-13",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 11 + 13?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 11,
+      "b": 14,
+      "correct": "5",
+      "id": "11-14",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 11 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 15,
+      "correct": "6",
+      "id": "11-15",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 11 + 15?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 11,
+      "b": 16,
+      "correct": "7",
+      "id": "11-16",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 11 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 17,
+      "correct": "8",
+      "id": "11-17",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 11 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 18,
+      "correct": "9",
+      "id": "11-18",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 11 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 11,
+      "b": 19,
+      "correct": "0",
+      "id": "11-19",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 11 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 10,
+      "correct": "2",
+      "id": "12-10",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 12 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 11,
+      "correct": "3",
+      "id": "12-11",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 12 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 12,
+      "correct": "4",
+      "id": "12-12",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 12 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "correct": "5",
+      "id": "12-13",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 12 + 13?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 14,
+      "correct": "6",
+      "id": "12-14",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 12 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 15,
+      "correct": "7",
+      "id": "12-15",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 12 + 15?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 16,
+      "correct": "8",
+      "id": "12-16",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 12 + 16?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 12,
+      "b": 17,
+      "correct": "9",
+      "id": "12-17",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 12 + 17?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 12,
+      "b": 18,
+      "correct": "0",
+      "id": "12-18",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 12 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 12,
+      "b": 19,
+      "correct": "1",
+      "id": "12-19",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 12 + 19?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 13,
+      "b": 10,
+      "correct": "3",
+      "id": "13-10",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 13 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 13,
+      "b": 11,
+      "correct": "4",
+      "id": "13-11",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 13 + 11?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 13,
+      "b": 12,
+      "correct": "5",
+      "id": "13-12",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 13 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 13,
+      "b": 13,
+      "correct": "6",
+      "id": "13-13",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 13 + 13?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "correct": "7",
+      "id": "13-14",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 13 + 14?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 13,
+      "b": 15,
+      "correct": "8",
+      "id": "13-15",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 13 + 15?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 13,
+      "b": 16,
+      "correct": "9",
+      "id": "13-16",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 13 + 16?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 13,
+      "b": 17,
+      "correct": "0",
+      "id": "13-17",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 13 + 17?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 13,
+      "b": 18,
+      "correct": "1",
+      "id": "13-18",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 13 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "correct": "2",
+      "id": "13-19",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 13 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 10,
+      "correct": "4",
+      "id": "14-10",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 14 + 10?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 14,
+      "b": 11,
+      "correct": "5",
+      "id": "14-11",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 14 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 12,
+      "correct": "6",
+      "id": "14-12",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 14 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 13,
+      "correct": "7",
+      "id": "14-13",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 14 + 13?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 14,
+      "b": 14,
+      "correct": "8",
+      "id": "14-14",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 14 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "correct": "9",
+      "id": "14-15",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 14 + 15?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "correct": "0",
+      "id": "14-16",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 14 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 17,
+      "correct": "1",
+      "id": "14-17",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 14 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 14,
+      "b": 18,
+      "correct": "2",
+      "id": "14-18",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 14 + 18?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 14,
+      "b": 19,
+      "correct": "3",
+      "id": "14-19",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 14 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 15,
+      "b": 10,
+      "correct": "5",
+      "id": "15-10",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 15 + 10?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 15,
+      "b": 11,
+      "correct": "6",
+      "id": "15-11",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 15 + 11?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 15,
+      "b": 12,
+      "correct": "7",
+      "id": "15-12",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 15 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 15,
+      "b": 13,
+      "correct": "8",
+      "id": "15-13",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 15 + 13?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 15,
+      "b": 14,
+      "correct": "9",
+      "id": "15-14",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 15 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 15,
+      "b": 15,
+      "correct": "0",
+      "id": "15-15",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 15 + 15?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "correct": "1",
+      "id": "15-16",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 15 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 15,
+      "b": 17,
+      "correct": "2",
+      "id": "15-17",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 15 + 17?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 15,
+      "b": 18,
+      "correct": "3",
+      "id": "15-18",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 15 + 18?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 15,
+      "b": 19,
+      "correct": "4",
+      "id": "15-19",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 15 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 10,
+      "correct": "6",
+      "id": "16-10",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 16 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 11,
+      "correct": "7",
+      "id": "16-11",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 16 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 12,
+      "correct": "8",
+      "id": "16-12",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 16 + 12?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 16,
+      "b": 13,
+      "correct": "9",
+      "id": "16-13",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 16 + 13?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 16,
+      "b": 14,
+      "correct": "0",
+      "id": "16-14",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 16 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 15,
+      "correct": "1",
+      "id": "16-15",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 16 + 15?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 16,
+      "correct": "2",
+      "id": "16-16",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 16 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "correct": "3",
+      "id": "16-17",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 16 + 17?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 16,
+      "b": 18,
+      "correct": "4",
+      "id": "16-18",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 16 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 16,
+      "b": 19,
+      "correct": "5",
+      "id": "16-19",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 16 + 19?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 17,
+      "b": 10,
+      "correct": "7",
+      "id": "17-10",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 17 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 17,
+      "b": 11,
+      "correct": "8",
+      "id": "17-11",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 17 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 17,
+      "b": 12,
+      "correct": "9",
+      "id": "17-12",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 17 + 12?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 17,
+      "b": 13,
+      "correct": "0",
+      "id": "17-13",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 17 + 13?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 17,
+      "b": 14,
+      "correct": "1",
+      "id": "17-14",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 17 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 17,
+      "b": 15,
+      "correct": "2",
+      "id": "17-15",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 17 + 15?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 17,
+      "b": 16,
+      "correct": "3",
+      "id": "17-16",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 17 + 16?\nAnswer:",
+      "split": "test"
+    },
+    {
+      "a": 17,
+      "b": 17,
+      "correct": "4",
+      "id": "17-17",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 17 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 17,
+      "b": 18,
+      "correct": "5",
+      "id": "17-18",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 17 + 18?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 17,
+      "b": 19,
+      "correct": "6",
+      "id": "17-19",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 17 + 19?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 10,
+      "correct": "8",
+      "id": "18-10",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 18 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 11,
+      "correct": "9",
+      "id": "18-11",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 18 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 12,
+      "correct": "0",
+      "id": "18-12",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 18 + 12?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 13,
+      "correct": "1",
+      "id": "18-13",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 18 + 13?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 14,
+      "correct": "2",
+      "id": "18-14",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 18 + 14?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 18,
+      "b": 15,
+      "correct": "3",
+      "id": "18-15",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 18 + 15?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 18,
+      "b": 16,
+      "correct": "4",
+      "id": "18-16",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 18 + 16?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 17,
+      "correct": "5",
+      "id": "18-17",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 18 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 18,
+      "b": 18,
+      "correct": "6",
+      "id": "18-18",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 18 + 18?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 18,
+      "b": 19,
+      "correct": "7",
+      "id": "18-19",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 18 + 19?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 19,
+      "b": 10,
+      "correct": "9",
+      "id": "19-10",
+      "incorrect": "4",
+      "prompt": "Question: What is the last digit of 19 + 10?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 11,
+      "correct": "0",
+      "id": "19-11",
+      "incorrect": "5",
+      "prompt": "Question: What is the last digit of 19 + 11?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 12,
+      "correct": "1",
+      "id": "19-12",
+      "incorrect": "6",
+      "prompt": "Question: What is the last digit of 19 + 12?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 19,
+      "b": 13,
+      "correct": "2",
+      "id": "19-13",
+      "incorrect": "7",
+      "prompt": "Question: What is the last digit of 19 + 13?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 14,
+      "correct": "3",
+      "id": "19-14",
+      "incorrect": "8",
+      "prompt": "Question: What is the last digit of 19 + 14?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 15,
+      "correct": "4",
+      "id": "19-15",
+      "incorrect": "9",
+      "prompt": "Question: What is the last digit of 19 + 15?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 16,
+      "correct": "5",
+      "id": "19-16",
+      "incorrect": "0",
+      "prompt": "Question: What is the last digit of 19 + 16?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 19,
+      "b": 17,
+      "correct": "6",
+      "id": "19-17",
+      "incorrect": "1",
+      "prompt": "Question: What is the last digit of 19 + 17?\nAnswer:",
+      "split": "train"
+    },
+    {
+      "a": 19,
+      "b": 18,
+      "correct": "7",
+      "id": "19-18",
+      "incorrect": "2",
+      "prompt": "Question: What is the last digit of 19 + 18?\nAnswer:",
+      "split": "validation"
+    },
+    {
+      "a": 19,
+      "b": 19,
+      "correct": "8",
+      "id": "19-19",
+      "incorrect": "3",
+      "prompt": "Question: What is the last digit of 19 + 19?\nAnswer:",
+      "split": "train"
+    }
+  ],
+  "schema_version": 1,
+  "seed": 20261022,
+  "status": "Frozen construction and controls before any inference on this benchmark"
+}
