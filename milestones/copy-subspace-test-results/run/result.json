@@ -1,0 +1,1744 @@
+{
+  "condition_metrics": [
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "pca",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.244289445877075,
+      "mean_realized_removed_norm": 5.190251842353183,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": null,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.262434291839599,
+      "mean_realized_removed_norm": 0.7326749653009157,
+      "mean_requested_removed_norm": 0.7326749247799851,
+      "positive_margin_groups": 10,
+      "random_seed": 20261022,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.293977069854736,
+      "mean_realized_removed_norm": 5.190251792063908,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261022,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.254780650138855,
+      "mean_realized_removed_norm": 0.6963240541730522,
+      "mean_requested_removed_norm": 0.6963240479169671,
+      "positive_margin_groups": 10,
+      "random_seed": 20261023,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.239019298553467,
+      "mean_realized_removed_norm": 5.190251749535366,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261023,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.260050177574158,
+      "mean_realized_removed_norm": 0.775786999510907,
+      "mean_requested_removed_norm": 0.7757870300202426,
+      "positive_margin_groups": 10,
+      "random_seed": 20261024,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.265456986427307,
+      "mean_realized_removed_norm": 5.190251771837005,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261024,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.259774875640869,
+      "mean_realized_removed_norm": 0.6201318189620539,
+      "mean_requested_removed_norm": 0.6201318364483216,
+      "positive_margin_groups": 10,
+      "random_seed": 20261025,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.2562988042831424,
+      "mean_realized_removed_norm": 5.190251784170584,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261025,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.25724470615387,
+      "mean_realized_removed_norm": 0.6012865786377513,
+      "mean_requested_removed_norm": 0.6012866023961206,
+      "positive_margin_groups": 10,
+      "random_seed": 20261026,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.258728075027466,
+      "mean_realized_removed_norm": 5.190251790352098,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261026,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.2614363670349125,
+      "mean_realized_removed_norm": 0.7960906610444292,
+      "mean_requested_removed_norm": 0.7960906648432577,
+      "positive_margin_groups": 10,
+      "random_seed": 20261027,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.276621723175049,
+      "mean_realized_removed_norm": 5.190251784767285,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261027,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.260063171386719,
+      "mean_realized_removed_norm": 0.7939541464298977,
+      "mean_requested_removed_norm": 0.7939541453377136,
+      "positive_margin_groups": 10,
+      "random_seed": 20261028,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.2562596797943115,
+      "mean_realized_removed_norm": 5.190251799216999,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261028,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.257415843009949,
+      "mean_realized_removed_norm": 0.6657696200423341,
+      "mean_requested_removed_norm": 0.6657696604908908,
+      "positive_margin_groups": 10,
+      "random_seed": 20261029,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.23582968711853,
+      "mean_realized_removed_norm": 5.1902517851381775,
+      "mean_requested_removed_norm": 5.190251781647608,
+      "positive_margin_groups": 10,
+      "random_seed": 20261029,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.257514953613281,
+      "mean_realized_removed_norm": 0.6624812646215623,
+      "mean_requested_removed_norm": 0.6624812578938752,
+      "positive_margin_groups": 10,
+      "random_seed": 20261030,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.245608520507813,
+      "mean_realized_removed_norm": 5.190251788299909,
+      "mean_requested_removed_norm": 5.190251781647608,
+      "positive_margin_groups": 10,
+      "random_seed": 20261030,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "rank_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.259934520721435,
+      "mean_realized_removed_norm": 0.7897589128509005,
+      "mean_requested_removed_norm": 0.7897589368162915,
+      "positive_margin_groups": 10,
+      "random_seed": 20261031,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    },
+    {
+      "accuracy": 1.0,
+      "accuracy_change": 0.0,
+      "condition": "energy_random",
+      "greedy_exact_groups": 10,
+      "greedy_exact_rows": 20,
+      "groups": 10,
+      "mean_margin": 7.260966658592224,
+      "mean_realized_removed_norm": 5.190251764721888,
+      "mean_requested_removed_norm": 5.190251781647609,
+      "positive_margin_groups": 10,
+      "random_seed": 20261031,
+      "rows": 20,
+      "strict_wins": 20,
+      "ties": 0
+    }
+  ],
+  "forwards_completed": 460,
+  "heldout_test_evaluated": true,
+  "interpretation": "Descriptive group-level causal sensitivity, not proof of exclusive necessity",
+  "paired_group_changes": [
+    {
+      "condition": "pca",
+      "group": "test-00",
+      "mean_margin_change": 0.080596923828125,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": 0.0023016929626464844,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": 0.010092735290527344,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": 0.0012731552124023438,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.013445377349853516,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": 0.004558086395263672,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": 0.032595157623291016,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": -0.0029478073120117188,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.04359865188598633,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": -0.007138729095458984,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.02418661117553711,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": 0.005122184753417969,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": 0.08258819580078125,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": -0.00888967514038086,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.08173418045043945,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": -0.005663871765136719,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.03974485397338867,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": -0.0013880729675292969,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": -0.02083110809326172,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change": 0.013370990753173828,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change": 0.05858039855957031,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-01",
+      "mean_margin_change": 0.0012373924255371094,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.005836009979248047,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.018192768096923828,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.005394458770751953,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.022759437561035156,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0012621879577636719,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0032329559326171875,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": 0.0017418861389160156,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": 0.013284683227539062,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0021958351135253906,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": 0.0033960342407226562,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.007975101470947266,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.022661685943603516,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0016613006591796875,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": 0.002044200897216797,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0020809173583984375,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.0019230842590332031,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": 0.0006771087646484375,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": -0.006080150604248047,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change": 0.0043849945068359375,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change": 0.038083553314208984,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-02",
+      "mean_margin_change": -0.1072072982788086,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.0005917549133300781,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.001911163330078125,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.02140045166015625,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.23650646209716797,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.0028333663940429688,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.01950693130493164,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.0009655952453613281,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.00975942611694336,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": 0.0021266937255859375,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": 0.06595611572265625,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.005833625793457031,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.07054471969604492,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": 0.028295516967773438,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": 0.14115571975708008,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": 0.0053653717041015625,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": 0.09830379486083984,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": 0.0016126632690429688,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": 0.011194229125976562,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change": -0.010095596313476562,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change": -0.06629085540771484,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-03",
+      "mean_margin_change": -0.0038690567016601562,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.004864692687988281,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.0313105583190918,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": 0.004703998565673828,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": 0.048313140869140625,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": 0.002995014190673828,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": 0.022314071655273438,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": 0.0008764266967773438,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": 0.0046825408935546875,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.0027871131896972656,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.022349834442138672,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.0014185905456542969,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.007260799407958984,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.0039234161376953125,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.03624248504638672,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.006411552429199219,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.05507183074951172,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": 0.005119800567626953,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": 0.02622842788696289,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change": -0.0003666877746582031,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change": -0.01658487319946289,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-04",
+      "mean_margin_change": -0.00951385498046875,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": 0.004961967468261719,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.0401456356048584,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.007109642028808594,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.05552935600280762,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.002911806106567383,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": -0.04394674301147461,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.0023827552795410156,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": -0.03993368148803711,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": 0.003899812698364258,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.030004024505615234,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": 0.009945869445800781,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.09179210662841797,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.0008544921875,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": -0.019133567810058594,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": 0.0018301010131835938,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.01728510856628418,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.0036547183990478516,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": 0.002870321273803711,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change": -0.009084701538085938,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change": -0.0550539493560791,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-05",
+      "mean_margin_change": -0.003753185272216797,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": 0.007937192916870117,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": 0.04453587532043457,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.0074117183685302734,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.03851056098937988,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.004023313522338867,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.02001500129699707,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": 0.004076480865478516,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": 0.03496360778808594,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.008268594741821289,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.04352760314941406,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.0008938312530517578,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.028661012649536133,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": 0.0006003379821777344,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": 0.020733356475830078,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.010867118835449219,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.10800051689147949,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.012805461883544922,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.050086021423339844,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change": -0.007462024688720703,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change": -0.029851198196411133,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-06",
+      "mean_margin_change": -0.14140629768371582,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": 0.01175236701965332,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": 0.12686896324157715,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": 0.008069753646850586,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": 0.11401629447937012,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": 0.011882543563842773,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": 0.058577775955200195,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.010771512985229492,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.13959813117980957,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.006665229797363281,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.0940396785736084,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": 0.004703044891357422,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": 0.001322031021118164,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.006635904312133789,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.08420157432556152,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.008463144302368164,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.13930392265319824,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.011003255844116211,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.09646153450012207,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change": -0.002933979034423828,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change": -0.015002727508544922,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-07",
+      "mean_margin_change": 0.03341197967529297,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.008708953857421875,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.05435991287231445,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": -0.009372234344482422,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": -0.05086183547973633,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.0010762214660644531,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.009547233581542969,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.004865169525146484,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.05184459686279297,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.0030188560485839844,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.06429672241210938,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": -0.0010585784912109375,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.000537872314453125,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": -0.003917694091796875,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": -0.030199527740478516,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.007184028625488281,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.020142078399658203,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.007489204406738281,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.0413661003112793,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change": 0.028614521026611328,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change": 0.12575674057006836,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-08",
+      "mean_margin_change": 0.05621671676635742,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.002277374267578125,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.047297000885009766,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": -0.002437114715576172,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": -0.025095462799072266,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.005417346954345703,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.046456336975097656,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.005855083465576172,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.031678199768066406,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.0012006759643554688,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.010848522186279297,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.01861858367919922,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.08886146545410156,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.013767719268798828,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.09226560592651367,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.005372524261474609,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.03153038024902344,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.004796028137207031,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": -0.0032815933227539062,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change": 0.0021009445190429688,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change": 0.019865036010742188,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "pca",
+      "group": "test-09",
+      "mean_margin_change": -0.05001688003540039,
+      "random_seed": null
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": 0.010497808456420898,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": 0.08068704605102539,
+      "random_seed": 20261022
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": -0.00031280517578125,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.027684688568115234,
+      "random_seed": 20261023
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": -0.0015947818756103516,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.015417098999023438,
+      "random_seed": 20261024
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": 0.010203361511230469,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": 0.07222628593444824,
+      "random_seed": 20261025
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": 0.0020585060119628906,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": 0.009685039520263672,
+      "random_seed": 20261026
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": 0.005955696105957031,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": 0.043045759201049805,
+      "random_seed": 20261027
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": -0.0033473968505859375,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.029288768768310547,
+      "random_seed": 20261028
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": 0.0006949901580810547,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.05211830139160156,
+      "random_seed": 20261029
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": -0.0028917789459228516,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.036031484603881836,
+      "random_seed": 20261030
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change": -0.00638127326965332,
+      "random_seed": 20261031
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change": -0.0370335578918457,
+      "random_seed": 20261031
+    }
+  ],
+  "random_seed_averages": [
+    {
+      "condition": "rank_random",
+      "group": "test-00",
+      "mean_margin_change_across_seeds": 5.979537963867188e-05
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-01",
+      "mean_margin_change_across_seeds": -0.0019601821899414063
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-02",
+      "mean_margin_change_across_seeds": -0.00043201446533203125
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-03",
+      "mean_margin_change_across_seeds": -0.0006076812744140625
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-04",
+      "mean_margin_change_across_seeds": -0.000536036491394043
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-05",
+      "mean_margin_change_across_seeds": -0.003911805152893066
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-06",
+      "mean_margin_change_across_seeds": -0.0010065317153930664
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-07",
+      "mean_margin_change_across_seeds": 0.004660844802856445
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-08",
+      "mean_margin_change_across_seeds": 0.005696916580200195
+    },
+    {
+      "condition": "rank_random",
+      "group": "test-09",
+      "mean_margin_change_across_seeds": 0.0014882326126098634
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-00",
+      "mean_margin_change_across_seeds": -0.003968429565429687
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-01",
+      "mean_margin_change_across_seeds": -0.0018041610717773437
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-02",
+      "mean_margin_change_across_seeds": -0.008790969848632812
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-03",
+      "mean_margin_change_across_seeds": -0.006728219985961914
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-04",
+      "mean_margin_change_across_seeds": 0.00795586109161377
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-05",
+      "mean_margin_change_across_seeds": -0.021841907501220705
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-06",
+      "mean_margin_change_across_seeds": -0.02678225040435791
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-07",
+      "mean_margin_change_across_seeds": 0.02867898941040039
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-08",
+      "mean_margin_change_across_seeds": 0.03404254913330078
+    },
+    {
+      "condition": "energy_random",
+      "group": "test-09",
+      "mean_margin_change_across_seeds": 0.0008070230484008789
+    }
+  ],
+  "selected_k": 4,
+  "source_freeze_sha256": "594a700c0fc1eb19b7e269a60531a3fd9fbfd6ca3a55d7dce3d90a431e01efd6",
+  "stage": "test",
+  "status": "test_completed",
+  "test_ids": [
+    "test-00-0",
+    "test-00-1",
+    "test-01-0",
+    "test-01-1",
+    "test-02-0",
+    "test-02-1",
+    "test-03-0",
+    "test-03-1",
+    "test-04-0",
+    "test-04-1",
+    "test-05-0",
+    "test-05-1",
+    "test-06-0",
+    "test-06-1",
+    "test-07-0",
+    "test-07-1",
+    "test-08-0",
+    "test-08-1",
+    "test-09-0",
+    "test-09-1"
+  ],
+  "untouched": {
+    "accuracy": 1.0,
+    "greedy_exact_groups": 10,
+    "greedy_exact_rows": 20,
+    "groups": 10,
+    "mean_margin": 7.258719801902771,
+    "positive_margin_groups": 10,
+    "rows": 20,
+    "strict_wins": 20,
+    "ties": 0
+  }
+}

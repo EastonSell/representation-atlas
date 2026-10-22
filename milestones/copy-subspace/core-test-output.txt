@@ -1,0 +1,106 @@
+NOT RUN: 11 optional tokenizer-dependent evidence methods; supply --model-path to include them
+
+CHECK: root
+test_all_feasible_counts_and_seeds (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_all_feasible_counts_and_seeds) ... ok
+test_cli_freeze_and_no_overwrite (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_cli_freeze_and_no_overwrite) ... ok
+test_complete_exact_ids_and_arithmetic (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_complete_exact_ids_and_arithmetic) ... ok
+test_disjoint_balanced_splits_and_controls (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_disjoint_balanced_splits_and_controls) ... ok
+test_equal_marginals_do_not_imply_pair_ranking_balance (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_equal_marginals_do_not_imply_pair_ranking_balance) ... ok
+test_reject_corruptions (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_reject_corruptions) ... ok
+test_reject_incompatible_counts (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_reject_incompatible_counts) ... ok
+test_seed_determinism_and_effect (test_arithmetic_benchmark.ArithmeticBenchmarkTests.test_seed_determinism_and_effect) ... ok
+test_exception_has_incomplete_artifact_not_completed (test_benchmark_runner.RunnerTests.test_exception_has_incomplete_artifact_not_completed) ... ok
+test_existing_output_not_touched_and_backend_not_called (test_benchmark_runner.RunnerTests.test_existing_output_not_touched_and_backend_not_called) ... ok
+test_failed_gate_never_extracts_or_observes_heldout (test_benchmark_runner.RunnerTests.test_failed_gate_never_extracts_or_observes_heldout) ... ok
+test_frozen_dataset_and_missing_model_fail_closed (test_benchmark_runner.RunnerTests.test_frozen_dataset_and_missing_model_fail_closed) ... ok
+test_gate_requires_group_success_even_when_row_threshold_passes (test_benchmark_runner.RunnerTests.test_gate_requires_group_success_even_when_row_threshold_passes) ... ok
+test_gate_threshold_and_group_failures (test_benchmark_runner.RunnerTests.test_gate_threshold_and_group_failures) ... ok
+test_invalid_backend_evidence_rejected (test_benchmark_runner.RunnerTests.test_invalid_backend_evidence_rejected) ... ok
+test_pass_archives_selection_before_test_and_train_only_fit (test_benchmark_runner.RunnerTests.test_pass_archives_selection_before_test_and_train_only_fit) ... ok
+test_test_values_cannot_change_selection (test_benchmark_runner.RunnerTests.test_test_values_cannot_change_selection) ... ok
+test_tokenizer_preflight_rejects_prefix_and_length_changes (test_benchmark_runner.RunnerTests.test_tokenizer_preflight_rejects_prefix_and_length_changes) ... ok
+test_centroid_translation (test_digits.DigitGeometryTests.test_centroid_translation) ... ok
+test_relu_activation (test_digits.DigitGeometryTests.test_relu_activation) ... ok
+test_artifact_hashes_and_frozen_source_match (test_frozen_gate_results.FrozenGateEvidenceTests.test_artifact_hashes_and_frozen_source_match) ... ok
+test_exact_training_ids_and_finite_candidate_scores (test_frozen_gate_results.FrozenGateEvidenceTests.test_exact_training_ids_and_finite_candidate_scores) ... ok
+test_independently_recomputed_gate_failure (test_frozen_gate_results.FrozenGateEvidenceTests.test_independently_recomputed_gate_failure) ... ok
+test_repeat_raw_gate_evidence_and_status_byte_identical (test_frozen_gate_results.FrozenGateEvidenceTests.test_repeat_raw_gate_evidence_and_status_byte_identical) ... ok
+test_stop_status_and_absence_of_heldout_artifacts (test_frozen_gate_results.FrozenGateEvidenceTests.test_stop_status_and_absence_of_heldout_artifacts) ... ok
+test_centering_train_only (test_geometry.GeometryTests.test_centering_train_only) ... ok
+test_invalid (test_geometry.GeometryTests.test_invalid) ... ok
+test_pairing_mean_invariant (test_geometry.GeometryTests.test_pairing_mean_invariant) ... ok
+test_removed_components (test_geometry.GeometryTests.test_removed_components) ... ok
+test_rotation_cka (test_geometry.GeometryTests.test_rotation_cka) ... ok
+test_translation_distances (test_geometry.GeometryTests.test_translation_distances) ... ok
+test_aggregate_missing_required_model_fails (test_release_safety.ReleaseSafetyTests.test_aggregate_missing_required_model_fails) ... ok
+test_aggregate_plan_reports_optional_model_omission (test_release_safety.ReleaseSafetyTests.test_aggregate_plan_reports_optional_model_omission) ... ok
+test_both_cli_require_explicit_out_and_leave_archives_unchanged (test_release_safety.ReleaseSafetyTests.test_both_cli_require_explicit_out_and_leave_archives_unchanged) ... ok
+test_both_runners_refuse_existing_before_any_experiment (test_release_safety.ReleaseSafetyTests.test_both_runners_refuse_existing_before_any_experiment) ... ok
+test_dangling_symlink_is_refused (test_release_safety.ReleaseSafetyTests.test_dangling_symlink_is_refused) ... ok
+test_exclusive_write_does_not_replace_racing_target (test_release_safety.ReleaseSafetyTests.test_exclusive_write_does_not_replace_racing_target) ... ok
+test_historical_runner_bytes_preserved_under_old_manifest_hashes (test_release_safety.ReleaseSafetyTests.test_historical_runner_bytes_preserved_under_old_manifest_hashes) ... ok
+test_model_interpreter_symlink_is_not_dereferenced (test_release_safety.ReleaseSafetyTests.test_model_interpreter_symlink_is_not_dereferenced) ... ok
+test_requested_model_plan_verifies_hashes_before_tokenizer_suite (test_release_safety.ReleaseSafetyTests.test_requested_model_plan_verifies_hashes_before_tokenizer_suite) ... ok
+test_small_digits_run_writes_only_fresh_target (test_release_safety.ReleaseSafetyTests.test_small_digits_run_writes_only_fresh_target) ... ok
+test_small_synthetic_run_writes_only_fresh_target (test_release_safety.ReleaseSafetyTests.test_small_synthetic_run_writes_only_fresh_target) ... ok
+test_archived_splits_are_deduplicated_and_balanced (test_split_audit.SplitAuditTests.test_archived_splits_are_deduplicated_and_balanced) ... ok
+test_cli_reproduces_archive_and_refuses_overwrite (test_split_audit.SplitAuditTests.test_cli_reproduces_archive_and_refuses_overwrite) ... ok
+test_commutative_overlap_not_hidden_by_distinct_ids (test_split_audit.SplitAuditTests.test_commutative_overlap_not_hidden_by_distinct_ids) ... ok
+test_composition_total_variation (test_split_audit.SplitAuditTests.test_composition_total_variation) ... ok
+test_duplicate_prompt_flagged (test_split_audit.SplitAuditTests.test_duplicate_prompt_flagged) ... ok
+test_projection_split_drift_rejected (test_split_audit.SplitAuditTests.test_projection_split_drift_rejected) ... ok
+test_reject_invalid_partition_and_duplicate_ids (test_split_audit.SplitAuditTests.test_reject_invalid_partition_and_duplicate_ids) ... ok
+test_train_only_baseline_and_half_credit_ties (test_split_audit.SplitAuditTests.test_train_only_baseline_and_half_credit_ties) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 1.379s
+
+OK
+
+CHECK: pretrained_artifacts
+test_disjoint_complete_splits (test_results.ResultIntegrityTests.test_disjoint_complete_splits) ... ok
+test_forward_repeat (test_results.ResultIntegrityTests.test_forward_repeat) ... ok
+test_group_answer_balance (test_results.ResultIntegrityTests.test_group_answer_balance) ... ok
+test_metrics_valid (test_results.ResultIntegrityTests.test_metrics_valid) ... ok
+test_verifiable_balanced_pairs (test_task.TaskTests.test_verifiable_balanced_pairs) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+
+CHECK: preanswer_core
+test_data_balance (test_gate.GateTests.test_data_balance) ... ok
+test_implementation_exists (test_gate.GateTests.test_implementation_exists) ... ok
+test_parser (test_gate.GateTests.test_parser) ... ok
+test_artifact_enforcement (test_repairs.Repairs.test_artifact_enforcement) ... ok
+test_rejects_duplicate_answers (test_repairs.Repairs.test_rejects_duplicate_answers) ... ok
+test_rejects_incomplete_pair (test_repairs.Repairs.test_rejects_incomplete_pair) ... ok
+test_replay (test_repairs.Repairs.test_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK
+{
+  "status": "core_passed_optional_not_run",
+  "optional_model_verification": "NOT RUN: 11 optional tokenizer-dependent evidence methods; supply --model-path to include them",
+  "checks": [
+    {
+      "name": "root",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "pretrained_artifacts",
+      "status": "passed",
+      "returncode": 0
+    },
+    {
+      "name": "preanswer_core",
+      "status": "passed",
+      "returncode": 0
+    }
+  ],
+  "model_generation_performed": false
+}

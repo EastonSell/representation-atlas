@@ -1,0 +1,9 @@
+{
+  "budget_seconds": 900.0,
+  "budget_type": "Cooperative check before each forward; one forward may finish beyond deadline",
+  "created_utc": "2026-10-22T07:46:46.570073+00:00",
+  "maximum_forwards": 1300,
+  "outputs_incremental": true,
+  "stage": "select",
+  "threads": 2
+}

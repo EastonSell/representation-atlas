@@ -1,0 +1,114 @@
+{
+  "scope": "Locally frozen source/data and two-forward training-only no-op verification; no capability or held-out result",
+  "files": [
+    {
+      "path": "milestones/copy-subspace/DATA_FREEZE.json",
+      "bytes": 423,
+      "sha256": "7a5abebb5bd16bf659d82e51690fa4fdb498f713694391840374f4423dcdbd5c"
+    },
+    {
+      "path": "milestones/copy-subspace/PROTOCOL.md",
+      "bytes": 4960,
+      "sha256": "36860aea44af463a57f4f0d39b6bc07724092bc30b390f092b43e9b03ed3badb"
+    },
+    {
+      "path": "milestones/copy-subspace/PUBLIC_ALLOWLIST.txt",
+      "bytes": 1015,
+      "sha256": "af853420a4b2757a826fb3156fd9072506b5f1923df784b35bc4717dd2cdf41a"
+    },
+    {
+      "path": "milestones/copy-subspace/README.md",
+      "bytes": 5817,
+      "sha256": "8edd6ae5293f3e11231583d5c8e492a1ef14bc251680626a725dbd3f5771433e"
+    },
+    {
+      "path": "milestones/copy-subspace/SOURCE_FREEZE.json",
+      "bytes": 1421,
+      "sha256": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a"
+    },
+    {
+      "path": "milestones/copy-subspace/core-test-output.txt",
+      "bytes": 8625,
+      "sha256": "b5786f2a458b1cb781e3441d6251f89d252426b323004388af227c502d762be5"
+    },
+    {
+      "path": "milestones/copy-subspace/dataset.json",
+      "bytes": 41283,
+      "sha256": "b2d463615cea5c0aca6b07040831fb7e1e0d0f1e5dbeb991b4ee0d7bb58ca402"
+    },
+    {
+      "path": "milestones/copy-subspace/dataset.py",
+      "bytes": 5098,
+      "sha256": "19749bf6fe6eb9bdb0617095cfaaedaa37777e6428f2a4b43d57c66ffa314a93"
+    },
+    {
+      "path": "milestones/copy-subspace/discovery-test-output.txt",
+      "bytes": 720,
+      "sha256": "5fc1b725616ade26a3799e60da7f77627ca0beca4421cb6216b4f6db52b3ed61"
+    },
+    {
+      "path": "milestones/copy-subspace/driver.py",
+      "bytes": 14092,
+      "sha256": "652678facbea16c0260d77088ddbcbd93b20e1d58afa8c904f5e7b94b8780d2c"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/arrays/train-00-0.npz",
+      "bytes": 182389,
+      "sha256": "7d4a4330d5c023c702ab0322c743e7f9524d8634c4894d15a7932724e21fbd8d"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/artifact_manifest.json",
+      "bytes": 757,
+      "sha256": "757cd3949b62d5379c80b4bde1696a72df6a4539f68e6aa3741468f4e5589a1e"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/metadata.json",
+      "bytes": 447,
+      "sha256": "42a8157d47944a319f1fffd096c9e95cfb87e846b58e17a720f8238f4f60ab68"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/plan.json",
+      "bytes": 279,
+      "sha256": "3a0cb80d2ca097584fc26106917631176c5cb4163afa084c2ed0ce4abf9a48cc"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/result.json",
+      "bytes": 336,
+      "sha256": "1697d9ce93f3d27d11e6f5a2a125a2a563907ad377bfbc17c16bc9f37e216531"
+    },
+    {
+      "path": "milestones/copy-subspace/hook-verification/rows.jsonl",
+      "bytes": 451,
+      "sha256": "628419568585e62fb31e8d694187c8a9f29e9beef1f61e5d95c870aba9e6ca2b"
+    },
+    {
+      "path": "milestones/copy-subspace/test-output.txt",
+      "bytes": 1980,
+      "sha256": "f76f2a36f206107822fc7874b359bdce5f1f77463b604e3b1a5e0114b93effb0"
+    },
+    {
+      "path": "milestones/copy-subspace/test_driver.py",
+      "bytes": 6611,
+      "sha256": "898d801d39db46d52d6ef1777aad9e0d2a3be0351209aa6e4808bee00f1b97c7"
+    },
+    {
+      "path": "milestones/copy-subspace/tokenizer_audit.json",
+      "bytes": 719,
+      "sha256": "03ffa126d56e1d589da174e60f8842600692b259f64d2129722acad34b5feb6d"
+    },
+    {
+      "path": "milestones/copy-subspace/validation.json",
+      "bytes": 719,
+      "sha256": "365621aa7b0c2332c71aec58f9b9bfd85191a3ec03d86b3bb144393c5404d1d3"
+    },
+    {
+      "path": "milestones/copy-subspace/words.json",
+      "bytes": 1127,
+      "sha256": "3486b048c70f8448aa42e870198012aa059b2895da8eb108bfe6a1497e2a722e"
+    }
+  ],
+  "binary_files": [
+    "milestones/copy-subspace/hook-verification/arrays/train-00-0.npz"
+  ],
+  "self_hash_excluded": true
+}

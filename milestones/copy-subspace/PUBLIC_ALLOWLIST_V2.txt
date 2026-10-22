@@ -1,0 +1,8 @@
+milestones/copy-subspace/AMENDMENT_V2.md
+milestones/copy-subspace/PUBLICATION_MANIFEST_V2.json
+milestones/copy-subspace/PUBLIC_ALLOWLIST_V2.txt
+milestones/copy-subspace/README_V2.md
+milestones/copy-subspace/SOURCE_FREEZE_V2.json
+milestones/copy-subspace/driver_v2.py
+milestones/copy-subspace/test-output-v2.txt
+milestones/copy-subspace/test_driver_v2.py

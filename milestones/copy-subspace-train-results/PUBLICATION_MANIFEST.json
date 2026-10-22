@@ -1,0 +1,299 @@
+{
+  "scope": "Training-only gate and conditional train-only fits; no held-out inference or intervention",
+  "files": [
+    {
+      "path": "milestones/copy-subspace-train-results/GATE_CRITERIA.md",
+      "bytes": 1505,
+      "sha256": "859f05fca712499e0628bf2c5602241600491b3f259a347d6dddf25161a81fe1"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/PUBLIC_ALLOWLIST.txt",
+      "bytes": 3216,
+      "sha256": "78aa14ca4f3066b1342a7b315bb0c9e7f96b84c6ed045c3ffc5aae509ec51e4f"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/README.md",
+      "bytes": 3122,
+      "sha256": "54652e3c4342c3ccdf577ce6d7a9593fa0197a96450fa89cc4f6b0a08d07fe77"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/audit.json",
+      "bytes": 1069,
+      "sha256": "9292ddce6cb5de1b72ed51d4061b9216c8c66f9e7664fa45e1b00d4dcc4f0179"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-00-0.npz",
+      "bytes": 182389,
+      "sha256": "7d4a4330d5c023c702ab0322c743e7f9524d8634c4894d15a7932724e21fbd8d"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-00-1.npz",
+      "bytes": 181529,
+      "sha256": "2687784631ab5ebf47822df46c84f19b24512a37ef877f1eaf0523c3abf57a3d"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-01-0.npz",
+      "bytes": 180133,
+      "sha256": "3a95deb69ed6d075b0de045cfb420a93c7db4f5df8997e1f145a63bcd9bcf162"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-01-1.npz",
+      "bytes": 179050,
+      "sha256": "905645d5d6446e23626cc7c06dcc469b61f967ab5f9e36ba239d38e063ba3e9b"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-02-0.npz",
+      "bytes": 178899,
+      "sha256": "862758bfcbdcbb7f1b6a12fbcab8a1687f26a8bc8b9e3010ff04291115b9fb46"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-02-1.npz",
+      "bytes": 180443,
+      "sha256": "6909405cdcc5c102a0262c2b60d529770a49a5520ed9574fd587604bc57b7e4f"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-03-0.npz",
+      "bytes": 180338,
+      "sha256": "284bd22a9f7c17a1d3e04150379d721a1530f44ad294bf214df75dfbe8266828"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-03-1.npz",
+      "bytes": 180358,
+      "sha256": "909e3afc6ff978834ee659ac1813f893988037d80d3f0bb109a5663b61d454a9"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-04-0.npz",
+      "bytes": 179338,
+      "sha256": "22d5c8706751267105e9963070ec240f6270bba450f96c4e182bdaf01665a087"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-04-1.npz",
+      "bytes": 179792,
+      "sha256": "80f40ba71c3172e9a06ce26f2f1cc88a25d50319bf02eb38d51978455d525e7c"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-05-0.npz",
+      "bytes": 178895,
+      "sha256": "baec3d0b609b20f840404629377522aadabf7ec6532228ebf5d4f2e59901d0c7"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-05-1.npz",
+      "bytes": 181413,
+      "sha256": "8e54ce15f5641640b6ef231ac0d338fdee4f47b29196d68dd7733ceecc7a788c"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-06-0.npz",
+      "bytes": 180562,
+      "sha256": "3f5ed31ed89f9073f86e1ebe6d085fb5e43b561cffdc151aa236f4dd23d0cfed"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-06-1.npz",
+      "bytes": 180839,
+      "sha256": "3ec1857acb0f1b25caf9a0beb527d5f7551207dad66e9de32a7c64e9a247afb2"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-07-0.npz",
+      "bytes": 182334,
+      "sha256": "6965b07a7b22980b814fc2592764436d427ef5b2e06651efeb71da0c554e90ef"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-07-1.npz",
+      "bytes": 180083,
+      "sha256": "3206e11e339458c85e46ea34c7cac9c6aaef93f818e6e1513b82dbfaf5998675"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-08-0.npz",
+      "bytes": 178507,
+      "sha256": "5affa8d549e85d2fd45568ea7f4ab23eaa079368106e6b7c5a0d24881c8b0f34"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-08-1.npz",
+      "bytes": 178260,
+      "sha256": "ac03a87c5086a5f50440476f761d11b43fa76034a7226c93524a5eb33b176a96"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-09-0.npz",
+      "bytes": 179268,
+      "sha256": "57e5a94c97855d9fb6946bf3811cae771662ac25659e0469b9526a4786ace87f"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-09-1.npz",
+      "bytes": 178084,
+      "sha256": "3dd177abfc35ba107972642ab6a598ee258d7c63f581922886e23d27d8793339"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-10-0.npz",
+      "bytes": 177899,
+      "sha256": "0a5aedf44e46dbf4adeffd96c955922e59dbe8e3d360b6f7b1af0851c155bd36"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-10-1.npz",
+      "bytes": 180463,
+      "sha256": "af34a71ed60c64ccd9bef76a94f506ae89322c4a06ec6fa2d8df33b6a13a3cab"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-11-0.npz",
+      "bytes": 180597,
+      "sha256": "7f8840e1218ea7f2ed4fd3753d44bad8f701d854980591a5f99cb7b4505caa4a"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-11-1.npz",
+      "bytes": 177630,
+      "sha256": "4c96ba27e0bd7d628f76f39f031e809d1a224da5cbc9a6bbeeff59edc1b9b465"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-12-0.npz",
+      "bytes": 180587,
+      "sha256": "3c45d400354191d477e7d0765e35a7d6c8670ea000404dcf022b2dcc70f677d7"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-12-1.npz",
+      "bytes": 179741,
+      "sha256": "ca1117cb698f25524b3ea45e49f2324381e9a994464f1d2570d03714cb0aad73"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-13-0.npz",
+      "bytes": 181113,
+      "sha256": "d54220757bc0072501ccd19b69825a4fff8de066472ffc076bad6472be2f70af"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-13-1.npz",
+      "bytes": 181424,
+      "sha256": "3eef01d1a4e38cfb60fb135f3154c6e7a0b218ed00a9c7b21b61535065e32e98"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-14-0.npz",
+      "bytes": 178922,
+      "sha256": "269dcfc84263e8d2368be4264df7bc2a0a57df48fbfc1481bc79e276b8190a6a"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-14-1.npz",
+      "bytes": 180302,
+      "sha256": "f73b9efe964a0b69390b7aa7d5bd0eb86672b511714fe6a618df6a377bc0cf26"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-15-0.npz",
+      "bytes": 178414,
+      "sha256": "9043b5e1d7a69ae01ed62a0eec0c7732bfc70f48fd58f747b63236927f8bb78c"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-15-1.npz",
+      "bytes": 181060,
+      "sha256": "0359eed31a6e7ae1374eccecf7959626899e57a17ff7fba3e1b33608fa130547"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-16-0.npz",
+      "bytes": 180729,
+      "sha256": "4bcd71e2c1b07dcfbf165ce8a638cbd57a2cb8c19439c41db610281e45b8ba89"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-16-1.npz",
+      "bytes": 180687,
+      "sha256": "c476548fd4395c96df637a3556c9f141936bf500dca5cd56878b026344374f6b"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-17-0.npz",
+      "bytes": 179833,
+      "sha256": "93f6d633a8d95bb7c0022ba779ed0c1ad3dd87237d5e26bf4d192e248ffa7b24"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-17-1.npz",
+      "bytes": 180461,
+      "sha256": "97c8fd43e20cad2579d1572a6d89b19d4d6e8558c7aa4b78e0a6981c4c809e6f"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-18-0.npz",
+      "bytes": 180292,
+      "sha256": "ebb2219a5b62f3f34cb95196b1c800e8d3f3801860c6b69fe9ba3ee536496d5c"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-18-1.npz",
+      "bytes": 180176,
+      "sha256": "9306d6c5f8ad308c776a88679808851425c746820e3dc2e39a971dad0bc35cd1"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-19-0.npz",
+      "bytes": 181200,
+      "sha256": "32c24f7f9b038f5b389700b282e34772fba13c4e910c25a700193df195459bfe"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/arrays/train-19-1.npz",
+      "bytes": 178196,
+      "sha256": "894919e7dc52ab61c6cb184aa244150c3b3a4a967d01d99ece348185c88c80f6"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/artifact_manifest.json",
+      "bytes": 7066,
+      "sha256": "d5d09ed7245bbbf82c8baeaee8e91a17407044c745862c41438b5cb466adf640"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/fit.npz",
+      "bytes": 331590,
+      "sha256": "ac779aaba51b19ce093231690ab3e993470055068ba4abeb1aced454bfed1cd7"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/metadata.json",
+      "bytes": 441,
+      "sha256": "004c62bf3fd30aa1070d22bf241871d9bfbea2bd4c1a8c68774e4b75ec16b3fe"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/plan.json",
+      "bytes": 274,
+      "sha256": "1e1ed024678b6e883f41ac9d74c4565c8a9399df7dd47530fdb96cc2c38178f8"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/result.json",
+      "bytes": 1108,
+      "sha256": "3460266c6615fed67f6370a0c062ba38cc1a603c2d3567bfb9624cb8b2e5e401"
+    },
+    {
+      "path": "milestones/copy-subspace-train-results/run/rows.jsonl",
+      "bytes": 17998,
+      "sha256": "d8f455e60944ab33e190be8ee2d95cdf4d4cd55b0b90deb167df9cb727c01551"
+    }
+  ],
+  "binary_files": [
+    "milestones/copy-subspace-train-results/run/arrays/train-00-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-00-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-01-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-01-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-02-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-02-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-03-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-03-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-04-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-04-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-05-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-05-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-06-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-06-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-07-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-07-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-08-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-08-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-09-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-09-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-10-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-10-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-11-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-11-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-12-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-12-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-13-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-13-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-14-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-14-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-15-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-15-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-16-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-16-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-17-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-17-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-18-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-18-1.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-19-0.npz",
+    "milestones/copy-subspace-train-results/run/arrays/train-19-1.npz",
+    "milestones/copy-subspace-train-results/run/fit.npz"
+  ],
+  "self_hash_excluded": true
+}

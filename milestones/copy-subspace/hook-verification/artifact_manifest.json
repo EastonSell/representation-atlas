@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "bytes": 182389,
+      "path": "arrays/train-00-0.npz",
+      "sha256": "7d4a4330d5c023c702ab0322c743e7f9524d8634c4894d15a7932724e21fbd8d"
+    },
+    {
+      "bytes": 447,
+      "path": "metadata.json",
+      "sha256": "42a8157d47944a319f1fffd096c9e95cfb87e846b58e17a720f8238f4f60ab68"
+    },
+    {
+      "bytes": 279,
+      "path": "plan.json",
+      "sha256": "3a0cb80d2ca097584fc26106917631176c5cb4163afa084c2ed0ce4abf9a48cc"
+    },
+    {
+      "bytes": 336,
+      "path": "result.json",
+      "sha256": "1697d9ce93f3d27d11e6f5a2a125a2a563907ad377bfbc17c16bc9f37e216531"
+    },
+    {
+      "bytes": 451,
+      "path": "rows.jsonl",
+      "sha256": "628419568585e62fb31e8d694187c8a9f29e9beef1f61e5d95c870aba9e6ca2b"
+    }
+  ]
+}

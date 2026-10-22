@@ -1,0 +1,650 @@
+[
+  {
+    "correct_log_probability": -0.5402235984802246,
+    "greedy_exact": true,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "copy-00-0",
+    "incorrect_log_probability": -8.650049209594727,
+    "margin": 8.109825134277344
+  },
+  {
+    "correct_log_probability": -1.2010973691940308,
+    "greedy_exact": true,
+    "greedy_text": " bread",
+    "greedy_token_id": 6956,
+    "id": "copy-00-1",
+    "incorrect_log_probability": -5.117462158203125,
+    "margin": 3.9163646697998047
+  },
+  {
+    "correct_log_probability": -1.2010973691940308,
+    "greedy_exact": true,
+    "greedy_text": " bread",
+    "greedy_token_id": 6956,
+    "id": "copy-01-0",
+    "incorrect_log_probability": -10.189366340637207,
+    "margin": 8.988268852233887
+  },
+  {
+    "correct_log_probability": -1.1937729120254517,
+    "greedy_exact": true,
+    "greedy_text": " chair",
+    "greedy_token_id": 9192,
+    "id": "copy-01-1",
+    "incorrect_log_probability": -9.248896598815918,
+    "margin": 8.055123329162598
+  },
+  {
+    "correct_log_probability": -1.1937729120254517,
+    "greedy_exact": true,
+    "greedy_text": " chair",
+    "greedy_token_id": 9192,
+    "id": "copy-02-0",
+    "incorrect_log_probability": -10.944169998168945,
+    "margin": 9.750396728515625
+  },
+  {
+    "correct_log_probability": -1.3387876749038696,
+    "greedy_exact": true,
+    "greedy_text": " cloud",
+    "greedy_token_id": 6249,
+    "id": "copy-02-1",
+    "incorrect_log_probability": -10.150847434997559,
+    "margin": 8.81205940246582
+  },
+  {
+    "correct_log_probability": -1.3387876749038696,
+    "greedy_exact": true,
+    "greedy_text": " cloud",
+    "greedy_token_id": 6249,
+    "id": "copy-03-0",
+    "incorrect_log_probability": -9.791645050048828,
+    "margin": 8.45285701751709
+  },
+  {
+    "correct_log_probability": -0.5519551038742065,
+    "greedy_exact": true,
+    "greedy_text": " dance",
+    "greedy_token_id": 7180,
+    "id": "copy-03-1",
+    "incorrect_log_probability": -11.984190940856934,
+    "margin": 11.432235717773438
+  },
+  {
+    "correct_log_probability": -0.5519551038742065,
+    "greedy_exact": true,
+    "greedy_text": " dance",
+    "greedy_token_id": 7180,
+    "id": "copy-04-0",
+    "incorrect_log_probability": -11.248141288757324,
+    "margin": 10.696186065673828
+  },
+  {
+    "correct_log_probability": -2.7757997512817383,
+    "greedy_exact": true,
+    "greedy_text": " field",
+    "greedy_token_id": 1955,
+    "id": "copy-04-1",
+    "incorrect_log_probability": -10.042152404785156,
+    "margin": 7.266352653503418
+  },
+  {
+    "correct_log_probability": -2.7757997512817383,
+    "greedy_exact": true,
+    "greedy_text": " field",
+    "greedy_token_id": 1955,
+    "id": "copy-05-0",
+    "incorrect_log_probability": -9.244241714477539,
+    "margin": 6.468441963195801
+  },
+  {
+    "correct_log_probability": -0.7711845636367798,
+    "greedy_exact": true,
+    "greedy_text": " glass",
+    "greedy_token_id": 4433,
+    "id": "copy-05-1",
+    "incorrect_log_probability": -11.098000526428223,
+    "margin": 10.326815605163574
+  },
+  {
+    "correct_log_probability": -0.7711845636367798,
+    "greedy_exact": true,
+    "greedy_text": " glass",
+    "greedy_token_id": 4433,
+    "id": "copy-06-0",
+    "incorrect_log_probability": -11.420825958251953,
+    "margin": 10.649641036987305
+  },
+  {
+    "correct_log_probability": -0.9100199937820435,
+    "greedy_exact": true,
+    "greedy_text": " horse",
+    "greedy_token_id": 6391,
+    "id": "copy-06-1",
+    "incorrect_log_probability": -9.93567180633545,
+    "margin": 9.025651931762695
+  },
+  {
+    "correct_log_probability": -0.9100199937820435,
+    "greedy_exact": true,
+    "greedy_text": " horse",
+    "greedy_token_id": 6391,
+    "id": "copy-07-0",
+    "incorrect_log_probability": -9.584239959716797,
+    "margin": 8.674220085144043
+  },
+  {
+    "correct_log_probability": -1.921858787536621,
+    "greedy_exact": true,
+    "greedy_text": " river",
+    "greedy_token_id": 4626,
+    "id": "copy-07-1",
+    "incorrect_log_probability": -8.34321117401123,
+    "margin": 6.421352386474609
+  },
+  {
+    "correct_log_probability": -1.921858787536621,
+    "greedy_exact": true,
+    "greedy_text": " river",
+    "greedy_token_id": 4626,
+    "id": "copy-08-0",
+    "incorrect_log_probability": -9.347477912902832,
+    "margin": 7.425619125366211
+  },
+  {
+    "correct_log_probability": -1.2008711099624634,
+    "greedy_exact": true,
+    "greedy_text": " stone",
+    "greedy_token_id": 5692,
+    "id": "copy-08-1",
+    "incorrect_log_probability": -9.394532203674316,
+    "margin": 8.193660736083984
+  },
+  {
+    "correct_log_probability": -1.2008711099624634,
+    "greedy_exact": true,
+    "greedy_text": " stone",
+    "greedy_token_id": 5692,
+    "id": "copy-09-0",
+    "incorrect_log_probability": -8.795096397399902,
+    "margin": 7.5942254066467285
+  },
+  {
+    "correct_log_probability": -1.3458280563354492,
+    "greedy_exact": true,
+    "greedy_text": " train",
+    "greedy_token_id": 4445,
+    "id": "copy-09-1",
+    "incorrect_log_probability": -9.667957305908203,
+    "margin": 8.322129249572754
+  },
+  {
+    "correct_log_probability": -1.3458280563354492,
+    "greedy_exact": true,
+    "greedy_text": " train",
+    "greedy_token_id": 4445,
+    "id": "copy-10-0",
+    "incorrect_log_probability": -7.142190933227539,
+    "margin": 5.79636287689209
+  },
+  {
+    "correct_log_probability": -1.1228755712509155,
+    "greedy_exact": true,
+    "greedy_text": " water",
+    "greedy_token_id": 913,
+    "id": "copy-10-1",
+    "incorrect_log_probability": -9.599014282226562,
+    "margin": 8.476139068603516
+  },
+  {
+    "correct_log_probability": -1.1228755712509155,
+    "greedy_exact": true,
+    "greedy_text": " water",
+    "greedy_token_id": 913,
+    "id": "copy-11-0",
+    "incorrect_log_probability": -8.072275161743164,
+    "margin": 6.949399471282959
+  },
+  {
+    "correct_log_probability": -0.5402235984802246,
+    "greedy_exact": true,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "copy-11-1",
+    "incorrect_log_probability": -8.47329330444336,
+    "margin": 7.933069705963135
+  },
+  {
+    "correct_log_probability": -1.6472467184066772,
+    "greedy_exact": true,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "retrieval-00-0",
+    "incorrect_log_probability": -5.2066969871521,
+    "margin": 3.559450149536133
+  },
+  {
+    "correct_log_probability": -3.9183034896850586,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-00-1",
+    "incorrect_log_probability": -3.214630126953125,
+    "margin": -0.7036733627319336
+  },
+  {
+    "correct_log_probability": -3.0139260292053223,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-01-0",
+    "incorrect_log_probability": -4.3810715675354,
+    "margin": 1.3671455383300781
+  },
+  {
+    "correct_log_probability": -3.4013049602508545,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-01-1",
+    "incorrect_log_probability": -3.3249213695526123,
+    "margin": -0.07638359069824219
+  },
+  {
+    "correct_log_probability": -3.8056843280792236,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-02-0",
+    "incorrect_log_probability": -6.436095237731934,
+    "margin": 2.63041090965271
+  },
+  {
+    "correct_log_probability": -4.535612106323242,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-02-1",
+    "incorrect_log_probability": -4.000875473022461,
+    "margin": -0.5347366333007812
+  },
+  {
+    "correct_log_probability": -3.75416898727417,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-03-0",
+    "incorrect_log_probability": -6.602376461029053,
+    "margin": 2.848207473754883
+  },
+  {
+    "correct_log_probability": -5.991506576538086,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-03-1",
+    "incorrect_log_probability": -4.680167198181152,
+    "margin": -1.3113393783569336
+  },
+  {
+    "correct_log_probability": -3.528836727142334,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-04-0",
+    "incorrect_log_probability": -6.726731777191162,
+    "margin": 3.197895050048828
+  },
+  {
+    "correct_log_probability": -3.9457943439483643,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-04-1",
+    "incorrect_log_probability": -6.017289161682129,
+    "margin": 2.0714948177337646
+  },
+  {
+    "correct_log_probability": -4.260366916656494,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-05-0",
+    "incorrect_log_probability": -3.7893261909484863,
+    "margin": -0.4710407257080078
+  },
+  {
+    "correct_log_probability": -2.926082134246826,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-05-1",
+    "incorrect_log_probability": -6.400214672088623,
+    "margin": 3.474132537841797
+  },
+  {
+    "correct_log_probability": -2.2231383323669434,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-06-0",
+    "incorrect_log_probability": -5.670785427093506,
+    "margin": 3.4476470947265625
+  },
+  {
+    "correct_log_probability": -2.4325318336486816,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-06-1",
+    "incorrect_log_probability": -4.999746799468994,
+    "margin": 2.5672149658203125
+  },
+  {
+    "correct_log_probability": -2.986327648162842,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-07-0",
+    "incorrect_log_probability": -4.445300579071045,
+    "margin": 1.4589729309082031
+  },
+  {
+    "correct_log_probability": -4.376834869384766,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-07-1",
+    "incorrect_log_probability": -2.674879789352417,
+    "margin": -1.7019550800323486
+  },
+  {
+    "correct_log_probability": -4.089921951293945,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-08-0",
+    "incorrect_log_probability": -6.3707170486450195,
+    "margin": 2.280795097351074
+  },
+  {
+    "correct_log_probability": -4.290172576904297,
+    "greedy_exact": false,
+    "greedy_text": " The",
+    "greedy_token_id": 378,
+    "id": "retrieval-08-1",
+    "incorrect_log_probability": -7.102748870849609,
+    "margin": 2.8125762939453125
+  },
+  {
+    "correct_log_probability": -5.711885452270508,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-09-0",
+    "incorrect_log_probability": -7.204019546508789,
+    "margin": 1.4921340942382812
+  },
+  {
+    "correct_log_probability": -7.198067665100098,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-09-1",
+    "incorrect_log_probability": -5.238498687744141,
+    "margin": -1.959568977355957
+  },
+  {
+    "correct_log_probability": -6.0794854164123535,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-10-0",
+    "incorrect_log_probability": -3.3748393058776855,
+    "margin": -2.704646110534668
+  },
+  {
+    "correct_log_probability": -3.049421548843384,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-10-1",
+    "incorrect_log_probability": -7.787376403808594,
+    "margin": 4.737955093383789
+  },
+  {
+    "correct_log_probability": -2.944575309753418,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-11-0",
+    "incorrect_log_probability": -3.270822525024414,
+    "margin": 0.3262472152709961
+  },
+  {
+    "correct_log_probability": -3.1642329692840576,
+    "greedy_exact": false,
+    "greedy_text": "<|im_end|>",
+    "greedy_token_id": 2,
+    "id": "retrieval-11-1",
+    "incorrect_log_probability": -3.290984869003296,
+    "margin": 0.12675189971923828
+  },
+  {
+    "correct_log_probability": -1.5414929389953613,
+    "greedy_exact": true,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "continuation-00-0",
+    "incorrect_log_probability": -5.253319263458252,
+    "margin": 3.7118263244628906
+  },
+  {
+    "correct_log_probability": -4.868597030639648,
+    "greedy_exact": false,
+    "greedy_text": " banana",
+    "greedy_token_id": 21285,
+    "id": "continuation-00-1",
+    "incorrect_log_probability": -3.349313735961914,
+    "margin": -1.5192832946777344
+  },
+  {
+    "correct_log_probability": -3.8650004863739014,
+    "greedy_exact": true,
+    "greedy_text": " bread",
+    "greedy_token_id": 6956,
+    "id": "continuation-01-0",
+    "incorrect_log_probability": -4.123501777648926,
+    "margin": 0.2585012912750244
+  },
+  {
+    "correct_log_probability": -2.664968252182007,
+    "greedy_exact": true,
+    "greedy_text": " chair",
+    "greedy_token_id": 9192,
+    "id": "continuation-01-1",
+    "incorrect_log_probability": -7.52215576171875,
+    "margin": 4.857187271118164
+  },
+  {
+    "correct_log_probability": -2.2861061096191406,
+    "greedy_exact": true,
+    "greedy_text": " chair",
+    "greedy_token_id": 9192,
+    "id": "continuation-02-0",
+    "incorrect_log_probability": -3.7343177795410156,
+    "margin": 1.448211669921875
+  },
+  {
+    "correct_log_probability": -6.897765159606934,
+    "greedy_exact": false,
+    "greedy_text": " chair",
+    "greedy_token_id": 9192,
+    "id": "continuation-02-1",
+    "incorrect_log_probability": -3.005366563796997,
+    "margin": -3.8923985958099365
+  },
+  {
+    "correct_log_probability": -3.3177566528320312,
+    "greedy_exact": true,
+    "greedy_text": " cloud",
+    "greedy_token_id": 6249,
+    "id": "continuation-03-0",
+    "incorrect_log_probability": -5.606794357299805,
+    "margin": 2.2890377044677734
+  },
+  {
+    "correct_log_probability": -2.955562114715576,
+    "greedy_exact": true,
+    "greedy_text": " dance",
+    "greedy_token_id": 7180,
+    "id": "continuation-03-1",
+    "incorrect_log_probability": -6.890091419219971,
+    "margin": 3.9345293045043945
+  },
+  {
+    "correct_log_probability": -5.111239433288574,
+    "greedy_exact": false,
+    "greedy_text": " beach",
+    "greedy_token_id": 10724,
+    "id": "continuation-04-0",
+    "incorrect_log_probability": -4.803769111633301,
+    "margin": -0.30747032165527344
+  },
+  {
+    "correct_log_probability": -5.788208961486816,
+    "greedy_exact": false,
+    "greedy_text": " dance",
+    "greedy_token_id": 7180,
+    "id": "continuation-04-1",
+    "incorrect_log_probability": -3.669560432434082,
+    "margin": -2.1186485290527344
+  },
+  {
+    "correct_log_probability": -4.177447319030762,
+    "greedy_exact": true,
+    "greedy_text": " field",
+    "greedy_token_id": 1955,
+    "id": "continuation-05-0",
+    "incorrect_log_probability": -6.029322624206543,
+    "margin": 1.8518753051757812
+  },
+  {
+    "correct_log_probability": -3.219141721725464,
+    "greedy_exact": true,
+    "greedy_text": " glass",
+    "greedy_token_id": 4433,
+    "id": "continuation-05-1",
+    "incorrect_log_probability": -6.754759788513184,
+    "margin": 3.5356180667877197
+  },
+  {
+    "correct_log_probability": -5.222413063049316,
+    "greedy_exact": false,
+    "greedy_text": " car",
+    "greedy_token_id": 1076,
+    "id": "continuation-06-0",
+    "incorrect_log_probability": -4.662585258483887,
+    "margin": -0.5598278045654297
+  },
+  {
+    "correct_log_probability": -5.619137763977051,
+    "greedy_exact": false,
+    "greedy_text": " car",
+    "greedy_token_id": 1076,
+    "id": "continuation-06-1",
+    "incorrect_log_probability": -5.131051063537598,
+    "margin": -0.4880867004394531
+  },
+  {
+    "correct_log_probability": -3.726005792617798,
+    "greedy_exact": true,
+    "greedy_text": " horse",
+    "greedy_token_id": 6391,
+    "id": "continuation-07-0",
+    "incorrect_log_probability": -5.234813690185547,
+    "margin": 1.508807897567749
+  },
+  {
+    "correct_log_probability": -3.3414478302001953,
+    "greedy_exact": true,
+    "greedy_text": " river",
+    "greedy_token_id": 4626,
+    "id": "continuation-07-1",
+    "incorrect_log_probability": -4.577852249145508,
+    "margin": 1.2364044189453125
+  },
+  {
+    "correct_log_probability": -3.5745961666107178,
+    "greedy_exact": false,
+    "greedy_text": " rock",
+    "greedy_token_id": 4022,
+    "id": "continuation-08-0",
+    "incorrect_log_probability": -3.8969647884368896,
+    "margin": 0.3223686218261719
+  },
+  {
+    "correct_log_probability": -3.5294556617736816,
+    "greedy_exact": true,
+    "greedy_text": " stone",
+    "greedy_token_id": 5692,
+    "id": "continuation-08-1",
+    "incorrect_log_probability": -4.412672519683838,
+    "margin": 0.8832168579101562
+  },
+  {
+    "correct_log_probability": -2.48641037940979,
+    "greedy_exact": true,
+    "greedy_text": " stone",
+    "greedy_token_id": 5692,
+    "id": "continuation-09-0",
+    "incorrect_log_probability": -5.939423561096191,
+    "margin": 3.4530131816864014
+  },
+  {
+    "correct_log_probability": -3.2176077365875244,
+    "greedy_exact": true,
+    "greedy_text": " train",
+    "greedy_token_id": 4445,
+    "id": "continuation-09-1",
+    "incorrect_log_probability": -6.375865936279297,
+    "margin": 3.1582581996917725
+  },
+  {
+    "correct_log_probability": -5.378032684326172,
+    "greedy_exact": false,
+    "greedy_text": " air",
+    "greedy_token_id": 1512,
+    "id": "continuation-10-0",
+    "incorrect_log_probability": -4.1582794189453125,
+    "margin": -1.2197532653808594
+  },
+  {
+    "correct_log_probability": -5.017914772033691,
+    "greedy_exact": false,
+    "greedy_text": " car",
+    "greedy_token_id": 1076,
+    "id": "continuation-10-1",
+    "incorrect_log_probability": -4.614899635314941,
+    "margin": -0.40301513671875
+  },
+  {
+    "correct_log_probability": -4.393452167510986,
+    "greedy_exact": false,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "continuation-11-0",
+    "incorrect_log_probability": -3.522840976715088,
+    "margin": -0.8706111907958984
+  },
+  {
+    "correct_log_probability": -2.0738348960876465,
+    "greedy_exact": true,
+    "greedy_text": " apple",
+    "greedy_token_id": 11977,
+    "id": "continuation-11-1",
+    "incorrect_log_probability": -4.388783931732178,
+    "margin": 2.3149490356445312
+  }
+]

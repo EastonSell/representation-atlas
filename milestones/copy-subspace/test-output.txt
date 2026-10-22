@@ -1,0 +1,21 @@
+test_exact_disjoint_frozen_inputs (test_driver.DatasetTests.test_exact_disjoint_frozen_inputs) ... ok
+test_overlap_and_ids_rejected (test_driver.DatasetTests.test_overlap_and_ids_rejected) ... ok
+test_degenerate_random_control_fails (test_driver.DriverTests.test_degenerate_random_control_fails) ... ok
+test_forward_counts_are_bounded (test_driver.DriverTests.test_forward_counts_are_bounded) ... ok
+test_fresh_output_refuses_existing (test_driver.DriverTests.test_fresh_output_refuses_existing) ... ok
+test_mean_preserving_projection_and_energy_control (test_driver.DriverTests.test_mean_preserving_projection_and_energy_control) ... ok
+test_random_bases_deterministic_and_orthonormal (test_driver.DriverTests.test_random_bases_deterministic_and_orthonormal) ... ok
+test_scores_use_full_vocabulary_argmax_and_strict_margin (test_driver.DriverTests.test_scores_use_full_vocabulary_argmax_and_strict_margin) ... ok
+test_selected_test_requires_matching_digest (test_driver.DriverTests.test_selected_test_requires_matching_digest) ... ok
+test_selection_largest_preserving_k (test_driver.DriverTests.test_selection_largest_preserving_k) ... ok
+test_train_gate_requires_all_criteria_and_ties_fail (test_driver.DriverTests.test_train_gate_requires_all_criteria_and_ties_fail) ... ok
+test_bad_noop_is_rejected (test_driver.StageTests.test_bad_noop_is_rejected) ... ok
+test_interruption_preserves_rows (test_driver.StageTests.test_interruption_preserves_rows) ... ok
+test_train_stage_uses_only_exact_train_rows_and_saves_binary (test_driver.StageTests.test_train_stage_uses_only_exact_train_rows_and_saves_binary) ... ok
+test_validation_stage_all_candidates_with_fixed_controls (test_driver.StageTests.test_validation_stage_all_candidates_with_fixed_controls) ... ok
+test_zero_selected_test_has_no_perturbations (test_driver.StageTests.test_zero_selected_test_has_no_perturbations) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.198s
+
+OK

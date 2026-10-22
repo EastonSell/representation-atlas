@@ -1,0 +1,13 @@
+{
+  "forwards_completed": 2,
+  "heldout_test_evaluated": false,
+  "rows": 1,
+  "site": {
+    "decoder_block": 14,
+    "hidden_states_index": 15,
+    "position": "last_prompt_token"
+  },
+  "source_freeze_sha256": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a",
+  "stage": "verify-hook",
+  "status": "hook_verified"
+}

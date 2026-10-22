@@ -1,0 +1,10 @@
+{
+  "local_freeze_utc": "2026-10-22T07:26:34.841662+00:00",
+  "published_before_freeze": false,
+  "model_inference_performed": false,
+  "sha256": {
+    "words.json": "3486b048c70f8448aa42e870198012aa059b2895da8eb108bfe6a1497e2a722e",
+    "dataset.json": "b2d463615cea5c0aca6b07040831fb7e1e0d0f1e5dbeb991b4ee0d7bb58ca402",
+    "tokenizer_audit.json": "03ffa126d56e1d589da174e60f8842600692b259f64d2129722acad34b5feb6d"
+  }
+}

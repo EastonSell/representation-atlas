@@ -1,0 +1,25 @@
+{
+  "local_tests_passed": 16,
+  "prior_discovery_tests_passed": 6,
+  "aggregate_core_tests_passed": 62,
+  "aggregate_optional_tokenizer_tests": "not rerun; explicitly not run by core checks",
+  "real_model_forwards": 2,
+  "real_model_rows": 1,
+  "real_model_split": "train",
+  "noop_max_absolute_logit_error": 0.0,
+  "noop_max_absolute_state_error": 0.0,
+  "baseline_npz_argmax_and_margin_recomputed": true,
+  "full_logits_shape": [
+    49152
+  ],
+  "state_shape": [
+    576
+  ],
+  "source_freeze_verified": true,
+  "hook_artifact_manifest_verified": true,
+  "train_gate_run": false,
+  "pca_fit_run": false,
+  "validation_model_inference": false,
+  "test_model_inference": false,
+  "nonzero_interventions_run": false
+}

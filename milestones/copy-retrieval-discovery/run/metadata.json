@@ -1,0 +1,15 @@
+{
+  "attention": "eager",
+  "chat_template": false,
+  "input_sha256": "358809a833305cc00cb2365ea9b47d3b38fde1cd3eec0435d7f7f88ab1e712ac",
+  "max_new_tokens": 1,
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "model_manifest_sha256": "34f007987ac97042a0f1f8278050af521edb868cec1ac083fe4c77ea93bf3ce2",
+  "precision": "float32",
+  "probe_sha256": "c3f6914f988986a28db622650c50016d450c95bbda6d7170f22d6d228c1a4a90",
+  "python": "3.12.14",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "threads": 2,
+  "torch": "2.5.1+cpu",
+  "transformers": "4.46.3"
+}

@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "bytes": 19218,
+      "path": "inputs.json",
+      "sha256": "263b3f55ee7037472d3a891971a063ff1c00d1fa56932e1626adcfff8b3a2ef1"
+    },
+    {
+      "bytes": 571,
+      "path": "metadata.json",
+      "sha256": "26b133688b69b24b6b8c559b3ce64fe974dbeb2fc4c3520d6171e92f3b505aa3"
+    },
+    {
+      "bytes": 18551,
+      "path": "records.json",
+      "sha256": "81e22ef7b8ea5dab0f8757a9ebd6ee5219a67205e02fc7635224ad984b61f35d"
+    },
+    {
+      "bytes": 952,
+      "path": "summary.json",
+      "sha256": "66e2c1ecb1068a4407fc3a7b0d5cada89a28122fed1d492a30e8b3e8a59126bd"
+    },
+    {
+      "bytes": 28573,
+      "path": "tokenization.json",
+      "sha256": "6c9c775797ba6a8f33e0f5d9596fe19b93a14d70ff7b181b0d2a94a5021448f3"
+    }
+  ]
+}

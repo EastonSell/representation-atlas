@@ -1,0 +1,13 @@
+{
+  "data_freeze_sha256": "7a5abebb5bd16bf659d82e51690fa4fdb498f713694391840374f4423dcdbd5c",
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "runtime": {
+    "numpy": "2.3.5",
+    "torch": "2.5.1+cpu",
+    "transformers": "4.46.3"
+  },
+  "source_freeze_sha256": "594a700c0fc1eb19b7e269a60531a3fd9fbfd6ca3a55d7dce3d90a431e01efd6",
+  "stage": "test",
+  "upstream_digest": "a32edd039c25bf3d01086730e20e3f92fb68cfc4e8ed37d673806bb802624c49"
+}

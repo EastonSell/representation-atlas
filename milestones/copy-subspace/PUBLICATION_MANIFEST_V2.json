@@ -1,0 +1,42 @@
+{
+  "scope": "Prospective later-stage source fixes; no real validation/test results",
+  "parent_source_freeze_sha256": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a",
+  "files": [
+    {
+      "path": "milestones/copy-subspace/AMENDMENT_V2.md",
+      "bytes": 3105,
+      "sha256": "05afbe8813941a19820200553457ac4bebb3174013750bd83ecfd57c9f07514e"
+    },
+    {
+      "path": "milestones/copy-subspace/PUBLIC_ALLOWLIST_V2.txt",
+      "bytes": 354,
+      "sha256": "0fbb05044c98f610d6facf4f624e7f663b48b4d10e5398c0137b265cdb88b3f5"
+    },
+    {
+      "path": "milestones/copy-subspace/README_V2.md",
+      "bytes": 1320,
+      "sha256": "703655e7948b7e64d6f84b1d3e02dbd9a526525b56bcabae51c115d04b7516a2"
+    },
+    {
+      "path": "milestones/copy-subspace/SOURCE_FREEZE_V2.json",
+      "bytes": 2103,
+      "sha256": "594a700c0fc1eb19b7e269a60531a3fd9fbfd6ca3a55d7dce3d90a431e01efd6"
+    },
+    {
+      "path": "milestones/copy-subspace/driver_v2.py",
+      "bytes": 16515,
+      "sha256": "a4cbb35482c44a16554886988cbdc68b82f72538ec3006c830aacc5246581d29"
+    },
+    {
+      "path": "milestones/copy-subspace/test-output-v2.txt",
+      "bytes": 2822,
+      "sha256": "c45b502901982c3cef5db6f9a1cd989b93c2ef98d288bcdddf755047bede02ad"
+    },
+    {
+      "path": "milestones/copy-subspace/test_driver_v2.py",
+      "bytes": 3571,
+      "sha256": "599cbf08945756a6258da4e9606c572d4c047799eec82069eede5c607ee08e6e"
+    }
+  ],
+  "self_hash_excluded": true
+}

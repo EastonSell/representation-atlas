@@ -1,0 +1,11 @@
+test_inputs_are_balanced_and_counterfactual (test_probe.ProbeTests.test_inputs_are_balanced_and_counterfactual) ... ok
+test_nonfinite_margin_rejected (test_probe.ProbeTests.test_nonfinite_margin_rejected) ... ok
+test_priority_not_best_score (test_probe.ProbeTests.test_priority_not_best_score) ... ok
+test_record_order_and_missing_rows_rejected (test_probe.ProbeTests.test_record_order_and_missing_rows_rejected) ... ok
+test_thresholds_are_conjunctive (test_probe.ProbeTests.test_thresholds_are_conjunctive) ... ok
+test_ties_and_nonmatching_greedy_fail (test_probe.ProbeTests.test_ties_and_nonmatching_greedy_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK

@@ -1,0 +1,681 @@
+{
+  "schema": 1,
+  "scope": "task-change discovery only; no validation/test data generated",
+  "input_provenance": "Synthetic investigator-authored templates and 12 ordinary English words; circular neighboring-word pairs with both target/foil orientations, alternating two-field order by group. No external dataset or arithmetic inputs.",
+  "words": [
+    "apple",
+    "bread",
+    "chair",
+    "cloud",
+    "dance",
+    "field",
+    "glass",
+    "horse",
+    "river",
+    "stone",
+    "train",
+    "water"
+  ],
+  "priority": [
+    "copy",
+    "retrieval",
+    "continuation"
+  ],
+  "thresholds": {
+    "strict_rows": 22,
+    "complete_groups": 10,
+    "greedy_exact_tokens": 20
+  },
+  "selection": "First template in fixed priority meeting all thresholds; operational engineering criteria, not established statistical capability. All candidates run regardless of early success.",
+  "tokenization": "Each space-prefixed answer must be one token and extend every prompt without changing its prefix; invalidity rejects the entire probe, never filters rows.",
+  "rows": [
+    {
+      "id": "copy-00-0",
+      "group": "copy-00",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: apple\nRepeated word:",
+      "correct": "apple",
+      "incorrect": "bread"
+    },
+    {
+      "id": "copy-00-1",
+      "group": "copy-00",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: bread\nRepeated word:",
+      "correct": "bread",
+      "incorrect": "apple"
+    },
+    {
+      "id": "copy-01-0",
+      "group": "copy-01",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: bread\nRepeated word:",
+      "correct": "bread",
+      "incorrect": "chair"
+    },
+    {
+      "id": "copy-01-1",
+      "group": "copy-01",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: chair\nRepeated word:",
+      "correct": "chair",
+      "incorrect": "bread"
+    },
+    {
+      "id": "copy-02-0",
+      "group": "copy-02",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: chair\nRepeated word:",
+      "correct": "chair",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "copy-02-1",
+      "group": "copy-02",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: cloud\nRepeated word:",
+      "correct": "cloud",
+      "incorrect": "chair"
+    },
+    {
+      "id": "copy-03-0",
+      "group": "copy-03",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: cloud\nRepeated word:",
+      "correct": "cloud",
+      "incorrect": "dance"
+    },
+    {
+      "id": "copy-03-1",
+      "group": "copy-03",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: dance\nRepeated word:",
+      "correct": "dance",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "copy-04-0",
+      "group": "copy-04",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: dance\nRepeated word:",
+      "correct": "dance",
+      "incorrect": "field"
+    },
+    {
+      "id": "copy-04-1",
+      "group": "copy-04",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: field\nRepeated word:",
+      "correct": "field",
+      "incorrect": "dance"
+    },
+    {
+      "id": "copy-05-0",
+      "group": "copy-05",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: field\nRepeated word:",
+      "correct": "field",
+      "incorrect": "glass"
+    },
+    {
+      "id": "copy-05-1",
+      "group": "copy-05",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: glass\nRepeated word:",
+      "correct": "glass",
+      "incorrect": "field"
+    },
+    {
+      "id": "copy-06-0",
+      "group": "copy-06",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: glass\nRepeated word:",
+      "correct": "glass",
+      "incorrect": "horse"
+    },
+    {
+      "id": "copy-06-1",
+      "group": "copy-06",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: horse\nRepeated word:",
+      "correct": "horse",
+      "incorrect": "glass"
+    },
+    {
+      "id": "copy-07-0",
+      "group": "copy-07",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: horse\nRepeated word:",
+      "correct": "horse",
+      "incorrect": "river"
+    },
+    {
+      "id": "copy-07-1",
+      "group": "copy-07",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: river\nRepeated word:",
+      "correct": "river",
+      "incorrect": "horse"
+    },
+    {
+      "id": "copy-08-0",
+      "group": "copy-08",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: river\nRepeated word:",
+      "correct": "river",
+      "incorrect": "stone"
+    },
+    {
+      "id": "copy-08-1",
+      "group": "copy-08",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: stone\nRepeated word:",
+      "correct": "stone",
+      "incorrect": "river"
+    },
+    {
+      "id": "copy-09-0",
+      "group": "copy-09",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: stone\nRepeated word:",
+      "correct": "stone",
+      "incorrect": "train"
+    },
+    {
+      "id": "copy-09-1",
+      "group": "copy-09",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: train\nRepeated word:",
+      "correct": "train",
+      "incorrect": "stone"
+    },
+    {
+      "id": "copy-10-0",
+      "group": "copy-10",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: train\nRepeated word:",
+      "correct": "train",
+      "incorrect": "water"
+    },
+    {
+      "id": "copy-10-1",
+      "group": "copy-10",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: water\nRepeated word:",
+      "correct": "water",
+      "incorrect": "train"
+    },
+    {
+      "id": "copy-11-0",
+      "group": "copy-11",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: water\nRepeated word:",
+      "correct": "water",
+      "incorrect": "apple"
+    },
+    {
+      "id": "copy-11-1",
+      "group": "copy-11",
+      "task": "copy",
+      "split": "discovery_train",
+      "prompt": "Repeat the word.\nWord: apple\nRepeated word:",
+      "correct": "apple",
+      "incorrect": "water"
+    },
+    {
+      "id": "retrieval-00-0",
+      "group": "retrieval-00",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: apple\nitem: bread\nQuestion: What is the name?\nAnswer:",
+      "correct": "apple",
+      "incorrect": "bread"
+    },
+    {
+      "id": "retrieval-00-1",
+      "group": "retrieval-00",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: bread\nitem: apple\nQuestion: What is the name?\nAnswer:",
+      "correct": "bread",
+      "incorrect": "apple"
+    },
+    {
+      "id": "retrieval-01-0",
+      "group": "retrieval-01",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: chair\nname: bread\nQuestion: What is the name?\nAnswer:",
+      "correct": "bread",
+      "incorrect": "chair"
+    },
+    {
+      "id": "retrieval-01-1",
+      "group": "retrieval-01",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: bread\nname: chair\nQuestion: What is the name?\nAnswer:",
+      "correct": "chair",
+      "incorrect": "bread"
+    },
+    {
+      "id": "retrieval-02-0",
+      "group": "retrieval-02",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: chair\nitem: cloud\nQuestion: What is the name?\nAnswer:",
+      "correct": "chair",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "retrieval-02-1",
+      "group": "retrieval-02",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: cloud\nitem: chair\nQuestion: What is the name?\nAnswer:",
+      "correct": "cloud",
+      "incorrect": "chair"
+    },
+    {
+      "id": "retrieval-03-0",
+      "group": "retrieval-03",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: dance\nname: cloud\nQuestion: What is the name?\nAnswer:",
+      "correct": "cloud",
+      "incorrect": "dance"
+    },
+    {
+      "id": "retrieval-03-1",
+      "group": "retrieval-03",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: cloud\nname: dance\nQuestion: What is the name?\nAnswer:",
+      "correct": "dance",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "retrieval-04-0",
+      "group": "retrieval-04",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: dance\nitem: field\nQuestion: What is the name?\nAnswer:",
+      "correct": "dance",
+      "incorrect": "field"
+    },
+    {
+      "id": "retrieval-04-1",
+      "group": "retrieval-04",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: field\nitem: dance\nQuestion: What is the name?\nAnswer:",
+      "correct": "field",
+      "incorrect": "dance"
+    },
+    {
+      "id": "retrieval-05-0",
+      "group": "retrieval-05",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: glass\nname: field\nQuestion: What is the name?\nAnswer:",
+      "correct": "field",
+      "incorrect": "glass"
+    },
+    {
+      "id": "retrieval-05-1",
+      "group": "retrieval-05",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: field\nname: glass\nQuestion: What is the name?\nAnswer:",
+      "correct": "glass",
+      "incorrect": "field"
+    },
+    {
+      "id": "retrieval-06-0",
+      "group": "retrieval-06",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: glass\nitem: horse\nQuestion: What is the name?\nAnswer:",
+      "correct": "glass",
+      "incorrect": "horse"
+    },
+    {
+      "id": "retrieval-06-1",
+      "group": "retrieval-06",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: horse\nitem: glass\nQuestion: What is the name?\nAnswer:",
+      "correct": "horse",
+      "incorrect": "glass"
+    },
+    {
+      "id": "retrieval-07-0",
+      "group": "retrieval-07",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: river\nname: horse\nQuestion: What is the name?\nAnswer:",
+      "correct": "horse",
+      "incorrect": "river"
+    },
+    {
+      "id": "retrieval-07-1",
+      "group": "retrieval-07",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: horse\nname: river\nQuestion: What is the name?\nAnswer:",
+      "correct": "river",
+      "incorrect": "horse"
+    },
+    {
+      "id": "retrieval-08-0",
+      "group": "retrieval-08",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: river\nitem: stone\nQuestion: What is the name?\nAnswer:",
+      "correct": "river",
+      "incorrect": "stone"
+    },
+    {
+      "id": "retrieval-08-1",
+      "group": "retrieval-08",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: stone\nitem: river\nQuestion: What is the name?\nAnswer:",
+      "correct": "stone",
+      "incorrect": "river"
+    },
+    {
+      "id": "retrieval-09-0",
+      "group": "retrieval-09",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: train\nname: stone\nQuestion: What is the name?\nAnswer:",
+      "correct": "stone",
+      "incorrect": "train"
+    },
+    {
+      "id": "retrieval-09-1",
+      "group": "retrieval-09",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: stone\nname: train\nQuestion: What is the name?\nAnswer:",
+      "correct": "train",
+      "incorrect": "stone"
+    },
+    {
+      "id": "retrieval-10-0",
+      "group": "retrieval-10",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: train\nitem: water\nQuestion: What is the name?\nAnswer:",
+      "correct": "train",
+      "incorrect": "water"
+    },
+    {
+      "id": "retrieval-10-1",
+      "group": "retrieval-10",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nname: water\nitem: train\nQuestion: What is the name?\nAnswer:",
+      "correct": "water",
+      "incorrect": "train"
+    },
+    {
+      "id": "retrieval-11-0",
+      "group": "retrieval-11",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: apple\nname: water\nQuestion: What is the name?\nAnswer:",
+      "correct": "water",
+      "incorrect": "apple"
+    },
+    {
+      "id": "retrieval-11-1",
+      "group": "retrieval-11",
+      "task": "retrieval",
+      "split": "discovery_train",
+      "prompt": "Record:\nitem: water\nname: apple\nQuestion: What is the name?\nAnswer:",
+      "correct": "apple",
+      "incorrect": "water"
+    },
+    {
+      "id": "continuation-00-0",
+      "group": "continuation-00",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: apple\nB: bread\nA:",
+      "correct": "apple",
+      "incorrect": "bread"
+    },
+    {
+      "id": "continuation-00-1",
+      "group": "continuation-00",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: bread\nB: apple\nA:",
+      "correct": "bread",
+      "incorrect": "apple"
+    },
+    {
+      "id": "continuation-01-0",
+      "group": "continuation-01",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: chair\nA: bread\nA:",
+      "correct": "bread",
+      "incorrect": "chair"
+    },
+    {
+      "id": "continuation-01-1",
+      "group": "continuation-01",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: bread\nA: chair\nA:",
+      "correct": "chair",
+      "incorrect": "bread"
+    },
+    {
+      "id": "continuation-02-0",
+      "group": "continuation-02",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: chair\nB: cloud\nA:",
+      "correct": "chair",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "continuation-02-1",
+      "group": "continuation-02",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: cloud\nB: chair\nA:",
+      "correct": "cloud",
+      "incorrect": "chair"
+    },
+    {
+      "id": "continuation-03-0",
+      "group": "continuation-03",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: dance\nA: cloud\nA:",
+      "correct": "cloud",
+      "incorrect": "dance"
+    },
+    {
+      "id": "continuation-03-1",
+      "group": "continuation-03",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: cloud\nA: dance\nA:",
+      "correct": "dance",
+      "incorrect": "cloud"
+    },
+    {
+      "id": "continuation-04-0",
+      "group": "continuation-04",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: dance\nB: field\nA:",
+      "correct": "dance",
+      "incorrect": "field"
+    },
+    {
+      "id": "continuation-04-1",
+      "group": "continuation-04",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: field\nB: dance\nA:",
+      "correct": "field",
+      "incorrect": "dance"
+    },
+    {
+      "id": "continuation-05-0",
+      "group": "continuation-05",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: glass\nA: field\nA:",
+      "correct": "field",
+      "incorrect": "glass"
+    },
+    {
+      "id": "continuation-05-1",
+      "group": "continuation-05",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: field\nA: glass\nA:",
+      "correct": "glass",
+      "incorrect": "field"
+    },
+    {
+      "id": "continuation-06-0",
+      "group": "continuation-06",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: glass\nB: horse\nA:",
+      "correct": "glass",
+      "incorrect": "horse"
+    },
+    {
+      "id": "continuation-06-1",
+      "group": "continuation-06",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: horse\nB: glass\nA:",
+      "correct": "horse",
+      "incorrect": "glass"
+    },
+    {
+      "id": "continuation-07-0",
+      "group": "continuation-07",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: river\nA: horse\nA:",
+      "correct": "horse",
+      "incorrect": "river"
+    },
+    {
+      "id": "continuation-07-1",
+      "group": "continuation-07",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: horse\nA: river\nA:",
+      "correct": "river",
+      "incorrect": "horse"
+    },
+    {
+      "id": "continuation-08-0",
+      "group": "continuation-08",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: river\nB: stone\nA:",
+      "correct": "river",
+      "incorrect": "stone"
+    },
+    {
+      "id": "continuation-08-1",
+      "group": "continuation-08",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: stone\nB: river\nA:",
+      "correct": "stone",
+      "incorrect": "river"
+    },
+    {
+      "id": "continuation-09-0",
+      "group": "continuation-09",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: train\nA: stone\nA:",
+      "correct": "stone",
+      "incorrect": "train"
+    },
+    {
+      "id": "continuation-09-1",
+      "group": "continuation-09",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: stone\nA: train\nA:",
+      "correct": "train",
+      "incorrect": "stone"
+    },
+    {
+      "id": "continuation-10-0",
+      "group": "continuation-10",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: train\nB: water\nA:",
+      "correct": "train",
+      "incorrect": "water"
+    },
+    {
+      "id": "continuation-10-1",
+      "group": "continuation-10",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "A: water\nB: train\nA:",
+      "correct": "water",
+      "incorrect": "train"
+    },
+    {
+      "id": "continuation-11-0",
+      "group": "continuation-11",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: apple\nA: water\nA:",
+      "correct": "water",
+      "incorrect": "apple"
+    },
+    {
+      "id": "continuation-11-1",
+      "group": "continuation-11",
+      "task": "continuation",
+      "split": "discovery_train",
+      "prompt": "B: water\nA: apple\nA:",
+      "correct": "apple",
+      "incorrect": "water"
+    }
+  ]
+}

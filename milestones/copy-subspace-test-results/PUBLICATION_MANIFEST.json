@@ -1,0 +1,179 @@
+{
+  "scope": "Locked k=4 held-out copying test and independent no-inference audit",
+  "files": [
+    {
+      "path": "milestones/copy-subspace-test-results/PUBLIC_ALLOWLIST.txt",
+      "bytes": 1862,
+      "sha256": "f514bb3c703d6a88395bdfa0456ee5cef5fc197211b6d3550b66aafbfabf5899"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/README.md",
+      "bytes": 5785,
+      "sha256": "0d337cc3b0a422a5fbd555ada1d0ec8650a6f2add71c118ec40ba5214b3c7240"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/audit.json",
+      "bytes": 8800,
+      "sha256": "4b3a1c74cb53d472210885f67bead89f34cf0bd9029f1d5c405c3290841f56c8"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/audit_test.py",
+      "bytes": 7838,
+      "sha256": "be46e0e4f2b77def40e45e19e18136d077b7eb8ed47a41d2063da5246cdf07ff"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-00-0.npz",
+      "bytes": 178347,
+      "sha256": "1ae333d5560e4f743f05971c0410fb001675301825c3a5e5e722f2a3d730da68"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-00-1.npz",
+      "bytes": 181657,
+      "sha256": "34f72f9647f9cae9d89ae3ff11bbaca634ba8208f8cfbf4124c4b59c8f41da6b"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-01-0.npz",
+      "bytes": 180246,
+      "sha256": "10e2c8e474404f032e4016e46c5032eb36a21fffb7e2df9c24c6f778e5549de2"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-01-1.npz",
+      "bytes": 178888,
+      "sha256": "8a1b818c11bc74a0dcfa926b48b176252dd943d7d5b88d40835c8d6fb33cb680"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-02-0.npz",
+      "bytes": 179974,
+      "sha256": "0e4ea3c36c083024b0b2b06188a3826b7b0f90d16caa2f9fd0b15ee6c94ed8f4"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-02-1.npz",
+      "bytes": 178485,
+      "sha256": "a3ff2148000fb3876a4060899ba371b7c145ef830f09fa7231295bed9bfabc99"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-03-0.npz",
+      "bytes": 181400,
+      "sha256": "28e75a16a7f8c1ad3c550e39541ae1507d3953332f7ec6165f30ea83c25ad566"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-03-1.npz",
+      "bytes": 181468,
+      "sha256": "f6e19ea7f0c93eb947d05fc92429c0ad6311f7c504ade9c806ac69b50d4a1809"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-04-0.npz",
+      "bytes": 180412,
+      "sha256": "66a531e54b1b295b85a9646a5d7bd3169419878297465c04775181d58cdcb22c"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-04-1.npz",
+      "bytes": 182248,
+      "sha256": "ae83a2aeb9f74d0641b08130a52717a7e3a0f64cda7dddb0443db3809e5220b7"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-05-0.npz",
+      "bytes": 178681,
+      "sha256": "1d2c15155a8e77dced103abeed9045732ecb4e9de5c54ca986e8ca9b0eac14fa"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-05-1.npz",
+      "bytes": 181028,
+      "sha256": "6bc057e5e4b955115a4652493dca57dc67a335a72e845f0a76ac1e4d18e128a9"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-06-0.npz",
+      "bytes": 179316,
+      "sha256": "7f0c552b5921cf781d8e5295bd2c0a79188a78442c1743a6d624070da1038d9b"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-06-1.npz",
+      "bytes": 179558,
+      "sha256": "d3e6150b6d86b033b597b94e0048064da8729c7dc75aae78b0da9c44d1236fd5"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-07-0.npz",
+      "bytes": 181809,
+      "sha256": "e3d1778d52db9c1ed22606987e783a0f18b73e1278029378acda41c9bd51b2da"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-07-1.npz",
+      "bytes": 178350,
+      "sha256": "04d414b1d9c42bb92f1e598c4e585f679867b5890b7b1d74f0d1f369bb986965"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-08-0.npz",
+      "bytes": 178860,
+      "sha256": "4eba21f9de5c211b55c3b5fd8cc88c75846c24cb5ec77f5d67935e8f5144bf52"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-08-1.npz",
+      "bytes": 178937,
+      "sha256": "7f5c13f29986b821374eabb91f95fde552fcacc99a028966150d5f044d19a15b"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-09-0.npz",
+      "bytes": 179850,
+      "sha256": "555ecc7507ad742bb27b6e99ff580be3e832a2b5501a9422c13ff3259b406201"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/arrays/test-09-1.npz",
+      "bytes": 179804,
+      "sha256": "f03851f73c4af5c8c4a63aeba1a7802c38099d24f81585151634259b686b30d6"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/artifact_manifest.json",
+      "bytes": 3888,
+      "sha256": "e2fee54c17626190b0c5b86d36c29ba099e650f1b4dfd95b0fbae30fa3c9c313"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/fit.npz",
+      "bytes": 331590,
+      "sha256": "ac779aaba51b19ce093231690ab3e993470055068ba4abeb1aced454bfed1cd7"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/metadata.json",
+      "bytes": 502,
+      "sha256": "b84156bfc043bf01dab0eed4e9d4231c8a86c0ba2f0bbaf216fb5da999a50a34"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/plan.json",
+      "bytes": 274,
+      "sha256": "bc366c2a357ef856c41ce30f4b9382cc9352501c88a60d691d316024fba676fe"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/result.json",
+      "bytes": 45758,
+      "sha256": "a9efd2f4a2980863d14d06aa2649220037b7720512f0a3d9c40226e0ce52119c"
+    },
+    {
+      "path": "milestones/copy-subspace-test-results/run/rows.jsonl",
+      "bytes": 146375,
+      "sha256": "285b5cf411dd2cb27cf4b03552768ff2c011c8623fa0a201c64b6c9c52ef86d2"
+    }
+  ],
+  "binary_files": [
+    "milestones/copy-subspace-test-results/run/arrays/test-00-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-00-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-01-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-01-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-02-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-02-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-03-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-03-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-04-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-04-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-05-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-05-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-06-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-06-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-07-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-07-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-08-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-08-1.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-09-0.npz",
+    "milestones/copy-subspace-test-results/run/arrays/test-09-1.npz",
+    "milestones/copy-subspace-test-results/run/fit.npz"
+  ],
+  "self_hash_excluded": true
+}

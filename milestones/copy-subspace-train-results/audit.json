@@ -1,0 +1,30 @@
+{
+  "status": "independent_binary_reconstruction_passed",
+  "rows_recomputed": 40,
+  "exact_training_id_order": true,
+  "strict_wins": 40,
+  "greedy_exact_rows": 40,
+  "positive_margin_groups": 20,
+  "greedy_exact_groups_posthoc": 20,
+  "greedy_group_count_was_not_a_gate_criterion": true,
+  "minimum_margin": 4.793210983276367,
+  "mean_margin": 7.657954704761505,
+  "maximum_margin": 11.43458366394043,
+  "maximum_noop_logit_error": 0.0,
+  "maximum_noop_state_error": 0.0,
+  "fit_mean_max_error": 0.0,
+  "fit_projector_max_error": 3.469446951953614e-18,
+  "random_bases_exactly_reconstructed": true,
+  "first_four_train_variance_fractions": [
+    0.2771919259196686,
+    0.10728920035115487,
+    0.10077591589642193,
+    0.08279543819028246
+  ],
+  "source_freeze_sha256": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a",
+  "training_archive_sha256": "d5d09ed7245bbbf82c8baeaee8e91a17407044c745862c41438b5cb466adf640",
+  "model_forwards": 80,
+  "validation_model_inference": false,
+  "test_model_inference": false,
+  "nonzero_interventions": false
+}

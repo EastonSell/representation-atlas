@@ -1,0 +1,24 @@
+{
+  "local_freeze_utc": "2026-10-22T07:42:02.656923+00:00",
+  "public_before_freeze": false,
+  "validation_test_model_forwards_before_freeze": 0,
+  "parent_source_freeze_sha256": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a",
+  "approved_training_archive_sha256": "d5d09ed7245bbbf82c8baeaee8e91a17407044c745862c41438b5cb466adf640",
+  "sha256": {
+    "milestones/copy-subspace/dataset.py": "19749bf6fe6eb9bdb0617095cfaaedaa37777e6428f2a4b43d57c66ffa314a93",
+    "milestones/copy-subspace/driver.py": "652678facbea16c0260d77088ddbcbd93b20e1d58afa8c904f5e7b94b8780d2c",
+    "milestones/copy-subspace/test_driver.py": "898d801d39db46d52d6ef1777aad9e0d2a3be0351209aa6e4808bee00f1b97c7",
+    "milestones/copy-subspace/PROTOCOL.md": "36860aea44af463a57f4f0d39b6bc07724092bc30b390f092b43e9b03ed3badb",
+    "milestones/copy-subspace/words.json": "3486b048c70f8448aa42e870198012aa059b2895da8eb108bfe6a1497e2a722e",
+    "milestones/copy-subspace/dataset.json": "b2d463615cea5c0aca6b07040831fb7e1e0d0f1e5dbeb991b4ee0d7bb58ca402",
+    "milestones/copy-subspace/tokenizer_audit.json": "03ffa126d56e1d589da174e60f8842600692b259f64d2129722acad34b5feb6d",
+    "milestones/copy-subspace/DATA_FREEZE.json": "7a5abebb5bd16bf659d82e51690fa4fdb498f713694391840374f4423dcdbd5c",
+    "benchmark_runner.py": "18f3a72ff5eae254f085f72b3265a27cecbd904373e7b3a7cec4e8669afca437",
+    "milestones/copy-retrieval-discovery/TASK_CHANGE_PROPOSAL.md": "a35c92ca095371a7378bd73d1938ece02d85155eae06df0d437099334014f179",
+    "milestones/smollm-activations/MODEL_MANIFEST.json": "34f007987ac97042a0f1f8278050af521edb868cec1ac083fe4c77ea93bf3ce2",
+    "milestones/copy-subspace/SOURCE_FREEZE.json": "63f1cac069d8a319e9603517ddfe0dbc3663843205789ed42edbcc86caf10b7a",
+    "milestones/copy-subspace/driver_v2.py": "a4cbb35482c44a16554886988cbdc68b82f72538ec3006c830aacc5246581d29",
+    "milestones/copy-subspace/test_driver_v2.py": "599cbf08945756a6258da4e9606c572d4c047799eec82069eede5c607ee08e6e",
+    "milestones/copy-subspace/AMENDMENT_V2.md": "05afbe8813941a19820200553457ac4bebb3174013750bd83ecfd57c9f07514e"
+  }
+}

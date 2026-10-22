@@ -1,0 +1,2 @@
+{"array": {"path": "arrays/train-00-0.npz", "sha256": "7d4a4330d5c023c702ab0322c743e7f9524d8634c4894d15a7932724e21fbd8d"}, "condition": "untouched", "greedy_exact": true, "greedy_token_id": 13095, "group": "train-00", "id": "train-00-0", "margin": 7.100366592407227, "split": "train", "state_norm": 137.39259338378906, "target_probability": 0.3617081707277863}
+{"condition": "noop", "id": "train-00-0", "max_logit_error": 0.0, "max_state_error": 0.0}

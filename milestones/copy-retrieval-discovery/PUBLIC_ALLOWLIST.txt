@@ -1,0 +1,17 @@
+milestones/copy-retrieval-discovery/PUBLICATION_MANIFEST.json
+milestones/copy-retrieval-discovery/PUBLIC_ALLOWLIST.txt
+milestones/copy-retrieval-discovery/README.md
+milestones/copy-retrieval-discovery/SOURCE_FREEZE.sha256
+milestones/copy-retrieval-discovery/TASK_CHANGE_PROPOSAL.md
+milestones/copy-retrieval-discovery/audit.json
+milestones/copy-retrieval-discovery/core-test-output.txt
+milestones/copy-retrieval-discovery/inputs.json
+milestones/copy-retrieval-discovery/probe.py
+milestones/copy-retrieval-discovery/run/artifact_manifest.json
+milestones/copy-retrieval-discovery/run/inputs.json
+milestones/copy-retrieval-discovery/run/metadata.json
+milestones/copy-retrieval-discovery/run/records.json
+milestones/copy-retrieval-discovery/run/summary.json
+milestones/copy-retrieval-discovery/run/tokenization.json
+milestones/copy-retrieval-discovery/test-output.txt
+milestones/copy-retrieval-discovery/test_probe.py

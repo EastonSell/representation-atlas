@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "complete_groups": 12,
+      "greedy_exact_tokens": 24,
+      "passed": true,
+      "strict_correct_rows": 24,
+      "task": "copy",
+      "ties": 0,
+      "total_groups": 12,
+      "total_rows": 24
+    },
+    {
+      "complete_groups": 4,
+      "greedy_exact_tokens": 1,
+      "passed": false,
+      "strict_correct_rows": 16,
+      "task": "retrieval",
+      "ties": 0,
+      "total_groups": 12,
+      "total_rows": 24
+    },
+    {
+      "complete_groups": 6,
+      "greedy_exact_tokens": 14,
+      "passed": false,
+      "strict_correct_rows": 15,
+      "task": "continuation",
+      "ties": 0,
+      "total_groups": 12,
+      "total_rows": 24
+    }
+  ],
+  "causal_interventions": false,
+  "heldout_evaluated": false,
+  "selected_task": "copy",
+  "status": "discovery_only",
+  "thresholds": {
+    "complete_groups": 10,
+    "greedy_exact_tokens": 20,
+    "strict_rows": 22
+  },
+  "validation_test_generated": false
+}

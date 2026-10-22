@@ -1,0 +1,94 @@
+{
+  "scope": "post-hoc offline audit, no additional inference or selection",
+  "candidates": {
+    "copy": {
+      "unique_prompts": 12,
+      "distinct_words": 12,
+      "answer_only_lexical_priority_wins": 12,
+      "mean_margin": 8.239016592502594,
+      "minimum_margin": 3.9163646697998047,
+      "maximum_margin": 11.432235717773438,
+      "greedy_outputs": {
+        " apple": 2,
+        " bread": 2,
+        " chair": 2,
+        " cloud": 2,
+        " dance": 2,
+        " field": 2,
+        " glass": 2,
+        " horse": 2,
+        " river": 2,
+        " stone": 2,
+        " train": 2,
+        " water": 2
+      }
+    },
+    "retrieval": {
+      "unique_prompts": 24,
+      "distinct_words": 12,
+      "answer_only_lexical_priority_wins": 12,
+      "mean_margin": 1.2056536376476288,
+      "minimum_margin": -2.704646110534668,
+      "maximum_margin": 4.737955093383789,
+      "greedy_outputs": {
+        " apple": 1,
+        " The": 16,
+        "<|im_end|>": 7
+      }
+    },
+    "continuation": {
+      "unique_prompts": 24,
+      "distinct_words": 12,
+      "answer_only_lexical_priority_wins": 12,
+      "mean_margin": 0.9743629296620687,
+      "minimum_margin": -3.8923985958099365,
+      "maximum_margin": 4.857187271118164,
+      "greedy_outputs": {
+        " apple": 3,
+        " banana": 1,
+        " bread": 1,
+        " chair": 3,
+        " cloud": 1,
+        " dance": 2,
+        " beach": 1,
+        " field": 1,
+        " glass": 1,
+        " car": 3,
+        " horse": 1,
+        " river": 1,
+        " rock": 1,
+        " stone": 2,
+        " train": 1,
+        " air": 1
+      }
+    }
+  },
+  "continuation_position_diagnostic": [
+    {
+      "A_field_position": "first",
+      "rows": 12,
+      "strict_wins": 4,
+      "greedy_hits": 3
+    },
+    {
+      "A_field_position": "second",
+      "rows": 12,
+      "strict_wins": 11,
+      "greedy_hits": 11
+    }
+  ],
+  "diagnostic_warning": "Position is coupled to word-pair identity; not an isolated causal test. Copy prompts and circular groups are dependent.",
+  "records_recomputed": 72,
+  "input_snapshots_semantically_equal": true,
+  "source_and_snapshot_serialization_differ": true,
+  "full_logits_archived": false,
+  "helper_source_sha256": {
+    "benchmark_runner.py": "18f3a72ff5eae254f085f72b3265a27cecbd904373e7b3a7cec4e8669afca437"
+  },
+  "tests": {
+    "milestone_local": 6,
+    "root_aggregate_core": 62,
+    "aggregate_optional_model_methods": "not rerun in this milestone; explicitly not run by core checks"
+  },
+  "arithmetic_heldout_inference": false
+}

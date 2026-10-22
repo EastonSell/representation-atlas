@@ -1,0 +1,32 @@
+{
+  "invalid_ids": [],
+  "passed": true,
+  "model_weights_loaded": false,
+  "splits": {
+    "train": {
+      "rows": 40,
+      "unique_words": 40,
+      "groups": 20,
+      "lexical_priority_wins": 20,
+      "answer_only_complete_groups": 0
+    },
+    "validation": {
+      "rows": 20,
+      "unique_words": 20,
+      "groups": 10,
+      "lexical_priority_wins": 10,
+      "answer_only_complete_groups": 0
+    },
+    "test": {
+      "rows": 20,
+      "unique_words": 20,
+      "groups": 10,
+      "lexical_priority_wins": 10,
+      "answer_only_complete_groups": 0
+    }
+  },
+  "cross_split_word_overlap": 0,
+  "cross_split_prompt_overlap": 0,
+  "cross_split_unordered_pair_overlap": 0,
+  "discovery_word_overlap": 0
+}
