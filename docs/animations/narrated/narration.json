@@ -1,0 +1,45 @@
+{
+  "title": "What Activations Do",
+  "repo": "what-activations-do",
+  "legacy_class": "CoordinateReadout",
+  "segments": [
+    {
+      "id": "beat-1",
+      "start": 0.0,
+      "end": 11.566666666666666,
+      "text": "Move these two points by the same amount. Their distance stays unchanged, but their angles from the origin change, so their cosine similarity changes too.",
+      "visual": "Start points and origin-visible arrows. Translate both while tracking distance and cosine.",
+      "chapter": "The example",
+      "frames": 347
+    },
+    {
+      "id": "beat-2",
+      "start": 11.566666666666666,
+      "end": 24.666666666666668,
+      "text": "A fixed readout can change its decision after that shift. Adjusting the readout's bias restores the old scores here, but that's a second edit, not a property of translation alone.",
+      "visual": "Show fixed score, B crossing zero, then visibly label bias compensation as second operation.",
+      "chapter": "What changes",
+      "frames": 393
+    },
+    {
+      "id": "beat-3",
+      "start": 24.666666666666668,
+      "end": 37.833333333333336,
+      "text": "Projection does something different. These two points have different labels because of their vertical position. Remove that direction, and both become the same point. The distinction has been lost.",
+      "visual": "New projection example: hold opposing y labels before collapsing points to x axis.",
+      "chapter": "The mechanism",
+      "frames": 395
+    },
+    {
+      "id": "beat-4",
+      "start": 37.833333333333336,
+      "end": 49.3,
+      "text": "These are exact geometry examples, not measurements from a trained model. Check the geometry, the downstream decision, and the task information separately.",
+      "visual": "Hold overlap and show geometry / readout / labels as separate checks.",
+      "chapter": "What this establishes",
+      "frames": 344
+    }
+  ],
+  "fps": 30,
+  "duration": 49.3
+}

@@ -1,0 +1,1189 @@
+{
+  "method": "Independent automatic speech recognition; no listening claim; no text prompt supplied. FFmpeg decodes WAV to mono float32 at 16 kHz for Whisper input.",
+  "model": "Systran/faster-whisper-small.en",
+  "model_source": "https://huggingface.co/Systran/faster-whisper-small.en",
+  "options": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "beam_size": 5,
+    "language": "en",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "initial_prompt": null
+  },
+  "limitations": "ASR transcription is fallible and does not establish prosody, naturalness, or exact pronunciation. Text differences require interpretation, not automatic failure.",
+  "clips": [
+    {
+      "repo": "what-activations-do",
+      "id": "beat-1",
+      "sha256_before": "98e2879c0fe64a25286b9dca4dddb1c7a6a53009c302959b58e9e61f54a9eb5d",
+      "manifest_sha256": "245f4eace215142ec32e6a589e721313c0f256e0bbf6c1f5c933ade6fb24eada",
+      "canonical_text": "Move these two points by the same amount. Their distance stays unchanged, but their angles from the origin change, so their cosine similarity changes too.",
+      "tts_text": "Move these two points by the same amount. Their distance stays unchanged, but their angles from the origin change, so their cosine similarity changes too.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "ada3b5ba1e5cb585abba87f06e045585598b764d62d542648c67b8ad430a24a3",
+        "audio_sha256": "98e2879c0fe64a25286b9dca4dddb1c7a6a53009c302959b58e9e61f54a9eb5d",
+        "parameters": {
+          "tts_text": "Move these two points by the same amount. Their distance stays unchanged, but their angles from the origin change, so their cosine similarity changes too.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 277536,
+        "duration_seconds": 11.564
+      },
+      "transcription": "Move these two points by the same amount. Their distance stays unchanged, but their angles from the origin change, so their cosine similarity changes too.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.38,
+          "text": " Move these two points by the same amount.",
+          "tokens": [
+            50363,
+            10028,
+            777,
+            734,
+            2173,
+            416,
+            262,
+            976,
+            2033,
+            13,
+            50507
+          ],
+          "avg_logprob": -0.28522091186963594,
+          "compression_ratio": 1.3275862068965518,
+          "no_speech_prob": 0.00257826317101717,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.4,
+              "word": " Move",
+              "probability": 0.3952201306819916
+            },
+            {
+              "start": 0.4,
+              "end": 0.66,
+              "word": " these",
+              "probability": 0.994976818561554
+            },
+            {
+              "start": 0.66,
+              "end": 0.94,
+              "word": " two",
+              "probability": 0.9433245658874512
+            },
+            {
+              "start": 0.94,
+              "end": 1.3,
+              "word": " points",
+              "probability": 0.9969974756240845
+            },
+            {
+              "start": 1.3,
+              "end": 1.56,
+              "word": " by",
+              "probability": 0.9985995888710022
+            },
+            {
+              "start": 1.56,
+              "end": 1.72,
+              "word": " the",
+              "probability": 0.9985650181770325
+            },
+            {
+              "start": 1.72,
+              "end": 1.96,
+              "word": " same",
+              "probability": 0.9993964433670044
+            },
+            {
+              "start": 1.96,
+              "end": 2.38,
+              "word": " amount.",
+              "probability": 0.9989192485809326
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 3.08,
+          "end": 4.78,
+          "text": " Their distance stays unchanged,",
+          "tokens": [
+            50507,
+            5334,
+            5253,
+            14768,
+            21588,
+            11,
+            50627
+          ],
+          "avg_logprob": -0.28522091186963594,
+          "compression_ratio": 1.3275862068965518,
+          "no_speech_prob": 0.00257826317101717,
+          "words": [
+            {
+              "start": 3.08,
+              "end": 3.2,
+              "word": " Their",
+              "probability": 0.9902268648147583
+            },
+            {
+              "start": 3.2,
+              "end": 3.56,
+              "word": " distance",
+              "probability": 0.9949854612350464
+            },
+            {
+              "start": 3.56,
+              "end": 3.98,
+              "word": " stays",
+              "probability": 0.9966134428977966
+            },
+            {
+              "start": 3.98,
+              "end": 4.78,
+              "word": " unchanged,",
+              "probability": 0.9989511966705322
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 5.34,
+          "end": 7.64,
+          "text": " but their angles from the origin change,",
+          "tokens": [
+            50627,
+            475,
+            511,
+            18333,
+            422,
+            262,
+            8159,
+            1487,
+            11,
+            50763
+          ],
+          "avg_logprob": -0.28522091186963594,
+          "compression_ratio": 1.3275862068965518,
+          "no_speech_prob": 0.00257826317101717,
+          "words": [
+            {
+              "start": 5.34,
+              "end": 5.56,
+              "word": " but",
+              "probability": 0.9977534413337708
+            },
+            {
+              "start": 5.56,
+              "end": 5.78,
+              "word": " their",
+              "probability": 0.9932899475097656
+            },
+            {
+              "start": 5.78,
+              "end": 6.18,
+              "word": " angles",
+              "probability": 0.9934830069541931
+            },
+            {
+              "start": 6.18,
+              "end": 6.48,
+              "word": " from",
+              "probability": 0.998325526714325
+            },
+            {
+              "start": 6.48,
+              "end": 6.64,
+              "word": " the",
+              "probability": 0.9957574009895325
+            },
+            {
+              "start": 6.64,
+              "end": 7.1,
+              "word": " origin",
+              "probability": 0.994925856590271
+            },
+            {
+              "start": 7.1,
+              "end": 7.64,
+              "word": " change,",
+              "probability": 0.9979867935180664
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 4,
+          "seek": 0,
+          "start": 8.1,
+          "end": 10.84,
+          "text": " so their cosine similarity changes too.",
+          "tokens": [
+            50763,
+            523,
+            511,
+            8615,
+            500,
+            26789,
+            2458,
+            1165,
+            13,
+            50931
+          ],
+          "avg_logprob": -0.28522091186963594,
+          "compression_ratio": 1.3275862068965518,
+          "no_speech_prob": 0.00257826317101717,
+          "words": [
+            {
+              "start": 8.1,
+              "end": 8.32,
+              "word": " so",
+              "probability": 0.9971164464950562
+            },
+            {
+              "start": 8.32,
+              "end": 8.54,
+              "word": " their",
+              "probability": 0.9930572509765625
+            },
+            {
+              "start": 8.54,
+              "end": 9.14,
+              "word": " cosine",
+              "probability": 0.9813394844532013
+            },
+            {
+              "start": 9.14,
+              "end": 9.72,
+              "word": " similarity",
+              "probability": 0.9852961897850037
+            },
+            {
+              "start": 9.72,
+              "end": 10.32,
+              "word": " changes",
+              "probability": 0.9981313347816467
+            },
+            {
+              "start": 10.32,
+              "end": 10.84,
+              "word": " too.",
+              "probability": 0.7443477511405945
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "98e2879c0fe64a25286b9dca4dddb1c7a6a53009c302959b58e9e61f54a9eb5d",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.40806095500011,
+      "sha256_final_recheck": "98e2879c0fe64a25286b9dca4dddb1c7a6a53009c302959b58e9e61f54a9eb5d",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "what-activations-do",
+      "id": "beat-2",
+      "sha256_before": "4bebd742939d2a9dc64afd0704b8811986aa5502c0e11b42fbb11a35928d92fc",
+      "manifest_sha256": "245f4eace215142ec32e6a589e721313c0f256e0bbf6c1f5c933ade6fb24eada",
+      "canonical_text": "A fixed readout can change its decision after that shift. Adjusting the readout's bias restores the old scores here, but that's a second edit, not a property of translation alone.",
+      "tts_text": "A fixed readout can change its decision after that shift. Adjusting the readout's bias restores the old scores here, but that's a second edit, not a property of translation alone.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "27c0508544634aff1e0b758294bd83def2c2c15cde38688c17aa8b30c90df564",
+        "audio_sha256": "4bebd742939d2a9dc64afd0704b8811986aa5502c0e11b42fbb11a35928d92fc",
+        "parameters": {
+          "tts_text": "A fixed readout can change its decision after that shift. Adjusting the readout's bias restores the old scores here, but that's a second edit, not a property of translation alone.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 313888,
+        "duration_seconds": 13.078666666666667
+      },
+      "transcription": "A fixed readout can change its decision after that shift. Adjusting the readout's bias restores the old scores here, but that's a second edit, not a property of translation alone.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.56,
+          "text": " A fixed readout can change its decision after that shift.",
+          "tokens": [
+            50363,
+            317,
+            5969,
+            1100,
+            448,
+            460,
+            1487,
+            663,
+            2551,
+            706,
+            326,
+            6482,
+            13,
+            50563
+          ],
+          "avg_logprob": -0.11982994720987651,
+          "compression_ratio": 1.366412213740458,
+          "no_speech_prob": 0.0009411730570718646,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.36,
+              "word": " A",
+              "probability": 0.9393672943115234
+            },
+            {
+              "start": 0.36,
+              "end": 0.66,
+              "word": " fixed",
+              "probability": 0.9835413098335266
+            },
+            {
+              "start": 0.66,
+              "end": 1.14,
+              "word": " readout",
+              "probability": 0.9710582792758942
+            },
+            {
+              "start": 1.14,
+              "end": 1.4,
+              "word": " can",
+              "probability": 0.997174859046936
+            },
+            {
+              "start": 1.4,
+              "end": 1.86,
+              "word": " change",
+              "probability": 0.9969125986099243
+            },
+            {
+              "start": 1.86,
+              "end": 2.06,
+              "word": " its",
+              "probability": 0.9847679734230042
+            },
+            {
+              "start": 2.06,
+              "end": 2.58,
+              "word": " decision",
+              "probability": 0.9941344857215881
+            },
+            {
+              "start": 2.58,
+              "end": 2.96,
+              "word": " after",
+              "probability": 0.9957624077796936
+            },
+            {
+              "start": 2.96,
+              "end": 3.22,
+              "word": " that",
+              "probability": 0.9969422221183777
+            },
+            {
+              "start": 3.22,
+              "end": 3.56,
+              "word": " shift.",
+              "probability": 0.9992988109588623
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.42,
+          "end": 8.06,
+          "text": " Adjusting the readout's bias restores the old scores here,",
+          "tokens": [
+            50563,
+            20292,
+            278,
+            262,
+            1100,
+            448,
+            338,
+            10690,
+            45815,
+            262,
+            1468,
+            8198,
+            994,
+            11,
+            50763
+          ],
+          "avg_logprob": -0.11982994720987651,
+          "compression_ratio": 1.366412213740458,
+          "no_speech_prob": 0.0009411730570718646,
+          "words": [
+            {
+              "start": 4.42,
+              "end": 4.92,
+              "word": " Adjusting",
+              "probability": 0.9885923266410828
+            },
+            {
+              "start": 4.92,
+              "end": 5.06,
+              "word": " the",
+              "probability": 0.9960706233978271
+            },
+            {
+              "start": 5.06,
+              "end": 5.62,
+              "word": " readout's",
+              "probability": 0.9487453699111938
+            },
+            {
+              "start": 5.62,
+              "end": 6.02,
+              "word": " bias",
+              "probability": 0.9979573488235474
+            },
+            {
+              "start": 6.02,
+              "end": 6.58,
+              "word": " restores",
+              "probability": 0.9915127158164978
+            },
+            {
+              "start": 6.58,
+              "end": 6.9,
+              "word": " the",
+              "probability": 0.9982898831367493
+            },
+            {
+              "start": 6.9,
+              "end": 7.18,
+              "word": " old",
+              "probability": 0.9961316585540771
+            },
+            {
+              "start": 7.18,
+              "end": 7.62,
+              "word": " scores",
+              "probability": 0.9846255779266357
+            },
+            {
+              "start": 7.62,
+              "end": 8.06,
+              "word": " here,",
+              "probability": 0.9792439341545105
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 8.36,
+          "end": 12.26,
+          "text": " but that's a second edit, not a property of translation alone.",
+          "tokens": [
+            50763,
+            475,
+            326,
+            338,
+            257,
+            1218,
+            4370,
+            11,
+            407,
+            257,
+            3119,
+            286,
+            11059,
+            3436,
+            13,
+            51013
+          ],
+          "avg_logprob": -0.11982994720987651,
+          "compression_ratio": 1.366412213740458,
+          "no_speech_prob": 0.0009411730570718646,
+          "words": [
+            {
+              "start": 8.36,
+              "end": 8.62,
+              "word": " but",
+              "probability": 0.9931800365447998
+            },
+            {
+              "start": 8.62,
+              "end": 8.94,
+              "word": " that's",
+              "probability": 0.9922854602336884
+            },
+            {
+              "start": 8.94,
+              "end": 9.02,
+              "word": " a",
+              "probability": 0.9951984286308289
+            },
+            {
+              "start": 9.02,
+              "end": 9.4,
+              "word": " second",
+              "probability": 0.9851987957954407
+            },
+            {
+              "start": 9.4,
+              "end": 9.82,
+              "word": " edit,",
+              "probability": 0.9873485565185547
+            },
+            {
+              "start": 10.24,
+              "end": 10.42,
+              "word": " not",
+              "probability": 0.9985156655311584
+            },
+            {
+              "start": 10.42,
+              "end": 10.64,
+              "word": " a",
+              "probability": 0.9974514842033386
+            },
+            {
+              "start": 10.64,
+              "end": 10.92,
+              "word": " property",
+              "probability": 0.99720698595047
+            },
+            {
+              "start": 10.92,
+              "end": 11.16,
+              "word": " of",
+              "probability": 0.9992523789405823
+            },
+            {
+              "start": 11.16,
+              "end": 11.68,
+              "word": " translation",
+              "probability": 0.9956478476524353
+            },
+            {
+              "start": 11.68,
+              "end": 12.26,
+              "word": " alone.",
+              "probability": 0.9862672090530396
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "4bebd742939d2a9dc64afd0704b8811986aa5502c0e11b42fbb11a35928d92fc",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.8801580600002126,
+      "sha256_final_recheck": "4bebd742939d2a9dc64afd0704b8811986aa5502c0e11b42fbb11a35928d92fc",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "what-activations-do",
+      "id": "beat-3",
+      "sha256_before": "1ac89a4a3fcc73bf72411ef59ab0b83cd0e3573c6c55be96a30b31a5ba00ccba",
+      "manifest_sha256": "245f4eace215142ec32e6a589e721313c0f256e0bbf6c1f5c933ade6fb24eada",
+      "canonical_text": "Projection does something different. These two points have different labels because of their vertical position. Remove that direction, and both become the same point. The distinction has been lost.",
+      "tts_text": "Projection does something different. These two points have different labels because of their vertical position. Remove that direction, and both become the same point. The distinction has been lost.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "2d528f703f4f61d2805edef0437fb79c2a6fbf85cf4e2e0cacf85eb2d60fbe25",
+        "audio_sha256": "1ac89a4a3fcc73bf72411ef59ab0b83cd0e3573c6c55be96a30b31a5ba00ccba",
+        "parameters": {
+          "tts_text": "Projection does something different. These two points have different labels because of their vertical position. Remove that direction, and both become the same point. The distinction has been lost.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 315424,
+        "duration_seconds": 13.142666666666667
+      },
+      "transcription": "Projection does something different. These two points have different labels because of their vertical position. Remove that direction and both become the same point. The distinction has been lost.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.9,
+          "text": " Projection does something different.",
+          "tokens": [
+            50363,
+            4935,
+            295,
+            857,
+            1223,
+            1180,
+            13,
+            50483
+          ],
+          "avg_logprob": -0.22409678129262703,
+          "compression_ratio": 1.462686567164179,
+          "no_speech_prob": 0.0012593199498951435,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.76,
+              "word": " Projection",
+              "probability": 0.9681712985038757
+            },
+            {
+              "start": 0.76,
+              "end": 0.98,
+              "word": " does",
+              "probability": 0.9963310360908508
+            },
+            {
+              "start": 0.98,
+              "end": 1.36,
+              "word": " something",
+              "probability": 0.9984439015388489
+            },
+            {
+              "start": 1.36,
+              "end": 1.9,
+              "word": " different.",
+              "probability": 0.9992814660072327
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 2.6,
+          "end": 6.42,
+          "text": " These two points have different labels because of their vertical position.",
+          "tokens": [
+            50483,
+            2312,
+            734,
+            2173,
+            423,
+            1180,
+            14722,
+            780,
+            286,
+            511,
+            11723,
+            2292,
+            13,
+            50707
+          ],
+          "avg_logprob": -0.22409678129262703,
+          "compression_ratio": 1.462686567164179,
+          "no_speech_prob": 0.0012593199498951435,
+          "words": [
+            {
+              "start": 2.6,
+              "end": 2.78,
+              "word": " These",
+              "probability": 0.9945329427719116
+            },
+            {
+              "start": 2.78,
+              "end": 3.06,
+              "word": " two",
+              "probability": 0.9753924012184143
+            },
+            {
+              "start": 3.06,
+              "end": 3.4,
+              "word": " points",
+              "probability": 0.9965923428535461
+            },
+            {
+              "start": 3.4,
+              "end": 3.7,
+              "word": " have",
+              "probability": 0.9984946250915527
+            },
+            {
+              "start": 3.7,
+              "end": 4.06,
+              "word": " different",
+              "probability": 0.9995077848434448
+            },
+            {
+              "start": 4.06,
+              "end": 4.44,
+              "word": " labels",
+              "probability": 0.9993552565574646
+            },
+            {
+              "start": 4.44,
+              "end": 4.9,
+              "word": " because",
+              "probability": 0.9885720014572144
+            },
+            {
+              "start": 4.9,
+              "end": 5.12,
+              "word": " of",
+              "probability": 0.9990131855010986
+            },
+            {
+              "start": 5.12,
+              "end": 5.32,
+              "word": " their",
+              "probability": 0.9964715242385864
+            },
+            {
+              "start": 5.32,
+              "end": 5.78,
+              "word": " vertical",
+              "probability": 0.994882345199585
+            },
+            {
+              "start": 5.78,
+              "end": 6.42,
+              "word": " position.",
+              "probability": 0.9974228143692017
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 7.0,
+          "end": 10.24,
+          "text": " Remove that direction and both become the same point.",
+          "tokens": [
+            50707,
+            17220,
+            326,
+            4571,
+            290,
+            1111,
+            1716,
+            262,
+            976,
+            966,
+            13,
+            50899
+          ],
+          "avg_logprob": -0.22409678129262703,
+          "compression_ratio": 1.462686567164179,
+          "no_speech_prob": 0.0012593199498951435,
+          "words": [
+            {
+              "start": 7.0,
+              "end": 7.38,
+              "word": " Remove",
+              "probability": 0.9971646666526794
+            },
+            {
+              "start": 7.38,
+              "end": 7.66,
+              "word": " that",
+              "probability": 0.9986444115638733
+            },
+            {
+              "start": 7.66,
+              "end": 8.18,
+              "word": " direction",
+              "probability": 0.9979522228240967
+            },
+            {
+              "start": 8.18,
+              "end": 8.54,
+              "word": " and",
+              "probability": 0.8261225819587708
+            },
+            {
+              "start": 8.54,
+              "end": 8.88,
+              "word": " both",
+              "probability": 0.9736055731773376
+            },
+            {
+              "start": 8.88,
+              "end": 9.32,
+              "word": " become",
+              "probability": 0.9960920214653015
+            },
+            {
+              "start": 9.32,
+              "end": 9.56,
+              "word": " the",
+              "probability": 0.9988351464271545
+            },
+            {
+              "start": 9.56,
+              "end": 9.86,
+              "word": " same",
+              "probability": 0.9994831085205078
+            },
+            {
+              "start": 9.86,
+              "end": 10.24,
+              "word": " point.",
+              "probability": 0.9983540773391724
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 4,
+          "seek": 0,
+          "start": 10.88,
+          "end": 12.4,
+          "text": " The distinction has been lost.",
+          "tokens": [
+            50899,
+            383,
+            12941,
+            468,
+            587,
+            2626,
+            13,
+            51011
+          ],
+          "avg_logprob": -0.22409678129262703,
+          "compression_ratio": 1.462686567164179,
+          "no_speech_prob": 0.0012593199498951435,
+          "words": [
+            {
+              "start": 10.88,
+              "end": 10.98,
+              "word": " The",
+              "probability": 0.9951834082603455
+            },
+            {
+              "start": 10.98,
+              "end": 11.3,
+              "word": " distinction",
+              "probability": 0.9956854581832886
+            },
+            {
+              "start": 11.3,
+              "end": 11.7,
+              "word": " has",
+              "probability": 0.9978930354118347
+            },
+            {
+              "start": 11.7,
+              "end": 11.92,
+              "word": " been",
+              "probability": 0.992244303226471
+            },
+            {
+              "start": 11.92,
+              "end": 12.4,
+              "word": " lost.",
+              "probability": 0.9948069453239441
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "1ac89a4a3fcc73bf72411ef59ab0b83cd0e3573c6c55be96a30b31a5ba00ccba",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.567160676000185,
+      "sha256_final_recheck": "1ac89a4a3fcc73bf72411ef59ab0b83cd0e3573c6c55be96a30b31a5ba00ccba",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "what-activations-do",
+      "id": "beat-4",
+      "sha256_before": "45e5b97ceef947740f660cc93cbfa31468157c84ac2e6070593ed7c182aec940",
+      "manifest_sha256": "245f4eace215142ec32e6a589e721313c0f256e0bbf6c1f5c933ade6fb24eada",
+      "canonical_text": "These are exact geometry examples, not measurements from a trained model. Check the geometry, the downstream decision, and the task information separately.",
+      "tts_text": "These are exact geometry examples, not measurements from a trained model. Check the geometry, the downstream decision, and the task information separately.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "b8baa3dccffd78a801930d5f0fcaddd4cb19e25b2ae251b91a02a3ea43032158",
+        "audio_sha256": "45e5b97ceef947740f660cc93cbfa31468157c84ac2e6070593ed7c182aec940",
+        "parameters": {
+          "tts_text": "These are exact geometry examples, not measurements from a trained model. Check the geometry, the downstream decision, and the task information separately.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 274976,
+        "duration_seconds": 11.457333333333333
+      },
+      "transcription": "These are exact geometry examples, not measurements from a trained model. Check the geometry, the downstream decision, and the task information separately.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.94,
+          "text": " These are exact geometry examples, not measurements from a trained model.",
+          "tokens": [
+            50363,
+            2312,
+            389,
+            2748,
+            22939,
+            6096,
+            11,
+            407,
+            13871,
+            422,
+            257,
+            8776,
+            2746,
+            13,
+            50613
+          ],
+          "avg_logprob": -0.18204180197790265,
+          "compression_ratio": 1.3247863247863247,
+          "no_speech_prob": 0.0009736461215652525,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.44,
+              "word": " These",
+              "probability": 0.9867711663246155
+            },
+            {
+              "start": 0.44,
+              "end": 0.64,
+              "word": " are",
+              "probability": 0.9988102912902832
+            },
+            {
+              "start": 0.64,
+              "end": 1.16,
+              "word": " exact",
+              "probability": 0.9874230623245239
+            },
+            {
+              "start": 1.16,
+              "end": 1.76,
+              "word": " geometry",
+              "probability": 0.9808871746063232
+            },
+            {
+              "start": 1.76,
+              "end": 2.48,
+              "word": " examples,",
+              "probability": 0.997892439365387
+            },
+            {
+              "start": 2.98,
+              "end": 3.22,
+              "word": " not",
+              "probability": 0.9987010955810547
+            },
+            {
+              "start": 3.22,
+              "end": 3.74,
+              "word": " measurements",
+              "probability": 0.9971014857292175
+            },
+            {
+              "start": 3.74,
+              "end": 4.02,
+              "word": " from",
+              "probability": 0.997657060623169
+            },
+            {
+              "start": 4.02,
+              "end": 4.16,
+              "word": " a",
+              "probability": 0.9981281161308289
+            },
+            {
+              "start": 4.16,
+              "end": 4.44,
+              "word": " trained",
+              "probability": 0.9986863732337952
+            },
+            {
+              "start": 4.44,
+              "end": 4.94,
+              "word": " model.",
+              "probability": 0.9993889331817627
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 5.76,
+          "end": 10.6,
+          "text": " Check the geometry, the downstream decision, and the task information separately.",
+          "tokens": [
+            50613,
+            6822,
+            262,
+            22939,
+            11,
+            262,
+            33218,
+            2551,
+            11,
+            290,
+            262,
+            4876,
+            1321,
+            13869,
+            13,
+            50913
+          ],
+          "avg_logprob": -0.18204180197790265,
+          "compression_ratio": 1.3247863247863247,
+          "no_speech_prob": 0.0009736461215652525,
+          "words": [
+            {
+              "start": 5.76,
+              "end": 5.86,
+              "word": " Check",
+              "probability": 0.9983335137367249
+            },
+            {
+              "start": 5.86,
+              "end": 6.08,
+              "word": " the",
+              "probability": 0.9984171390533447
+            },
+            {
+              "start": 6.08,
+              "end": 6.56,
+              "word": " geometry,",
+              "probability": 0.9899577498435974
+            },
+            {
+              "start": 7.18,
+              "end": 7.22,
+              "word": " the",
+              "probability": 0.9966068267822266
+            },
+            {
+              "start": 7.22,
+              "end": 7.78,
+              "word": " downstream",
+              "probability": 0.9887497425079346
+            },
+            {
+              "start": 7.78,
+              "end": 8.36,
+              "word": " decision,",
+              "probability": 0.9964354038238525
+            },
+            {
+              "start": 8.82,
+              "end": 9.02,
+              "word": " and",
+              "probability": 0.998875081539154
+            },
+            {
+              "start": 9.02,
+              "end": 9.14,
+              "word": " the",
+              "probability": 0.9975225329399109
+            },
+            {
+              "start": 9.14,
+              "end": 9.5,
+              "word": " task",
+              "probability": 0.997119665145874
+            },
+            {
+              "start": 9.5,
+              "end": 10.08,
+              "word": " information",
+              "probability": 0.9947028756141663
+            },
+            {
+              "start": 10.08,
+              "end": 10.6,
+              "word": " separately.",
+              "probability": 0.9940120577812195
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "45e5b97ceef947740f660cc93cbfa31468157c84ac2e6070593ed7c182aec940",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.3337028629998713,
+      "sha256_final_recheck": "45e5b97ceef947740f660cc93cbfa31468157c84ac2e6070593ed7c182aec940",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true,
+      "rechecked_utc": "2026-10-24T04:59:35.289337+00:00",
+      "superseded_sha256": "be7c64ff92d6949e69ac65563160b33a8ec53db3f3fc2e27d7c77c0e76d06747"
+    }
+  ]
+}

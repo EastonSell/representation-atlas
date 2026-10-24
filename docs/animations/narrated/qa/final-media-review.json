@@ -1,0 +1,21 @@
+{
+  "repo": "what-activations-do",
+  "sha256": "0108f33a672ab6bd60c406110cc68b08687bd15833f4135910bebbcb19653ae7",
+  "bytes": 1542455,
+  "duration": 49.366667,
+  "video_duration": "49.366667",
+  "audio_duration": "49.366667",
+  "width": 1280,
+  "height": 720,
+  "fps": "30/1",
+  "decode_returncode": 0,
+  "decode_errors": "",
+  "loudness_summary": "Integrated loudness:\n    I:         -16.5 LUFS\n    Threshold: -27.0 LUFS\n\n  Loudness range:\n    LRA:         2.0 LU\n    Threshold: -37.1 LUFS\n    LRA low:   -18.1 LUFS\n    LRA high:  -16.2 LUFS\n\n  True peak:\n    Peak:       -1.9 dBFS\n[out#0/null @ 0x5615144fe680] video:0KiB audio:2316KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:49.40 bitrate=N/A speed= 366x",
+  "filename": "concept.mp4",
+  "visual_review": "Final contact sheet and meaning-carrying transitions inspected; no identified blocking overlap or clipping.",
+  "limitations": [
+    "No human or assistant listening claim.",
+    "Captions use approximate sentence timing, not word alignment.",
+    "No full research-project test rerun; scope is additive animation package."
+  ]
+}

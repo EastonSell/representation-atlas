@@ -1,0 +1,51 @@
+WEBVTT
+
+NOTE Sentence timings are approximate, not word-aligned.
+
+1
+00:00:00.120 --> 00:00:03.053
+Move these two points by the same amount.
+
+2
+00:00:03.053 --> 00:00:11.064
+Their distance stays unchanged, but their angles from
+the origin change, so their cosine similarity changes
+too.
+
+3
+00:00:11.687 --> 00:00:15.676
+A fixed readout can change its decision after that
+shift.
+
+4
+00:00:15.676 --> 00:00:24.145
+Adjusting the readout's bias restores the old scores
+here, but that's a second edit, not a property of
+translation alone.
+
+5
+00:00:24.820 --> 00:00:27.144
+Projection does something different.
+
+6
+00:00:27.144 --> 00:00:31.920
+These two points have different labels because of their
+vertical position.
+
+7
+00:00:31.920 --> 00:00:35.406
+Remove that direction, and both become the same point.
+
+8
+00:00:35.406 --> 00:00:37.343
+The distinction has been lost.
+
+9
+00:00:38.020 --> 00:00:43.157
+These are exact geometry examples, not measurements from
+a trained model.
+
+10
+00:00:43.157 --> 00:00:48.857
+Check the geometry, the downstream decision, and the
+task information separately.

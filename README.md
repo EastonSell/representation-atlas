@@ -11,6 +11,14 @@ The work moves from controlled vector examples to learned digit features and a p
 - [Inspect the copy-target interchange study](studies/copy-activation-interchange/README.md) and its [full report](studies/copy-activation-interchange/report/REPORT.md).
 - [Use SETUP.md](SETUP.md) for the original experiments; later studies have separate setup and evidence instructions.
 
+## Watch the narrated explanation
+
+[![Narrated concept illustration](docs/animations/narrated/poster.png)](docs/animations/narrated/concept.mp4)
+
+[49.4-second narrated MP4](docs/animations/narrated/concept.mp4) · [Complete transcript](docs/animations/narrated/transcript.txt) · [Captions](docs/animations/narrated/captions.vtt) · [Editable source and reproduction](docs/animations/narrated/RENDERING.md)
+
+Speech-led Manim animation with a synthetic stock voice. Exact geometry illustration · not a model experiment. This is an explanatory upgrade, not a new experimental result. Captions have approximate sentence timing. The [static-first viewer](docs/animations/narrated/index.html), poster and complete transcript provide a no-motion alternative. The original silent version and its historical QA remain unchanged below.
+
 ## Watch the concept in 24 seconds
 
 [![Two points with opposite y labels move onto the x axis and coincide at (1,0), showing information loss under a hand-chosen projection.](docs/animations/poster.png)](docs/animations/concept.mp4)

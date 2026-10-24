@@ -1,0 +1,43 @@
+{
+  "renderer": "Manim Community 0.22.0, Cairo",
+  "scene": "NarratedGeometry",
+  "source_repository": "https://github.com/EastonSell/what-activations-do",
+  "source_commit": "b219790805a0d58177e667b8e8b52e6c3ff2338c",
+  "legacy_video_blob": "aa9edf4b7bdcb90171386d8ffd7fc251caa74930",
+  "legacy_assets_unchanged": true,
+  "evidence_scope": "EXACT GEOMETRY ILLUSTRATION \u00b7 NOT A MODEL EXPERIMENT",
+  "duration_seconds": 49.36666666666667,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "audio": {
+    "synthetic": true,
+    "engine": "kokoro-onnx 0.6.1",
+    "voice": "am_michael",
+    "speed": 0.95,
+    "language": "en-us"
+  },
+  "caption_timing": "approximate sentence timing; not word-aligned",
+  "audio_qa": "Technical measurements and independent ASR; no listening claim",
+  "math_typography": "Computer Modern vector SVG via supplied helper; incomplete system LaTeX",
+  "model_assets_not_bundled": [
+    {
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+      "bytes": 325532387,
+      "sha256_computed": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+      "filename": "kokoro-v1.0.onnx"
+    },
+    {
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+      "bytes": 28214398,
+      "sha256_computed": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+      "filename": "voices-v1.0.bin"
+    }
+  ],
+  "source_licenses": {
+    "kokoro_onnx": "MIT",
+    "kokoro_model_and_stock_voices": "Apache-2.0 per upstream model card",
+    "native_packages": "See native/usr/share/doc/<package>/copyright"
+  },
+  "model_hash_note": "Model hashes were computed after HTTPS download; they are not claimed to match an independent published checksum. Debian .deb hashes matched the HTTPS official package index."
+}
